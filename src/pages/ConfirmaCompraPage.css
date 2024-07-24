@@ -1,0 +1,90 @@
+.confirmar-compra-page {
+    margin-top: 125px;
+    margin-inline: 10px;
+}
+
+.boton-volver-container {
+    margin-bottom: 10px;
+}
+
+.page-interior-titulo {
+    color: var(--tono-letra1);
+    text-align: left;
+    font-size: 1.25rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.confirmar-compra-info {margin-inline: 10px;}
+
+/* Estilos para los cards */
+.resumen-compra-card,
+.datos-bancarios-card {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.boleta-header,
+.datosbanco-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.boleta-icon,
+.datosbanco-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.detalle-compra,
+.datos-bancarios-card {
+    margin-bottom: 20px;
+}
+
+.detalle-table,
+.datos-bancarios-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.detalle-table th,
+.detalle-table td,
+.datos-bancarios-table th,
+.datos-bancarios-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.detalle-table th,
+.datos-bancarios-table th {
+    background-color: #f2f2f2;
+}
+
+.detalle-table tfoot,
+.datos-bancarios-table tfoot {
+    font-weight: bold;
+}
+
+.confirmar-stock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 20px;
+}
+
+.confirmar-stock button{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: rgb(29, 170, 97);
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    gap: 8px;
+}

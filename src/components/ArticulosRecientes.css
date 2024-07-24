@@ -1,0 +1,78 @@
+.articulos-recientes-container {
+    color: var(--tono-letra-blanco);
+    background: hsla(1, 100%, 64%, 1);
+    padding: 20px 0px 0px 0px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2), 0px -1px 5px 0px rgba(0,0,0,0.2);
+}
+
+.articulos-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 10px;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+.articulos-carousel::-webkit-scrollbar {
+    display: none; /* Oculta la barra de desplazamiento en WebKit (Chrome, Safari, etc.) */
+}
+
+.articulo-ritem {
+    flex: 0 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 160px;
+}
+
+.articulo-rlink {
+    text-decoration: none;
+}
+
+.articulo-rinfo {
+    color: var(--tono-letra-blanco);
+    text-align: left;
+}
+
+
+.articulosrecientes-title {
+    text-align: left;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0px !important;
+}
+
+.articulo-ritem img {
+    width: 160px; /* La imagen ocupa todo el ancho del contenedor */
+    height: 160px; /* Altura automática para mantener la proporción */
+    border-radius: 5px; /* Borde redondeado para la imagen */
+}
+
+.articulo-rdetail {
+    margin-top: 10px;
+}
+
+.articulo-rnombre {
+    text-align: left;
+    font-size: 0.9em;
+    font-weight: 700;
+    width: 100%;
+    margin: 2px 0px;
+}
+
+.articulo-rdescripcion {
+    font-size: 0.9em;
+    text-align: justify;
+    width: 100%;
+    margin: 2px 0px;
+}
+
+.articulo-rprecio {
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin: 2px 0px;
+}
+

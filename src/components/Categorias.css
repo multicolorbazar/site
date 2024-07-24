@@ -1,0 +1,40 @@
+.categorias-container {
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+    padding: 10px 20px 30px 20px;
+    font-weight: 600;
+    color: var(--tono-letra1);
+    background: rgb(210, 233, 163);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2), 0px -1px 5px 0px rgba(0,0,0,0.2);
+}
+
+.categorias-title {
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 15px 0px 15px 0px;
+}
+
+.categorias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 25px 0px; /* Primero el gap vertical, luego el horizontal */
+}
+
+.categoria-item {
+    color: var(--tono-letra1);
+    text-align: center;
+    text-decoration: none;
+}
+
+.categoria-item p {
+    font-size: 0.9em;
+}
+
+.categoria-imagen {
+    width: 105px; /* Puedes ajustar el tamaño según tus necesidades */
+    height: 105px; /* Asegura que la imagen sea cuadrada */
+    object-fit: cover;
+    border-radius: 50%;
+}

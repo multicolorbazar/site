@@ -1,0 +1,5 @@
+Iniciar el agente
+eval "$(ssh-agent -s)"
+
+Agregar la llave existente
+ssh-add ~/.ssh/id_rsa_llavebazar

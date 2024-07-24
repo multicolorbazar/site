@@ -1,0 +1,143 @@
+.carrito-page {
+    margin-top: 120px;
+    color: var(--tono-letra1);
+}
+
+.carrito-page h2 {
+    text-align: left;
+    font-size: 1.25rem;
+    margin-left: 10px;
+}
+
+.carrito-items {
+    margin: 20px 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.carrito-item {
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+    border-top: 1px solid #ddd;
+}
+
+
+.carrito-item-imagen {
+    width: 140px; /* debe ser igual a height de carrito-item  */
+    height: 100%; 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 5px; 
+    margin-right: 20px; 
+    border-top-left-radius: 8px; 
+    border-bottom-left-radius: 8px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    overflow: hidden; 
+}
+
+
+.carrito-item-detalles {
+    flex: 1;
+    text-align: left;
+    padding: 5px 0px;
+}
+
+.carrito-item-detalles h3{
+    color: var(--tono-letra1);
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.carrito-item-detalles h4{
+    color: var(--tono-letra1);
+    font-weight: 400;
+}
+
+.carrito-item-detalles h5{
+    color: var(--tono-warning2);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.valor-total {
+    font-size: 0.9rem;
+}
+
+.carrito-item-controles {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 10px 20px 5px 0px;
+}
+
+.cantidad-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.carrito-item-detalles .cantidad-control button {
+    background-color: #007ad9;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 0px;
+    width: 35px;
+    height: 35px;
+}
+
+.cantidad-control span {
+    min-width: 20px;
+    text-align: center;
+}
+
+.eliminar-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+.volver-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #007ad9;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton-volver-container {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.volver-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+/* Modal para confirmar eliminación */
+.p-dialog-footer button {
+    gap: 5px;
+}
+
+.p-dialog-footer .p-button-text-cancelar {
+    background: #007ad9 !important;
+}
+
+.p-dialog-footer .p-button-text-eliminar {
+    background: gray !important;
+}

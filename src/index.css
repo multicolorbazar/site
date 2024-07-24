@@ -1,0 +1,73 @@
+* {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --tono-claro: rgba(251, 216, 206, 0.5);
+  --tono-mediano1: rgb(251, 205, 234);
+  --tono-mediano2: rgb(251, 216, 206);
+  --tono-mediano3: rgb(210, 233, 162);
+  --tono-mediano4: rgb(232, 100, 170);
+  --tono-oscuro-fuerte: rgb(32, 14, 39);
+  --tono-oscuro: rgb(75, 34, 90);
+  --tono-destacado: #fffc3a;
+  --tono-warning: rgb(255, 74, 71);
+  --tono-warning2: rgb(255, 0, 136);
+  --tono-letra-blanco: #fff;
+  --tono-letra1: rgb(61, 66, 49);
+}
+
+html {
+  width: 100%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0px;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  header, footer {
+    background-color: var(--tono-mediano2);
+    color: var(--tono-oscuro);
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-item h5 {
+    margin: 10px 0 5px;
+  }
+  
+  .product-item p {
+    margin: 5px 0;
+  }
+  
