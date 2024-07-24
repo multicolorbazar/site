@@ -13,6 +13,15 @@ const obtenerImagen = (idArticulo) => {
     return imagen ? imagen.url : 'path/to/default-image.jpg'; // Ruta a una imagen predeterminada
 };
 
+// Función para formatear el precio en moneda chilena
+const formatearPrecio = (precio) => {
+    return new Intl.NumberFormat('es-CL', {
+        style: 'currency',
+        currency: 'CLP',
+        minimumFractionDigits: 0 // Para mostrar los precios sin decimales, ajustar según sea necesario
+    }).format(precio);
+};
+
 const ArticulosPorCategoria = () => {
     const { categoriaId } = useParams();
     
@@ -54,7 +63,7 @@ const ArticulosPorCategoria = () => {
                                 <div className="ac-articulo-info">
                                     <h5 className="ac-articulo-nombre">{articulo.nombre}</h5>
                                     <p className="ac-articulo-descripcion">{articulo.descripcion}</p>
-                                    <span className="ac-articulo-precio">${articulo.precio}</span>
+                                    <span className="ac-articulo-precio">{formatearPrecio(articulo.precio)}</span>
                                 </div>
                             </div>
                         </Link>

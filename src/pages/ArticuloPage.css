@@ -6,8 +6,14 @@
     height: 300px;
 }
 
-.articulo-detalle .articulo-informacion {
+.articulo-informacion {
+    box-sizing: border-box;
     padding: 10px;
+}
+
+.articulo-detalle .articulo-informacion {
+    display: flex;
+    flex-direction: column;
 }
 
 .articulo-detalle .articulo-informacion h2 {
@@ -17,7 +23,6 @@
 
 .articulo-detalle .articulo-informacion .articulo-precio {
     margin-top: 10px;
-    margin-bottom: 20px;
     font-size: 1.3rem;
 }
 
@@ -33,36 +38,28 @@
 .articulo-detalle .articulo-imagen {
     width: 400px;
     height: 400px;
-    object-fit: cover; /* Asegura que la imagen cubra el contenedor manteniendo la relación de aspecto */
+    object-fit: cover;
 }
 
 /* Modificacion de iconos de carrousel */
-/* Estilos para los botones del carrusel */
 .ant-carousel .slick-prev,
 .ant-carousel .slick-next {
     transform: scale(1.3);
-    color: var(--tono-warning2); /* Cambia el color del icono */
+    color: var(--tono-warning2);
 }
 
-/* Para asegurar que los botones sean visibles sobre un fondo blanco */
 .ant-carousel .slick-prev:before,
 .ant-carousel .slick-next:before {
-    color: var(--tono-warning2); /* Cambia el color del icono de los botones */
+    color: var(--tono-warning2);
 }
 
-/* Estilos para los puntos de navegación del carrusel */
 .ant-carousel .slick-dots li button {
-    background-color: var(--tono-warning2); /* Cambia el color de los puntos inactivos */
+    background-color: var(--tono-warning2);
 }
 
-/* Cambia el color del punto activo */
 .ant-carousel .slick-dots li.slick-active button {
-    background-color: var(--tono-warning2); /* Cambia el color del punto activo */
+    background-color: var(--tono-warning2);
 }
-/* ArticuloPage.css */
-
-
-
 
 .boton-volver {
     display: flex;
@@ -87,22 +84,28 @@
     margin-right: 5px;
 }
 
-/* ------------------------ */
-/*          Controles       */
-/* ------------------------ */
-
+/* Controles */
 .controles-unidades {
-    margin-top: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 40px;
     border-radius: 8px;
 }
 
+.p-button-icon-only {
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.variacion-selector {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0px;
+}
 
 .controles-unidades .p-button {
-    height: 100%; /* Alto del botón */
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,15 +118,17 @@
 .controles {
     display: flex;
     flex-direction: row;
-    height: 100%;
     align-items: center;
     gap: 5px;
+    margin-bottom: 12px;
 }
 
 .p-button {
     border: none;
 }
+
 .controles-unidades .p-button-success.agregar-carrito-btn {
+    height: 35px;
     margin-left: 20px;
     padding-inline: 12px;
     background-color: #007ad9;
@@ -144,19 +149,15 @@
     padding: 10px 20px;
 }
 
-/* ------------------------ */
-/*          Modal          */
-/* ------------------------ */
-/* Estilos para el modal de confirmación */
-/* Estilos para el modal de confirmación */
+/* Modal */
 .p-dialog {
-    width: 90% !important; /* Ancho del modal */
-    max-width: 400px; /* Ancho máximo del modal */
+    width: 90% !important;
+    max-width: 400px;
 }
 
 .p-dialog-header {
-    border-bottom: none !important; /* Borde inferior del encabezado */
-    padding: 15px !important; /* Espaciado interno del encabezado */
+    border-bottom: none !important;
+    padding: 15px !important;
 }
 
 .p-dialog-content {
@@ -172,9 +173,9 @@
 }
 
 .p-dialog-footer .p-button {
-    margin-left: 10px !important; /* Espacio entre los botones del pie de página */
-    min-width: 120px !important; /* Ancho mínimo de los botones del pie de página */
-    padding: 10px 20px !important; /* Espaciado interno de los botones del pie de página */
-    background-color: #28a745 !important; /* Color de fondo del botón */
-    color: white !important; /* Color del texto del botón */
+    margin-left: 10px !important;
+    min-width: 120px !important;
+    padding: 10px 20px !important;
+    background-color: #28a745 !important;
+    color: white !important;
 }

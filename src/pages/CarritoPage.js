@@ -16,10 +16,10 @@ const obtenerImagen = (idArticulo) => {
 
 const CarritoPage = () => {
     const navigate = useNavigate();
-
-    const { carrito, agregarAlCarrito, eliminarDelCarrito } = useCarrito();
+    const { carrito, agregarAlCarrito, eliminarDelCarrito, vaciarCarrito } = useCarrito();
     const [carritoItems, setCarritoItems] = useState(carrito);
     const [showConfirmDialog, setShowConfirmDialog] = useState(false);
+    const [showVaciarConfirmDialog, setShowVaciarConfirmDialog] = useState(false);
     const [articuloIdToDelete, setArticuloIdToDelete] = useState(null);
     const [skuIdToDelete, setSkuIdToDelete] = useState(null);
 
@@ -57,6 +57,20 @@ const CarritoPage = () => {
         setArticuloIdToDelete(null);
         setSkuIdToDelete(null);
         setShowConfirmDialog(false);
+    };
+
+    const handleVaciarCarrito = () => {
+        setShowVaciarConfirmDialog(true);
+    };
+
+    const confirmarVaciarCarrito = () => {
+        vaciarCarrito();
+        setCarritoItems([]);
+        setShowVaciarConfirmDialog(false);
+    };
+
+    const cancelarVaciarCarrito = () => {
+        setShowVaciarConfirmDialog(false);
     };
 
     const getArticuloDetails = (id) => {
@@ -143,7 +157,8 @@ const CarritoPage = () => {
 
             {carritoItems.length > 0 && (
                 <div className="continuar-compra">
-                    <Button label="Continuar compra" onClick={handleContinuarCompra} />
+                    <Button label="Continuar compra" onClick={handleContinuarCompra} className="boton-primary-carrito" />
+                    <Button label="Vaciar carrito" onClick={handleVaciarCarrito} className="boton-primary-carrito boton-gris" />
                 </div>
             )}
 
@@ -154,6 +169,16 @@ const CarritoPage = () => {
                 <div className="p-dialog-footer">
                     <Button label="Cancelar" icon="pi pi-times" className="p-button-text-cancelar" onClick={cancelarEliminar} />
                     <Button label="Eliminar" icon="pi pi-check" className="p-button-text-eliminar" onClick={confirmarEliminar} />
+                </div>
+            </Dialog>
+
+            <Dialog visible={showVaciarConfirmDialog} onHide={() => setShowVaciarConfirmDialog(false)} header="Confirmar Vacío del Carrito" modal>
+                <div className="confirmation-content">
+                    <p>¿Está seguro que desea vaciar todo el carrito?</p>
+                </div>
+                <div className="p-dialog-footer">
+                    <Button label="Cancelar" icon="pi pi-times" className="p-button-text-cancelar" onClick={cancelarVaciarCarrito} />
+                    <Button label="Vaciar" icon="pi pi-check" className="p-button-text-eliminar" onClick={confirmarVaciarCarrito} />
                 </div>
             </Dialog>
         </div>

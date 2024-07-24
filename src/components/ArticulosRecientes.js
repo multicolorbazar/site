@@ -16,6 +16,14 @@ const obtenerImagen = (idArticulo) => {
     return imagen ? imagen.url : 'path/to/default-image.jpg'; // Ruta a una imagen predeterminada
 };
 
+// Función para formatear el precio en moneda chilena
+const formatPrice = (price) => {
+    return new Intl.NumberFormat('es-CL', {
+        style: 'currency',
+        currency: 'CLP'
+    }).format(price);
+};
+
 const ArticulosRecientes = () => {
     const [items, setItems] = useState([]);
     const [showRandom, setShowRandom] = useState(false);
@@ -72,7 +80,7 @@ const ArticulosRecientes = () => {
                                 <div className="articulo-rinfo">
                                     <p className="articulo-rnombre">{articulo.nombre}</p>
                                     <p className="articulo-rdescripcion">{articulo.descripcion}</p>
-                                    <p className="articulo-rprecio">${articulo.precio}</p>
+                                    <p className="articulo-rprecio">{formatPrice(articulo.precio)}</p>
                                 </div>
                             </Link>
                         </div>

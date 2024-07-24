@@ -3,6 +3,24 @@
     color: var(--tono-letra1);
 }
 
+.continuar-compra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto !important;
+    gap: 15px;
+}
+.boton-primary-carrito {
+    color: #fff;
+    width: 80%;
+}
+
+.boton-gris {
+    color: var(--tono-letra1);
+    background: #ddd !important;
+}
+
 .carrito-page h2 {
     text-align: left;
     font-size: 1.25rem;

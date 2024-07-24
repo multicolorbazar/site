@@ -1,9 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { PiBankFill } from "react-icons/pi";
-import { FaFileAlt, FaWhatsapp } from 'react-icons/fa'; // Importamos el icono de boleta y de Whatsapp desde react-icons/fa
-import articulos from '../data/articulos'; // Importamos los datos de los artículos
+import { FaFileAlt, FaWhatsapp } from 'react-icons/fa';
 import './ConfirmaCompraPage.css';
+
+// Importa los datos desde los archivos correctos
+import skuArticulos from '../data/skuArticulos'; // Asegúrate de que la ruta sea correcta
+import articulos from '../data/articulos'; // Asegúrate de que la ruta sea correcta
+
+// Función para formatear el precio en moneda chilena
+const formatearPrecio = (precio) => {
+    return new Intl.NumberFormat('es-CL', {
+        style: 'currency',
+        currency: 'CLP'
+    }).format(precio);
+};
 
 const ResumenCompraCard = ({ carritoDetalles, getTotalGeneral }) => (
     <div className="resumen-compra-card">
@@ -25,15 +36,15 @@ const ResumenCompraCard = ({ carritoDetalles, getTotalGeneral }) => (
                     <tbody>
                         {carritoDetalles.map((item, index) => (
                             <tr key={index}>
-                                <td>{item.nombre} ({item.unidades})</td>
-                                <td>${(item.precio * item.unidades).toFixed(0)}</td>
+                                <td>{item.nombre} ({formatearPrecio(item.precio)} x {item.unidades})</td>
+                                <td>{formatearPrecio(item.precio * item.unidades)}</td>
                             </tr>
                         ))}
                     </tbody>
                     <tfoot>
                         <tr>
                             <td>Total:</td>
-                            <td>${getTotalGeneral().toFixed(0)}</td>
+                            <td>{formatearPrecio(getTotalGeneral())}</td>
                         </tr>
                     </tfoot>
                 </table>
@@ -80,10 +91,21 @@ const ConfirmarCompraPage = () => {
 
     useEffect(() => {
         const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
-        const detalles = carrito.map(item => ({
-            ...item,
-            ...articulos.find(articulo => articulo.id === item.id)
-        }));
+        
+        // Mapea el carrito para combinar la información
+        const detalles = carrito.map(item => {
+            // Buscar la variación en skuArticulos
+            const sku = skuArticulos.find(sku => sku.id_sku === item.id_sku) || {};
+            // Buscar el artículo en articulos
+            const articulo = articulos.find(articulo => articulo.id_articulo === parseInt(item.id_articulo, 10)) || {};
+            return {
+                ...item,
+                variacion: sku.variacion || 'No disponible',
+                nombre: articulo.nombre || 'Nombre no disponible',
+                precio: articulo.precio || 0
+            };
+        });
+
         setCarritoDetalles(detalles);
     }, []);
 
@@ -100,7 +122,7 @@ const ConfirmarCompraPage = () => {
         carritoDetalles.forEach((item, index) => {
             mensaje += `${index + 1}. ${item.nombre} (${item.unidades} unidades)\n`;
         });
-        mensaje += `\nTotal: $${getTotalGeneral().toFixed(0)}`;
+        mensaje += `\nTotal: ${formatearPrecio(getTotalGeneral())}`;
 
         const numero = "56981605147";
         const whatsappLink = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;

@@ -3,3 +3,40 @@ eval "$(ssh-agent -s)"
 
 Agregar la llave existente
 ssh-add ~/.ssh/id_rsa_llavebazar
+
+
+método 2:
+inicia el agente ssh: eval "$(ssh-agent -s)"
+listar archivos en el directorio:ls
+agregar la llave creada: ssh-add ./nuevallave
+copia la llave al portapapeles: cat ./nuevallave.pub
+se vera algo asi: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFPz1/1NI2X66ZW/hQjFlbvKFHLUWPnaldMl3r91rjHm mcorteze23@gmail.com
+
+Cambia la URL remota con el siguiente comando
+git remote set-url origin git@github.com:multicolorbazar/site.git
+
+Verificar la URL remota
+git remote -v
+
+Probar la conexión SSH
+ssh -T git@github.com
+
+Hacer el push
+git push origin master
+
+Construir el Proyecto React
+npm run build
+
+Instalar el paquete gh-pages:
+npm install --save-dev gh-pages
+
+Agregar los scripts de despliegue al package.json
+"homepage": "http://[tu-usuario].github.io/[tu-repositorio]",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
+Desplegar
+npm run deploy
+

@@ -4,9 +4,19 @@ import articulos from '../data/articulos'; // Asegúrate de que la ruta del arch
 import imagenesArticulos from '../data/imagenesArticulos'; // Asegúrate de que la ruta del archivo de datos sea correcta
 import './Articulos.css';
 
+// Función para obtener la URL de la imagen basada en el id del artículo
 const obtenerImagen = (idArticulo) => {
     const imagen = imagenesArticulos.find(img => img.id_articulo === idArticulo);
     return imagen ? imagen.url : 'path/to/default-image.jpg'; // Ruta a una imagen predeterminada
+};
+
+// Función para formatear el precio como moneda chilena
+const formatearPrecio = (precio) => {
+    const formato = new Intl.NumberFormat('es-CL', {
+        style: 'currency',
+        currency: 'CLP'
+    });
+    return formato.format(precio);
 };
 
 const Articulos = () => (
@@ -23,7 +33,7 @@ const Articulos = () => (
                     <div className='articulo-info'>
                         <h5 className="articulo-nombre">{articulo.nombre}</h5>
                         <p className="articulo-descripcion">{articulo.descripcion}</p>
-                        <span className="articulo-precio">${articulo.precio}</span>
+                        <span className="articulo-precio">{formatearPrecio(articulo.precio)}</span>
                     </div>
                 </Link>
             ))}

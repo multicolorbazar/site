@@ -22,6 +22,14 @@ const obtenerVariaciones = (idArticulo) => {
         }));
 };
 
+// Función para formatear el precio en moneda chilena
+const formatearPrecio = (precio) => {
+    return new Intl.NumberFormat('es-CL', {
+        style: 'currency',
+        currency: 'CLP'
+    }).format(precio);
+};
+
 const ArticuloPage = () => {
     const { id_articulo } = useParams();
     const idArticulo = parseInt(id_articulo, 10);
@@ -107,16 +115,11 @@ const ArticuloPage = () => {
             <div className='articulo-informacion'>
                 <h2 className="articulo-nombre">{articulo.nombre}</h2>
                 <p className="articulo-descripcion">{articulo.descripcion}</p>
-                <p className="articulo-precio">${articulo.precio}</p>
+                <p className="articulo-precio">{formatearPrecio(articulo.precio)}</p>
                 <div className="articulo-controles">
                     <div className="controles-unidades">
-                        <div className='controles'>
-                            <Button icon="pi pi-minus" onClick={decrementarUnidades} className="p-button-icon-only" />
-                            <span className="cantidad-unidades">{unidades}</span>
-                            <Button icon="pi pi-plus" onClick={incrementarUnidades} className="p-button-icon-only" />
-                        </div>
                         <div className="variacion-selector">
-                            <label htmlFor="variaciones">Selecciona una variación:</label>
+                            <label htmlFor="variaciones">Seleccione:</label>
                             <select
                                 id="variaciones"
                                 value={selectedVariacion}
@@ -129,11 +132,18 @@ const ArticuloPage = () => {
                                 ))}
                             </select>
                         </div>
-                        <Button className="p-button-success agregar-carrito-btn" onClick={handleAgregarAlCarrito}>
-                            Añadir al carrito
-                        </Button>
+                        <div className='controles'>
+                            <Button icon="pi pi-minus" onClick={decrementarUnidades} className="p-button-icon-only" />
+                            <span className="cantidad-unidades">{unidades}</span>
+                            <Button icon="pi pi-plus" onClick={incrementarUnidades} className="p-button-icon-only" />
+                            <Button className="p-button-success agregar-carrito-btn" onClick={handleAgregarAlCarrito}>
+                                Añadir al carrito
+                            </Button>
+                        </div>
                     </div>
                 </div>
+                <hr />
+                <p className="articulo-descripcion-larga">{articulo.descripcion_larga}</p>
             </div>
 
             <Dialog visible={showDialog} onHide={() => setShowDialog(false)} header="Artículos añadidos!" modal>
