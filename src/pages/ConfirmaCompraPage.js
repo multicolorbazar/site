@@ -2,13 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { PiBankFill } from "react-icons/pi";
 import { FaFileAlt, FaWhatsapp } from 'react-icons/fa';
+import { FaMotorcycle } from "react-icons/fa";
 import './ConfirmaCompraPage.css';
-
-// Importa los datos desde los archivos correctos
 import skuArticulos from '../data/skuArticulos'; // Asegúrate de que la ruta sea correcta
 import articulos from '../data/articulos'; // Asegúrate de que la ruta sea correcta
 
-// Función para formatear el precio en moneda chilena
 const formatearPrecio = (precio) => {
     return new Intl.NumberFormat('es-CL', {
         style: 'currency',
@@ -86,17 +84,58 @@ const DatosBancariosCard = () => (
     </div>
 );
 
+const OpcionesEnviosCard = () => (
+    <div className="opciones-envios-card">
+        <div className="envios-header">
+            <FaMotorcycle className="datosbanco-icon" />
+            <h2>Opciones de Envíos</h2>
+        </div>
+        <div className="detalle-envios">
+            <table className="envios-table">
+                <thead>
+                    <tr>
+                        <th>Servicio</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Correos de Chile</td>
+                        <td>
+                            Lunes a Viernes: 09:00 - 18:00 hrs<br />
+                            Sábado: 09:30 - 13:00 hrs<br />
+                            Domingo: CERRADO
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Chilexpress</td>
+                        <td>Lunes a Viernes: 09:00 - 18:00 hrs</td>
+                    </tr>
+                    <tr>
+                        <td>Starken</td>
+                        <td>
+                            Lunes a Viernes: 09:00 - 18:30 hrs<br />
+                            Sábados: 09:00 - 13:00 hrs
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Blue Express</td>
+                        <td>Abierto 24/7</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+);
+
 const ConfirmarCompraPage = () => {
     const [carritoDetalles, setCarritoDetalles] = useState([]);
 
     useEffect(() => {
         const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
         
-        // Mapea el carrito para combinar la información
         const detalles = carrito.map(item => {
-            // Buscar la variación en skuArticulos
             const sku = skuArticulos.find(sku => sku.id_sku === item.id_sku) || {};
-            // Buscar el artículo en articulos
             const articulo = articulos.find(articulo => articulo.id_articulo === parseInt(item.id_articulo, 10)) || {};
             return {
                 ...item,
@@ -150,6 +189,8 @@ const ConfirmarCompraPage = () => {
                 </div>
 
                 <DatosBancariosCard />
+
+                <OpcionesEnviosCard />
             </div>
         </div>
     );
