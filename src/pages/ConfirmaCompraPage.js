@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import { PiBankFill } from "react-icons/pi";
 import { FaFileAlt, FaWhatsapp } from 'react-icons/fa';
 import { FaMotorcycle } from "react-icons/fa";
+import { Dialog } from 'primereact/dialog';
+import 'primereact/resources/themes/saga-blue/theme.css';  // Importa el tema
+import 'primereact/resources/primereact.min.css';          // Importa los estilos de PrimeReact
+import 'primeicons/primeicons.css';                        // Importa los iconos de PrimeReact
 import './ConfirmaCompraPage.css';
 import skuArticulos from '../data/skuArticulos'; // Asegúrate de que la ruta sea correcta
 import articulos from '../data/articulos'; // Asegúrate de que la ruta sea correcta
@@ -84,49 +88,64 @@ const DatosBancariosCard = () => (
     </div>
 );
 
-const OpcionesEnviosCard = () => (
-    <div className="opciones-envios-card">
-        <div className="envios-header">
-            <FaMotorcycle className="datosbanco-icon" />
-            <h2>Opciones de Envíos</h2>
+const OpcionesEnviosCard = () => {
+    const [visible, setVisible] = useState(false);
+
+    const handleImageClick = () => {
+        setVisible(true);
+    };
+
+    return (
+        <div className="opciones-envios-card">
+            <div className="envios-header">
+                <FaMotorcycle className="datosbanco-icon" />
+                <h2>Opciones de Envíos</h2>
+            </div>
+            <div className="detalle-envios">
+                <h3>Delivery</h3>
+                <p>Hacemos entrega delivery entre Vicuña Mackena, Irarrazaval, Guillermo Man, Marathon.</p>
+                <img src={require('../images/secciones/envios.png')} alt="Delivery" onClick={handleImageClick} style={{ cursor: 'pointer', maxWidth: '100%', height: 'auto', marginBottom: '20px' }} />
+                <Dialog header="Opciones de Envíos" visible={visible} style={{ width: '90vw',  }} onHide={() => setVisible(false)}>
+                    <img src={require('../images/secciones/envios.png')} alt="Delivery" style={{ width: '100%', height: 'auto' }} />
+                </Dialog>
+                <h3>Envío como encomienda</h3>
+                <table className="envios-table">
+                    <thead>
+                        <tr>
+                            <th>Servicio</th>
+                            <th>Horario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Correos de Chile</td>
+                            <td>
+                                Lunes a Viernes: 09:00 - 18:00 hrs<br />
+                                Sábado: 09:30 - 13:00 hrs<br />
+                                Domingo: CERRADO
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Chilexpress</td>
+                            <td>Lunes a Viernes: 09:00 - 18:00 hrs</td>
+                        </tr>
+                        <tr>
+                            <td>Starken</td>
+                            <td>
+                                Lunes a Viernes: 09:00 - 18:30 hrs<br />
+                                Sábados: 09:00 - 13:00 hrs
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Blue Express</td>
+                            <td>Abierto 24/7</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
-        <div className="detalle-envios">
-            <table className="envios-table">
-                <thead>
-                    <tr>
-                        <th>Servicio</th>
-                        <th>Horario</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Correos de Chile</td>
-                        <td>
-                            Lunes a Viernes: 09:00 - 18:00 hrs<br />
-                            Sábado: 09:30 - 13:00 hrs<br />
-                            Domingo: CERRADO
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Chilexpress</td>
-                        <td>Lunes a Viernes: 09:00 - 18:00 hrs</td>
-                    </tr>
-                    <tr>
-                        <td>Starken</td>
-                        <td>
-                            Lunes a Viernes: 09:00 - 18:30 hrs<br />
-                            Sábados: 09:00 - 13:00 hrs
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Blue Express</td>
-                        <td>Abierto 24/7</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-);
+    );
+};
 
 const ConfirmarCompraPage = () => {
     const [carritoDetalles, setCarritoDetalles] = useState([]);

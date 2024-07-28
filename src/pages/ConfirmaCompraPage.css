@@ -51,6 +51,14 @@
     margin-bottom: 20px;
 }
 
+.detalle-envios h3 {
+    text-align: left;
+}
+
+.detalle-envios p {
+    text-align: justify;
+}
+
 .detalle-table,
 .datos-bancarios-table,
 .envios-table {
