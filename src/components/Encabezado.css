@@ -7,15 +7,23 @@
     z-index: 1000;
 }
 
+@font-face {
+    font-family: 'Ink Free';
+    src: url('../../public/fonts/Inkfree.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .logo-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-family: 'Ink Free', serif;
+    font-family: 'Ink Free', cursive; /* Usa la fuente definida */
     font-size: 1.25rem;
     font-weight: 500;
 }
+
 
 .logo-container p {
     color: var(--tono-mediano3);

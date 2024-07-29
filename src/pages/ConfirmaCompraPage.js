@@ -102,13 +102,13 @@ const OpcionesEnviosCard = () => {
                 <h2>Opciones de Envíos</h2>
             </div>
             <div className="detalle-envios">
-                <h3>Delivery</h3>
-                <p>Hacemos entrega delivery entre Vicuña Mackena, Irarrazaval, Guillermo Man, Marathon.</p>
+                <h3>Opción 1: Delivery gratis</h3>
+                <p>Tenemos delivery gratis entre Vicuña Mackena, Irarrazaval, Guillermo Man, Marathon.</p>
                 <img src={require('../images/secciones/envios.png')} alt="Delivery" onClick={handleImageClick} style={{ cursor: 'pointer', maxWidth: '100%', height: 'auto', marginBottom: '20px' }} />
                 <Dialog header="Opciones de Envíos" visible={visible} style={{ width: '90vw',  }} onHide={() => setVisible(false)}>
                     <img src={require('../images/secciones/envios.png')} alt="Delivery" style={{ width: '100%', height: 'auto' }} />
                 </Dialog>
-                <h3>Envío como encomienda</h3>
+                <h3>Opción 2: Envío como encomienda</h3>
                 <table className="envios-table">
                     <thead>
                         <tr>

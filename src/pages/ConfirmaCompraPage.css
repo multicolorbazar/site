@@ -39,6 +39,12 @@
     margin-bottom: 20px;
 }
 
+.boleta-header h2,
+.datosbanco-header h2,
+.envios-header h2 {
+    margin: 0;
+}
+
 .boleta-icon,
 .datosbanco-icon {
     font-size: 24px;
@@ -53,6 +59,7 @@
 
 .detalle-envios h3 {
     text-align: left;
+    margin-bottom: 15px;
 }
 
 .detalle-envios p {
