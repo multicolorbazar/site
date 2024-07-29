@@ -6,8 +6,13 @@ const subcategoriaArticulos = [
     { id_subcategoria: 5, nombre: 'Cinta adhesiva', id_categoria: 5},
     { id_subcategoria: 6, nombre: 'Libro educativo', id_categoria: 4},
     { id_subcategoria: 7, nombre: 'Tabla de cocina', id_categoria: 2},
-    { id_subcategoria: 8, nombre: 'Funda de protección', id_categoria: 6},
-    { id_subcategoria: 9, nombre: 'Gorro para ducha', id_categoria: 6},    
+    { id_subcategoria: 8, nombre: 'Funda de protección', id_categoria: 2},
+    { id_subcategoria: 9, nombre: 'Gorro para ducha', id_categoria: 2},
+    { id_subcategoria: 10, nombre: 'Leche vegetal', id_categoria: 6},
+    { id_subcategoria: 11, nombre: 'Cinta de regalo', id_categoria: 5},
+    { id_subcategoria: 12, nombre: 'Barra de silicona', id_categoria: 1},
+    { id_subcategoria: 13, nombre: 'Masas moldeables', id_categoria: 1},
+       
 ];
 
 export default subcategoriaArticulos;

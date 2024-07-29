@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import articulos from '../data/articulos';
+import categorias from '../data/categorias'; // Importar categorías
 import { Button } from 'primereact/button';
 import { FaArrowLeft } from 'react-icons/fa';
 import imagenesArticulos from '../data/imagenesArticulos'; 
@@ -35,10 +36,9 @@ const ArticulosPorCategoria = () => {
 
     console.log('Artículos Filtrados:', articulosFiltrados); // Añadir log para depuración
 
-    // Obtener el nombre de la categoría del primer artículo filtrado
-    const nombreCategoria = articulosFiltrados.length > 0
-        ? `Categoría ${categoriaIdString}` // Puedes ajustar esto si tienes un mapping de nombres de categorías
-        : 'Categoría Desconocida';
+    // Encontrar el nombre de la categoría usando el id
+    const categoria = categorias.find(categoria => categoria.id.toString() === categoriaIdString);
+    const nombreCategoria = categoria ? categoria.nombre : 'Categoría Desconocida';
 
     return (
         <div className="ac-articulos-categoria-container">
@@ -49,7 +49,7 @@ const ArticulosPorCategoria = () => {
                     </Button>
                 </Link>
             </div>
-            <h2 className="ac-articulos-categoria-title">Artículos en categoría: {nombreCategoria}</h2>
+            <h2 className="ac-articulos-categoria-title">{nombreCategoria}</h2>
             <div className="ac-articulos-categoria-grid">
                 {articulosFiltrados.length > 0 ? (
                     articulosFiltrados.map((articulo) => (

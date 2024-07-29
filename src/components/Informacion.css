@@ -35,7 +35,7 @@
 tspan {
     font-family: 'Ink Free', cursive;
     font-size: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 1);
 }
 
 .carousel-slide {
