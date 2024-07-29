@@ -19,7 +19,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-family: 'Ink Free', cursive; /* Usa la fuente definida */
+    font-family: 'Ink Free', cursive;
     font-size: 1.25rem;
     font-weight: 500;
 }

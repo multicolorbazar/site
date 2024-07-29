@@ -25,10 +25,18 @@
     z-index: 10;
 }
 
-.informacion-container svg g g text {
-    transform: translate(10px, 15px) scale(0.45);
-  }
-  
+@font-face {
+    font-family: 'Ink Free';
+    src: url('../../public/fonts/Inkfree.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+tspan {
+    font-family: 'Ink Free', cursive;
+    font-size: 7px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
 .carousel-slide {
     position: relative;
