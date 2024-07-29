@@ -2,7 +2,7 @@ import React from 'react';
 import './Informacion.css'; // Importa los estilos
 import { Carousel } from 'react-responsive-carousel'; // Importa el carrusel
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Estilos del carrusel
-import { ReactComponent as Logo2 } from '../images/logo_bm_5f.svg'; // Importa el logo SVG como componente
+import { ReactComponent as Logo2 } from '../images/logo_bm_6f.svg'; // Importa el logo SVG como componente
 
 // Importa las imágenes para el carrusel usando require
 const imagen1 = require('../images/carrousel/carrousel3.png');
