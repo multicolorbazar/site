@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/site/static/css/main.63f55b8d.css",
-    "main.js": "/site/static/js/main.923b7116.js",
+    "main.js": "/site/static/js/main.587c641e.js",
     "static/js/453.fc74302d.chunk.js": "/site/static/js/453.fc74302d.chunk.js",
     "static/media/carrousel3.png": "/site/static/media/carrousel3.1615971adf667a5fb176.png",
     "static/media/carrousel4.png": "/site/static/media/carrousel4.b21bc1414008eb2a6e06.png",
@@ -14,7 +14,10 @@
     "static/media/categoria006.png": "/site/static/media/categoria006.6e92d6ea1c2190e50e0e.png",
     "static/media/categoria004.png": "/site/static/media/categoria004.6b2e4e9bd09a2da6ef06.png",
     "static/media/Tapa.jpeg": "/site/static/media/Tapa.57a40d8e9395f7259802.jpeg",
+    "static/media/2.jpg": "/site/static/media/2.3014e8a2415296a9487d.jpg",
+    "static/media/1.jpg": "/site/static/media/1.25c9900f3e893ba27852.jpg",
     "static/media/Primeros Animales- Tapa.jpeg": "/site/static/media/Primeros Animales- Tapa.281cae149d8de8d1b7e0.jpeg",
+    "static/media/3.jpg": "/site/static/media/3.a5837fa32488e92d10a8.jpg",
     "static/media/categoria001.png": "/site/static/media/categoria001.6862e79380bb56f900fa.png",
     "static/media/categoria005.png": "/site/static/media/categoria005.309da72b709e88d82831.png",
     "static/media/Fucsia.jpeg": "/site/static/media/Fucsia.b3e7aefbbf055a7e695d.jpeg",
@@ -43,11 +46,11 @@
     "static/media/logo_bm_2f.svg": "/site/static/media/logo_bm_2f.142d08d2428d0e13957eb751db6b9b01.svg",
     "index.html": "/site/index.html",
     "main.63f55b8d.css.map": "/site/static/css/main.63f55b8d.css.map",
-    "main.923b7116.js.map": "/site/static/js/main.923b7116.js.map",
+    "main.587c641e.js.map": "/site/static/js/main.587c641e.js.map",
     "453.fc74302d.chunk.js.map": "/site/static/js/453.fc74302d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63f55b8d.css",
-    "static/js/main.923b7116.js"
+    "static/js/main.587c641e.js"
   ]
 }
