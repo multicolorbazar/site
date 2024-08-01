@@ -52,10 +52,10 @@ const Encabezado = () => {
     return (
         <div className='bg_gradiante_1 encabezado-container'>
             <div className='logo-container'>
-                <Link to="/home">
+                <Link to="/home" className='logo-container-link'>
                     <Logo className='encabezado-logo' />
+                    <p>Bazar <span>Multicolor</span></p>
                 </Link>
-                <p>Bazar <span>Multicolor</span></p>
             </div>
             <div className="encabezado-menu">
                 <div className="encabezado-start">

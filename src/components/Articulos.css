@@ -23,6 +23,9 @@
 }
 
 .articulo-item {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
     box-sizing: border-box;
     border: 1px solid transparent;
     text-align: center;

@@ -59,7 +59,7 @@ const ArticuloPage = () => {
 
     const mostrarConfirmacion = () => {
         setShowDialog(true);
-        setConfirmMessage(`Se agregó ${unidades} unidad(es) de ${articulo.nombre} con variación ${selectedVariacion} al carrito.`);
+        setConfirmMessage(`Se agregó ${unidades} unidad(es) de ${articulo.nombre} al carrito.`);
     };
 
     const handleAgregarAlCarrito = () => {

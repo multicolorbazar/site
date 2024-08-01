@@ -27,6 +27,10 @@
 
 .articulo-rlink {
     text-decoration: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .articulo-rinfo {

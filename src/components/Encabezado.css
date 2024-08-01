@@ -24,6 +24,12 @@
     font-weight: 500;
 }
 
+.logo-container-link {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+}
 
 .logo-container p {
     color: var(--tono-mediano3);
