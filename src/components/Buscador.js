@@ -34,12 +34,13 @@ const Buscador = ({ onClose }) => {
         }
 
         const resultadosFiltrados = articulos.filter(articulo =>
-            articulo.nombre.toLowerCase().includes(searchQuery) ||
+            (articulo.nombre.toLowerCase().includes(searchQuery) ||
             articulo.descripcion.toLowerCase().includes(searchQuery) ||
             articulo.descripcion_larga.toLowerCase().includes(searchQuery) ||
             articulo.id_categoria.toLowerCase().includes(searchQuery) ||
             articulo.id_subcategoria.toLowerCase().includes(searchQuery) ||
-            articulo.precio.toString().includes(searchQuery)
+            articulo.precio.toString().includes(searchQuery)) &&
+            articulo.disponible === 'si' // Filtrar por disponibilidad
         );
 
         setResultados(resultadosFiltrados);

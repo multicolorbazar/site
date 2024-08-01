@@ -7,8 +7,8 @@ import './ArticulosRecientes.css'; // Estilos
 const getRandomArticles = (num) => {
     // Crear una copia de los artículos y mezclar el array
     const shuffledArticles = [...articulos].sort(() => 0.5 - Math.random());
-    // Devolver los primeros `num` artículos del array mezclado
-    return shuffledArticles.slice(0, num);
+    // Filtrar artículos que están disponibles y devolver los primeros `num` artículos del array mezclado
+    return shuffledArticles.filter(articulo => articulo.disponible === 'si').slice(0, num);
 };
 
 const obtenerImagen = (idArticulo) => {
@@ -41,7 +41,7 @@ const ArticulosRecientes = () => {
                 const visitCount = parseInt(localStorage.getItem(key), 10);
 
                 // Buscar el artículo correspondiente en los datos
-                const articulo = articulos.find(item => item.id_articulo === articleId);
+                const articulo = articulos.find(item => item.id_articulo === articleId && item.disponible === 'si');
                 
                 if (articulo) {
                     // Agregar el artículo con su contador de visitas

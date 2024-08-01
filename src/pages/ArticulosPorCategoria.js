@@ -29,9 +29,9 @@ const ArticulosPorCategoria = () => {
     // Convertir categoriaId a cadena para la comparación
     const categoriaIdString = categoriaId;
 
-    // Filtrar los artículos por id_categoria
+    // Filtrar los artículos por id_categoria y disponibilidad
     const articulosFiltrados = articulos.filter(
-        (articulo) => articulo.id_categoria === categoriaIdString
+        (articulo) => articulo.id_categoria === categoriaIdString && articulo.disponible === 'si'
     );
 
     console.log('Artículos Filtrados:', articulosFiltrados); // Añadir log para depuración

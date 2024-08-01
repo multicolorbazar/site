@@ -67,6 +67,9 @@
     text-align: justify;
     width: 100%;
     margin: 2px 0px;
+    overflow: hidden; /* Oculta el texto desbordado */
+    white-space: nowrap; /* Mantiene el texto en una sola línea */
+    text-overflow: ellipsis;
 }
 
 .articulo-rprecio {

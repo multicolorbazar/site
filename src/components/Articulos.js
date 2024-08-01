@@ -19,26 +19,31 @@ const formatearPrecio = (precio) => {
     return formato.format(precio);
 };
 
-const Articulos = () => (
-    <div className="articulos-container">
-        <h3 className="articulos-title">Artículos</h3>
-        <div className="articulos-grid">
-            {articulos.map(articulo => (
-                <Link key={articulo.id_articulo} to={`/articulo/${articulo.id_articulo}`} className="articulo-item">
-                    <img 
-                        src={obtenerImagen(articulo.id_articulo)} 
-                        alt={articulo.nombre} 
-                        className="articulo-imagen" 
-                    />
-                    <div className='articulo-info'>
-                        <h5 className="articulo-nombre">{articulo.nombre}</h5>
-                        <p className="articulo-descripcion">{articulo.descripcion}</p>
-                        <span className="articulo-precio">{formatearPrecio(articulo.precio)}</span>
-                    </div>
-                </Link>
-            ))}
+const Articulos = () => {
+    // Filtrar los artículos para mostrar solo aquellos disponibles
+    const articulosDisponibles = articulos.filter(articulo => articulo.disponible === 'si');
+
+    return (
+        <div className="articulos-container">
+            <h3 className="articulos-title">Artículos</h3>
+            <div className="articulos-grid">
+                {articulosDisponibles.map(articulo => (
+                    <Link key={articulo.id_articulo} to={`/articulo/${articulo.id_articulo}`} className="articulo-item">
+                        <img 
+                            src={obtenerImagen(articulo.id_articulo)} 
+                            alt={articulo.nombre} 
+                            className="articulo-imagen" 
+                        />
+                        <div className='articulo-info'>
+                            <h5 className="articulo-nombre">{articulo.nombre}</h5>
+                            <p className="articulo-descripcion">{articulo.descripcion}</p>
+                            <span className="articulo-precio">{formatearPrecio(articulo.precio)}</span>
+                        </div>
+                    </Link>
+                ))}
+            </div>
         </div>
-    </div>
-);
+    );
+};
 
 export default Articulos;
