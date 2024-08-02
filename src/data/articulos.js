@@ -137,7 +137,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '5',
         precio: 2200,
-        disponible: 'no',
+        disponible: 'si',
         },
         {
         id_articulo: 15,
@@ -399,7 +399,17 @@ const articulos = [
         precio: 10000,
         disponible: 'si',
         },
-          
+        {
+        id_articulo: 41,
+        nombre: 'Paños de cocina Set de 12 Unidades - Colores surtidos',
+        descripcion: 'Un paño de cocina es un tipo de tela utilizado en la cocina para diversas tareas. Su principal función es secar platos, utensilios, y superficies, así como para limpiar derrames o secarse las manos mientras se cocina.',
+        descripcion_larga: '0',
+        id_categoria: '2',
+        id_subcategoria: '22',
+        precio: 8000,
+        disponible: 'si',
+        },
+                  
 ];
 
 export default articulos;

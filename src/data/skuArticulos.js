@@ -56,6 +56,7 @@ const skuArticulos = [
     { id_sku: '0040060055', id_articulo: '40', variacion: 'Matemáticas 2' },
     { id_sku: '0040060056', id_articulo: '40', variacion: 'Matemáticas 3' },
     { id_sku: '0040060057', id_articulo: '40', variacion: 'Matemáticas 4' },
+    { id_sku: '00200220058', id_articulo: '41', variacion: 'Colores surtidos' },
     
 ]
 export default skuArticulos;
