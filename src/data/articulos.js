@@ -71,7 +71,7 @@ const articulos = [
         },
         {
         id_articulo: 8,
-        nombre: 'Libro Habilidades - Laberinto 1',
+        nombre: 'Set Libro Habilidades - Laberinto (4 niveles)',
         descripcion: 'Libro Educativo Para desarrollar Habilidades. Dimensiones: 29.4x21x0.2 cm.',
         descripcion_larga: 'Recomendable para niños de 3 a 6 años',
         id_categoria: '4',
@@ -81,36 +81,6 @@ const articulos = [
         },
         {
         id_articulo: 9,
-        nombre: 'Libro Habilidades - Laberinto 2',
-        descripcion: 'Libro Educativo Para desarrollar Habilidades. Dimensiones: 29.4x21x0.2 cm.',
-        descripcion_larga: 'Recomendable para niños de 3 a 6 años',
-        id_categoria: '4',
-        id_subcategoria: '6',
-        precio: 2500,
-        disponible: 'si',
-        },
-        {
-        id_articulo: 10,
-        nombre: 'Libro Habilidades - Laberinto 3',
-        descripcion: 'Libro Educativo Para desarrollar Habilidades. Dimensiones: 29.4x21x0.2 cm.',
-        descripcion_larga: 'Recomendable para niños de 3 a 6 años',
-        id_categoria: '4',
-        id_subcategoria: '6',
-        precio: 2500,
-        disponible: 'si',
-        },
-        {
-        id_articulo: 11,
-        nombre: 'Libro Habilidades - Laberinto 4',
-        descripcion: 'Libro Educativo Para desarrollar Habilidades. Dimensiones: 29.4x21x0.2 cm.',
-        descripcion_larga: 'Recomendable para niños de 3 a 6 años',
-        id_categoria: '4',
-        id_subcategoria: '6',
-        precio: 2500,
-        disponible: 'si',
-        },
-        {
-        id_articulo: 12,
         nombre: 'Tablas de cortar (Multiuso) - Naranja',
         descripcion: 'Dimensiones: 27x40x05 cm.',
         descripcion_larga: 'La tabla de cortar es perfecta para diferentes tipos de alimentos, como carne, frutas, verduras, pasteles y más.',
@@ -120,7 +90,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 13,
+        id_articulo: 10,
         nombre: 'Tablas de cortar (Multiuso) - Azul',
         descripcion: 'Dimensiones: 27x40x05 cm.',
         descripcion_larga: 'La tabla de cortar es perfecta para diferentes tipos de alimentos, como carne, frutas, verduras, pasteles y más.',
@@ -130,7 +100,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 14,
+        id_articulo: 11,
         nombre: 'Tablas de cortar (Multiuso) - Verde',
         descripcion: 'Dimensiones: 27x40x05 cm.',
         descripcion_larga: 'La tabla de cortar es perfecta para diferentes tipos de alimentos, como carne, frutas, verduras, pasteles y más.',
@@ -140,7 +110,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 15,
+        id_articulo: 12,
         nombre: 'Funda para refrigerador ',
         descripcion: '0',
         descripcion_larga: '0',
@@ -150,7 +120,7 @@ const articulos = [
         disponible: 'no',
         },
         {
-        id_articulo: 16,
+        id_articulo: 13,
         nombre: 'Gorro para ducha',
         descripcion: '0',
         descripcion_larga: '0',
@@ -160,7 +130,7 @@ const articulos = [
         disponible: 'no',
         },
         {
-        id_articulo: 17,
+        id_articulo: 14,
         nombre: 'Cinta de embalaje',
         descripcion: 'Dimensiones: 4.8cm x 100m.',
         descripcion_larga: '0',
@@ -170,7 +140,7 @@ const articulos = [
         disponible: 'no',
         },
         {
-        id_articulo: 18,
+        id_articulo: 15,
         nombre: 'Libro Primeras Letras',
         descripcion: 'Librito colección primeros. Medidas: 10,5cm x 14cm',
         descripcion_larga: 'Adecuado para niños de 1 año en adelante. La colección es de 4 libros: Palabras, Animales, Números y Letras. Cada página contiene una fotografía vívida y colorida del objeto. Adecuado para el agarre de los bebés.',
@@ -180,7 +150,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 19,
+        id_articulo: 16,
         nombre: 'Libro Primeras Palabras',
         descripcion: 'Librito colección primeros. Medidas: 10,5cm x 14cm',
         descripcion_larga: 'Adecuado para niños de 1 año en adelante. La colección es de 4 libros: Palabras, Animales, Números y Letras. Cada página contiene una fotografía vívida y colorida del objeto. Adecuado para el agarre de los bebés.',
@@ -190,7 +160,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 20,
+        id_articulo: 17,
         nombre: 'Libro Primeras Animales',
         descripcion: 'Librito colección primeros. Medidas: 10,5cm x 14cm',
         descripcion_larga: 'Adecuado para niños de 1 año en adelante. La colección es de 4 libros: Palabras, Animales, Números y Letras. Cada página contiene una fotografía vívida y colorida del objeto. Adecuado para el agarre de los bebés.',
@@ -200,7 +170,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 21,
+        id_articulo: 18,
         nombre: 'Libro para Colorear - Mandalas',
         descripcion: 'Libro de mandalas para colorear.',
         descripcion_larga: 'Este libro ofrece a los niños una serie de mandalas originales diseñadas para estimular su creatividad y habilidades motoras mientras disfrutan del arte del coloreado.',
@@ -210,7 +180,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 22,
+        id_articulo: 19,
         nombre: 'Libro para Colorear - Fish',
         descripcion: 'Libros para pintar Temático',
         descripcion_larga: '0',
@@ -220,7 +190,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 23,
+        id_articulo: 20,
         nombre: 'Libro para Colorear - Transportation',
         descripcion: 'Libros para pintar Temático',
         descripcion_larga: '0',
@@ -230,7 +200,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 24,
+        id_articulo: 21,
         nombre: 'Not Milk Original - Leche vegetal',
         descripcion: 'Bebida vegetal Not Milk original 1 L',
         descripcion_larga: '0',
@@ -240,7 +210,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 25,
+        id_articulo: 22,
         nombre: 'Not Milk Chocolate - Leche vegetal',
         descripcion: 'Bebida vegetal Not Milk chocolate 1 L',
         descripcion_larga: '0',
@@ -250,7 +220,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 26,
+        id_articulo: 23,
         nombre: 'Cinta de regalo',
         descripcion: '0',
         descripcion_larga: '0',
@@ -260,27 +230,27 @@ const articulos = [
         disponible: 'no',
         },
         {
-        id_articulo: 27,
+        id_articulo: 24,
         nombre: 'Barras de silicona (Motarro)',
-        descripcion: 'Dimensiones: 0.7*19cm',
+        descripcion: 'Barra de silicona x10 unidades. Dimensiones: 0.7x19cm',
         descripcion_larga: '0',
         id_categoria: '1',
         id_subcategoria: '12',
         precio: 2000,
-        disponible: 'no',
+        disponible: 'si',
         },
         {
-        id_articulo: 28,
+        id_articulo: 25,
         nombre: 'Masas moldeables (Motarro)',
-        descripcion: '0',
+        descripcion: 'Set masas moldeables 4 unidades',
         descripcion_larga: '0',
         id_categoria: '1',
         id_subcategoria: '13',
         precio: 2500,
-        disponible: 'no',
+        disponible: 'si',
         },
         {
-        id_articulo: 29,
+        id_articulo: 26,
         nombre: 'Stickers - Animales de la selva (Motarro)',
         descripcion: 'Más de 140 stickrers',
         descripcion_larga: '0',
@@ -290,7 +260,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 30,
+        id_articulo: 27,
         nombre: 'Stickers - Transporte (Motarro)',
         descripcion: 'Más de 140 stickrers',
         descripcion_larga: '0',
@@ -300,7 +270,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 31,
+        id_articulo: 28,
         nombre: 'Cartulina española (Motarro)',
         descripcion: 'Cartulina española 10 hojas - 10 colores 24.8 x 34.6 cms.',
         descripcion_larga: '0',
@@ -310,7 +280,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 32,
+        id_articulo: 29,
         nombre: 'Lápices de color - 18 colores (Motarro)',
         descripcion: 'Colored pencils - Lápices de color - Matite colorate, 18 colores.',
         descripcion_larga: '0',
@@ -320,7 +290,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 33,
+        id_articulo: 30,
         nombre: 'Lápices de color - 24 colores (Motarro)',
         descripcion: 'Lápices de color, 24 colores.',
         descripcion_larga: '0',
@@ -330,7 +300,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 34,
+        id_articulo: 31,
         nombre: 'Goma eva - glitter dorado (Motarro)',
         descripcion: 'Glitter eva sponge - 1 unidad',
         descripcion_larga: '0',
@@ -340,7 +310,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 35,
+        id_articulo: 32,
         nombre: 'Goma eva - glitter plateado (Motarro)',
         descripcion: 'Glitter eva sponge - 1 unidad',
         descripcion_larga: '0',
@@ -350,9 +320,9 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 36,
-        nombre: 'Rollos bolsas ecológicas mascotas (x6) - Verde',
-        descripcion: 'Bolsas ecológicas para desecho para mascotas. 6 unidades.',
+        id_articulo: 33,
+        nombre: 'Rollos bolsas ecológicas mascotas (x6 rollos x90u.) - Verde',
+        descripcion: 'Bolsas ecológicas para desecho para mascotas. 6 rollos equivalente a 90 unidades.',
         descripcion_larga: '0',
         id_categoria: '6',
         id_subcategoria: '19',
@@ -360,9 +330,9 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 37,
-        nombre: 'Rollos bolsas ecológicas mascotas (x6) - Multicolor',
-        descripcion: 'Bolsas ecológicas para desecho para mascotas. 6 unidades.',
+        id_articulo: 34,
+        nombre: 'Rollos bolsas ecológicas mascotas (x6 rollos x90u) - Multicolor',
+        descripcion: 'Bolsas ecológicas para desecho para mascotas. 6 rollos equivalente a 90 unidades.',
         descripcion_larga: '0',
         id_categoria: '6',
         id_subcategoria: '19',
@@ -370,7 +340,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 38,
+        id_articulo: 35,
         nombre: 'Cometa bandera de Chile',
         descripcion: 'Cometa de bandera chilena 120x60cm.',
         descripcion_larga: '0',
@@ -380,7 +350,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 39,
+        id_articulo: 36,
         nombre: 'Cometa de murcielago',
         descripcion: 'Cometa de murcielago diseño aleatorio 160x65cm.',
         descripcion_larga: '0',
@@ -390,7 +360,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 40,
+        id_articulo: 37,
         nombre: 'Cometa de tiburón',
         descripcion: 'Cometa tiburon diseño aleatorio 150x180cm',
         descripcion_larga: '0',
@@ -400,7 +370,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 41,
+        id_articulo: 38,
         nombre: 'Lápiz Grafito Set De 12 Unidades (Motarro)',
         descripcion: 'Set de lápices mina. Cantidad: 12 unidades.',
         descripcion_larga: '0',
@@ -410,7 +380,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 42,
+        id_articulo: 39,
         nombre: 'Hilo cometa 50m',
         descripcion: 'Hilo para cometa 50m - Mediano',
         descripcion_larga: '0',
@@ -420,15 +390,16 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 43,
-        nombre: 'Set Libro Habilidades - Matemáticas',
+        id_articulo: 40,
+        nombre: 'Set Libro Habilidades - Matemáticas (4 niveles)',
         descripcion: 'Libro Educativo Para desarrollar Habilidades. Dimensiones: 29.4x21x0.2 cm.',
         descripcion_larga: 'Recomendable para niños de 3 a 6 años',
         id_categoria: '4',
-        
+        id_subcategoria: '6',
         precio: 10000,
-        disponible: 'no',
+        disponible: 'si',
         },
+        
 ];
 
 export default articulos;
