@@ -321,7 +321,7 @@ const articulos = [
         },
         {
         id_articulo: 33,
-        nombre: 'Rollos bolsas ecológicas mascotas (x6 rollos x90u.) - Verde',
+        nombre: 'Bolsas ecológicas mascotas (90un)',
         descripcion: 'Bolsas ecológicas para desecho para mascotas. 6 rollos equivalente a 90 unidades.',
         descripcion_larga: '0',
         id_categoria: '6',
@@ -331,16 +331,6 @@ const articulos = [
         },
         {
         id_articulo: 34,
-        nombre: 'Rollos bolsas ecológicas mascotas (x6 rollos x90u) - Multicolor',
-        descripcion: 'Bolsas ecológicas para desecho para mascotas. 6 rollos equivalente a 90 unidades.',
-        descripcion_larga: '0',
-        id_categoria: '6',
-        id_subcategoria: '19',
-        precio: 1500,
-        disponible: 'si',
-        },
-        {
-        id_articulo: 35,
         nombre: 'Cometa bandera de Chile',
         descripcion: 'Cometa de bandera chilena 120x60cm.',
         descripcion_larga: '0',
@@ -350,7 +340,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 36,
+        id_articulo: 35,
         nombre: 'Cometa de murcielago',
         descripcion: 'Cometa de murcielago diseño aleatorio 160x65cm.',
         descripcion_larga: '0',
@@ -360,7 +350,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 37,
+        id_articulo: 36,
         nombre: 'Cometa de tiburón',
         descripcion: 'Cometa tiburon diseño aleatorio 150x180cm',
         descripcion_larga: '0',
@@ -370,7 +360,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 38,
+        id_articulo: 37,
         nombre: 'Lápiz Grafito Set De 12 Unidades (Motarro)',
         descripcion: 'Set de lápices mina. Cantidad: 12 unidades.',
         descripcion_larga: '0',
@@ -380,7 +370,7 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 39,
+        id_articulo: 38,
         nombre: 'Hilo cometa 50m',
         descripcion: 'Hilo para cometa 50m - Mediano',
         descripcion_larga: '0',
@@ -390,8 +380,8 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 40,
-        nombre: 'Set Libro Habilidades - Matemáticas (4 niveles)',
+        id_articulo: 39,
+        nombre: 'Set de 4 Libro Habilidades - Matemáticas',
         descripcion: 'Libro Educativo Para desarrollar Habilidades. Dimensiones: 29.4x21x0.2 cm.',
         descripcion_larga: 'Recomendable para niños de 3 a 6 años',
         id_categoria: '4',
@@ -400,8 +390,8 @@ const articulos = [
         disponible: 'si',
         },
         {
-        id_articulo: 41,
-        nombre: 'Paños de cocina Set de 12 Unidades - Colores surtidos',
+        id_articulo: 40,
+        nombre: 'Set de 12 unidades Paños de cocina',
         descripcion: 'Set de 12 paños de cocina tela 100% algodón.',
         descripcion_larga: 'Un paño de cocina es un tipo de tela utilizado en la cocina para diversas tareas. Su principal función es secar platos, utensilios, y superficies, así como para limpiar derrames o secarse las manos mientras se cocina.',
         id_categoria: '2',
@@ -409,7 +399,7 @@ const articulos = [
         precio: 8000,
         disponible: 'si',
         },
-        
+                
 ];
 
 export default articulos;
