@@ -79,6 +79,10 @@ const DatosBancariosCard = () => (
                     <td>66898717</td>
                 </tr>
                 <tr>
+                    <td>RUT:</td>
+                    <td>154185909</td>
+                </tr>
+                <tr>
                     <td>email:</td>
                     <td>k.garabito@gmail.com</td>
                 </tr>
