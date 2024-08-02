@@ -1,4 +1,4 @@
-const articulos = [           
+const articulos = [                 
     {
         id_articulo: 1,
         nombre: 'Delantal para pintar infantil',
@@ -14,8 +14,8 @@ const articulos = [
         nombre: 'Libro para colorear (Coloring Book 1-4)',
         descripcion: 'Libro para colorear Coloring Book series 1 a 4, diferentes temáticas.',
         descripcion_larga: '0',
-        id_categoria: '1',
-        id_subcategoria: '2',
+        id_categoria: '4',
+        id_subcategoria: '6',
         precio: 1500,
         disponible: 'si',
         },
@@ -410,7 +410,6 @@ const articulos = [
         disponible: 'si',
         },
         
-                  
 ];
 
 export default articulos;
