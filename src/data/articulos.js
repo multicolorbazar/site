@@ -76,7 +76,7 @@ const articulos = [
         descripcion_larga: 'Recomendable para niños de 3 a 6 años',
         id_categoria: '4',
         id_subcategoria: '6',
-        precio: 2500,
+        precio: 10000,
         disponible: 'si',
         },
         {
@@ -399,7 +399,7 @@ const articulos = [
         precio: 10000,
         disponible: 'si',
         },
-        
+          
 ];
 
 export default articulos;
