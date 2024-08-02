@@ -14,7 +14,7 @@ const Informacion = () => (
         <Logo2 className="informacion-logo" />
         <Carousel showArrows={true} infiniteLoop={true} autoPlay={true} interval={5000} showThumbs={false}>
             <div className="carousel-slide">
-                <img src={imagen1} alt="Imagen 1" />
+                <img src={imagen1} alt="Imagen 1" className='fondox1' />
                 <div className="carousel-message">Descubre nuestros libros para colorear y deja que la creatividad de tus niños brille.</div>
             </div>
             <div className="carousel-slide">

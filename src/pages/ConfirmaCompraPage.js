@@ -38,7 +38,10 @@ const ResumenCompraCard = ({ carritoDetalles, getTotalGeneral }) => (
                     <tbody>
                         {carritoDetalles.map((item, index) => (
                             <tr key={index}>
-                                <td>{item.nombre} ({formatearPrecio(item.precio)} x {item.unidades})</td>
+                                <td>
+                                    {item.nombre}<br />
+                                    {item.variacion}<br />{formatearPrecio(item.precio)} x {item.unidades}
+                                </td>
                                 <td>{formatearPrecio(item.precio * item.unidades)}</td>
                             </tr>
                         ))}
@@ -163,9 +166,10 @@ const ConfirmarCompraPage = () => {
                 precio: articulo.precio || 0
             };
         });
-
+    
         setCarritoDetalles(detalles);
     }, []);
+    
 
     const calcularPrecioTotal = (item) => {
         return item.precio * item.unidades;
@@ -178,15 +182,16 @@ const ConfirmarCompraPage = () => {
     const enviarMensajeWhatsapp = () => {
         let mensaje = "¡Hola Bazar Multicolor! necesito comprobar el stock de los siguientes artículos:\n\n";
         carritoDetalles.forEach((item, index) => {
-            mensaje += `${index + 1}. ${item.nombre} (${item.unidades} unidades)\n`;
+            mensaje += `${index + 1}. ${item.nombre} (${item.variacion}) - ${item.unidades} unidad(es)\n`;
         });
         mensaje += `\nTotal: ${formatearPrecio(getTotalGeneral())}`;
-
+    
         const numero = "56981605147";
         const whatsappLink = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
-
+    
         window.open(whatsappLink, "_blank");
     };
+    
 
     return (
         <div className="confirmar-compra-page">

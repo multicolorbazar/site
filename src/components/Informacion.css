@@ -42,17 +42,18 @@ tspan {
     position: relative;
 }
 
+
 .carousel-message {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-10%, -10%);
-    font-size: 1.2em;
+    font-size: 1em;
     font-style: italic;
-    color: #fff;
+    color: var(--tono-destacado);
     padding: 10px;
     border-radius: 5px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombreado oscuro */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
 .informacion-title {
