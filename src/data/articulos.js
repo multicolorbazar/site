@@ -12,12 +12,12 @@ const articulos = [
         {
         id_articulo: 2,
         nombre: 'Libro para colorear (Coloring Book 1-4)',
-        descripcion: '0',
+        descripcion: 'Libro para colorear Coloring Book series 1 a 4, diferentes temáticas.',
         descripcion_larga: '0',
         id_categoria: '1',
         id_subcategoria: '2',
         precio: 1500,
-        disponible: 'no',
+        disponible: 'si',
         },
         {
         id_articulo: 3,
@@ -402,13 +402,14 @@ const articulos = [
         {
         id_articulo: 41,
         nombre: 'Paños de cocina Set de 12 Unidades - Colores surtidos',
-        descripcion: 'Un paño de cocina es un tipo de tela utilizado en la cocina para diversas tareas. Su principal función es secar platos, utensilios, y superficies, así como para limpiar derrames o secarse las manos mientras se cocina.',
-        descripcion_larga: '0',
+        descripcion: 'Set de 12 paños de cocina tela 100% algodón.',
+        descripcion_larga: 'Un paño de cocina es un tipo de tela utilizado en la cocina para diversas tareas. Su principal función es secar platos, utensilios, y superficies, así como para limpiar derrames o secarse las manos mientras se cocina.',
         id_categoria: '2',
         id_subcategoria: '22',
         precio: 8000,
         disponible: 'si',
         },
+        
                   
 ];
 

@@ -179,3 +179,9 @@
     background-color: #28a745 !important;
     color: white !important;
 }
+
+.articulo-descripcion-larga {
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 0.9rem;
+}

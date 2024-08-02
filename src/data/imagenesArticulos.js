@@ -63,7 +63,13 @@ const imagenesArticulos = [
     { id_imagen: 62,id_articulo: 41,url: require('../images/articulos/041_2/1.jpg') },
     { id_imagen: 63,id_articulo: 41,url: require('../images/articulos/041_2/2.png') },
     { id_imagen: 64,id_articulo: 14,url: require('../images/articulos/014_2/1.png') },
-     
+    { id_imagen: 65,id_articulo: 2,url: require('../images/articulos/002/1.jpg') },
+    { id_imagen: 66,id_articulo: 2,url: require('../images/articulos/002/2.png') },
+    { id_imagen: 67,id_articulo: 2,url: require('../images/articulos/002/3.png') },
+    { id_imagen: 68,id_articulo: 2,url: require('../images/articulos/002/4.png') },
+    { id_imagen: 69,id_articulo: 2,url: require('../images/articulos/002/5.png') },
+    { id_imagen: 70,id_articulo: 2,url: require('../images/articulos/002/6.png') },
+    
 ];
 
 export default imagenesArticulos;
