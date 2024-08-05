@@ -110,7 +110,7 @@ const OpcionesEnviosCard = () => {
             </div>
             <div className="detalle-envios">
                 <h3>Opción 1: Delivery gratis</h3>
-                <p>Tenemos delivery gratis entre Vicuña Mackena, Irarrazaval, Guillermo Man, Marathon.</p>
+                <p>Tenemos <span style={{color: 'var(--tono-warning2)'}}>delivery gratis</span> entre Vicuña Mackena, Irarrazaval, Guillermo Man y Marathon, <span style={{color: 'var(--tono-warning2)'}}>por compras superiores a $3.990</span>.</p>
                 <img src={require('../images/secciones/envios.png')} alt="Delivery" onClick={handleImageClick} style={{ cursor: 'pointer', maxWidth: '100%', height: 'auto', marginBottom: '20px' }} />
                 <Dialog header="Opciones de Envíos" visible={visible} style={{ width: '90vw',  }} onHide={() => setVisible(false)}>
                     <img src={require('../images/secciones/envios.png')} alt="Delivery" style={{ width: '100%', height: 'auto' }} />

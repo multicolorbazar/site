@@ -5,7 +5,7 @@
     padding: 10px 20px 30px 20px;
     font-weight: 600;
     color: var(--tono-letra1);
-    background: rgb(210, 233, 163);
+    background: var(--tono-mediano5);
     box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2), 0px -1px 5px 0px rgba(0,0,0,0.2);
 }
 
