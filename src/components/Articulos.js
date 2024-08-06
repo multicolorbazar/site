@@ -21,7 +21,9 @@ const formatearPrecio = (precio) => {
 
 const Articulos = () => {
     // Filtrar los artículos para mostrar solo aquellos disponibles
-    const articulosDisponibles = articulos.filter(articulo => articulo.disponible === 'si');
+    const articulosDisponibles = articulos
+        .filter(articulo => articulo.disponible === 'si')
+        .sort((a, b) => a.nombre.localeCompare(b.nombre)); // Ordenar alfabéticamente por el campo nombre
 
     return (
         <div className="articulos-container">
