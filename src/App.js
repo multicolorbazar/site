@@ -9,8 +9,9 @@ import PrincipalPage from './pages/PrincipalPage';
 import ArticuloPage from './pages/ArticuloPage';
 import CarritoPage from './pages/CarritoPage';
 import ConfirmaCompraPage from './pages/ConfirmaCompraPage';
-import ArticulosPorCategoria from './pages/ArticulosPorCategoria'; // Importa el nuevo componente
+import ArticulosPorCategoria from './pages/ArticulosPorCategoria';
 import { CarritoProvider } from './contexts/CarritoContext';
+import WelcomeModal from './components/WelcomeModal'; // Importa el modal
 
 function App() {
     return (
@@ -24,7 +25,7 @@ function App() {
                         <Route path="/articulo/:id_articulo" element={<ArticuloPage />} />
                         <Route path="/carrito" element={<CarritoPage />} />
                         <Route path="/confirmacompra" element={<ConfirmaCompraPage />} />
-                        <Route path="/categoria/:categoriaId" element={<ArticulosPorCategoria />} /> {/* Añadir esta línea */}
+                        <Route path="/categoria/:categoriaId" element={<ArticulosPorCategoria />} />
                     </Routes>
                     <footer style={{ textAlign: 'center', padding: '10px', fontSize: '14px' }}>
                         Bazar Multicolor - Contacto: 
@@ -36,6 +37,7 @@ function App() {
                             +569 816 051 47
                         </a>
                     </footer>
+                    <WelcomeModal /> {/* Añadir el modal aquí */}
                 </div>
             </Router>
         </CarritoProvider>

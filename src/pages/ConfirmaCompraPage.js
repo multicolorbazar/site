@@ -84,7 +84,7 @@ const DatosBancariosCard = () => (
                 </tr>
                 <tr>
                     <td>email:</td>
-                    <td>k.garabito@gmail.com</td>
+                    <td>multicolorbazar@gmail.com</td>
                 </tr>
                 <tr>
                     <td>A nombre de:</td>
