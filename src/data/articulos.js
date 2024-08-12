@@ -336,7 +336,7 @@ const articulos = [
         descripcion_larga: '0',
         id_categoria: '7',
         id_subcategoria: '18',
-        precio: 1300,
+        precio: 2000,
         disponible: 'si',
         },
         {
@@ -449,7 +449,7 @@ const articulos = [
         precio: 1000,
         disponible: 'si',
         },
-            
+                    
 ];
 
 export default articulos;
