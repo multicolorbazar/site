@@ -86,7 +86,7 @@ const articulos = [
         descripcion_larga: 'La tabla de cortar es perfecta para diferentes tipos de alimentos, como carne, frutas, verduras, pasteles y más.',
         id_categoria: '2',
         id_subcategoria: '7',
-        precio: 2600,
+        precio: 4500,
         disponible: 'si',
         },
         {
@@ -96,7 +96,7 @@ const articulos = [
         descripcion_larga: 'La tabla de cortar es perfecta para diferentes tipos de alimentos, como carne, frutas, verduras, pasteles y más.',
         id_categoria: '2',
         id_subcategoria: '7',
-        precio: 2600,
+        precio: 4500,
         disponible: 'si',
         },
         {
@@ -106,7 +106,7 @@ const articulos = [
         descripcion_larga: 'La tabla de cortar es perfecta para diferentes tipos de alimentos, como carne, frutas, verduras, pasteles y más.',
         id_categoria: '2',
         id_subcategoria: '7',
-        precio: 2600,
+        precio: 4500,
         disponible: 'si',
         },
         {
