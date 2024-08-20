@@ -48,10 +48,10 @@ const imagenesArticulos = [
     { id_imagen: 47,id_articulo: 33,url: require('../images/articulos/027/2.png') },
     { id_imagen: 48,id_articulo: 34,url: require('../images/articulos/028/1.png') },
     { id_imagen: 49,id_articulo: 34,url: require('../images/articulos/028/2.png') },
-    { id_imagen: 50,id_articulo: 35,url: require('../images/articulos/028/3.png') },
-    { id_imagen: 51,id_articulo: 35,url: require('../images/articulos/028/4.png') },
-    { id_imagen: 52,id_articulo: 36,url: require('../images/articulos/028/5.png') },
-    { id_imagen: 53,id_articulo: 36,url: require('../images/articulos/028/6.png') },
+    { id_imagen: 50,id_articulo: 35,url: require('../images/articulos/028/13.png') },
+    { id_imagen: 51,id_articulo: 35,url: require('../images/articulos/028/3.png') },
+    { id_imagen: 52,id_articulo: 36,url: require('../images/articulos/028/12.png') },
+    { id_imagen: 53,id_articulo: 36,url: require('../images/articulos/028/5.png') },
     { id_imagen: 54,id_articulo: 37,url: require('../images/articulos/031/1.png') },
     { id_imagen: 55,id_articulo: 38,url: require('../images/articulos/042/1.png') },
     { id_imagen: 56,id_articulo: 39,url: require('../images/articulos/043/1.png') },
@@ -107,7 +107,9 @@ const imagenesArticulos = [
     { id_imagen: 106,id_articulo: 56,url: require('../images/articulos/050/1.png') },
     { id_imagen: 107,id_articulo: 57,url: require('../images/articulos/028/10.png') },
     { id_imagen: 108,id_articulo: 57,url: require('../images/articulos/028/11.png') },
-     
+    { id_imagen: 109,id_articulo: 35,url: require('../images/articulos/028/4.png') },
+    { id_imagen: 110,id_articulo: 36,url: require('../images/articulos/028/6.png') },
+    
 ];
 
 export default imagenesArticulos;
