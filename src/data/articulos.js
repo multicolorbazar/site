@@ -6,7 +6,7 @@ const articulos = [
         descripcion_larga: 'Los delantales infantiles cuentan con brazos completos para máxima cobertura y un de cierre ajustable que permite ponérselas y quitárselas sin complicaciones.. Dimensiones: 53x39 cm. Diferentes colores.',
         id_categoria: '1',
         id_subcategoria: '1',
-        precio: 4990,
+        precio: 5990 ,
         disponible: 'si',
         },
         {
@@ -449,7 +449,7 @@ const articulos = [
         precio: 1000,
         disponible: 'si',
         },
-                    
+             
 ];
 
 export default articulos;
