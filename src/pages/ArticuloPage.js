@@ -90,6 +90,14 @@ const ArticuloPage = () => {
         mostrarConfirmacion();
     };
 
+    // Mensaje predeterminado para la descripción larga
+    const mensajePredeterminado = "En nuestro bazar, cada producto es seleccionado con cuidado para ofrecerte lo mejor en artículos útiles y de calidad. Nos comprometemos a brindarte una experiencia de compra eficiente y cercana, ayudándote a construir un hogar lleno de detalles que hagan la diferencia.";
+
+    // Comprobación si la descripción larga es "" o "0"
+    const descripcionLarga = (articulo.descripcion_larga === "" || articulo.descripcion_larga === "0") 
+        ? mensajePredeterminado 
+        : articulo.descripcion_larga;
+
     return (
         <div className="articulo-detalle">
             <div className='boton-volver'>
@@ -143,7 +151,7 @@ const ArticuloPage = () => {
                     </div>
                 </div>
                 <hr />
-                <p className="articulo-descripcion-larga">{articulo.descripcion_larga}</p>
+                <p className="articulo-descripcion-larga">{descripcionLarga}</p>
             </div>
 
             <Dialog visible={showDialog} onHide={() => setShowDialog(false)} header="Artículos añadidos!" modal>

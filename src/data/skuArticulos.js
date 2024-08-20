@@ -79,6 +79,18 @@ const skuArticulos = [
     { id_sku: '0010040078', id_articulo: '45', variacion: 'Diseño 2' },
     { id_sku: '0010040079', id_articulo: '45', variacion: 'Diseño 3' },
     { id_sku: '0010040080', id_articulo: '45', variacion: 'Diseño 4' },
+    { id_sku: '00700180081', id_articulo: '46', variacion: 'Chile' },
+    { id_sku: '00700180082', id_articulo: '47', variacion: 'Chile' },
+    { id_sku: '0040060083', id_articulo: '48', variacion: 'Vegetables' },
+    { id_sku: '0040060084', id_articulo: '49', variacion: 'Fruit' },
+    { id_sku: '00600230085', id_articulo: '50', variacion: '40 unidades' },
+    { id_sku: '00700240086', id_articulo: '51', variacion: 'tamaño: 28x28cm' },
+    { id_sku: '00700240087', id_articulo: '52', variacion: 'tamaño: 28x28cm' },
+    { id_sku: '00700250088', id_articulo: '53', variacion: 'tamaño: 11x23cm' },
+    { id_sku: '00700250089', id_articulo: '54', variacion: 'tamaño: 20cm' },
+    { id_sku: '00700250090', id_articulo: '55', variacion: 'tamaño: 50cm' },
+    { id_sku: '00200260091', id_articulo: '56', variacion: 'tamaño: 30x40cm' },
+    { id_sku: '00700180092', id_articulo: '57', variacion: 'Chile' },
     
 ]
 export default skuArticulos;

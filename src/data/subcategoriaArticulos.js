@@ -21,6 +21,10 @@ const subcategoriaArticulos = [
     { id_subcategoria: 20, nombre: 'Lápiz grafito', id_categoria: 1},
     { id_subcategoria: 21, nombre: 'Hilo cometa', id_categoria: 7},
     { id_subcategoria: 22, nombre: 'Paño de cocina', id_categoria: 2},
+    { id_subcategoria: 23, nombre: 'Sabanillas', id_categoria: 6},
+    { id_subcategoria: 24, nombre: 'Pañuelo Fiestas Patrias', id_categoria: 7},
+    { id_subcategoria: 25, nombre: 'Decoración Fiestas Patrias', id_categoria: 7},
+    { id_subcategoria: 26, nombre: 'Bolsa lavadora', id_categoria: 2},
     
 ];
 

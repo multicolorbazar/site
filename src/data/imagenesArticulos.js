@@ -92,7 +92,22 @@ const imagenesArticulos = [
     { id_imagen: 91,id_articulo: 45,url: require('../images/articulos/045/2.jpg') },
     { id_imagen: 92,id_articulo: 45,url: require('../images/articulos/045/3.jpg') },
     { id_imagen: 93,id_articulo: 45,url: require('../images/articulos/045/4.jpg') },
-    
+    { id_imagen: 94,id_articulo: 12,url: require('../images/articulos/050/1.png') },
+    { id_imagen: 95,id_articulo: 46,url: require('../images/articulos/028/7.png') },
+    { id_imagen: 96,id_articulo: 46,url: require('../images/articulos/028/8.png') },
+    { id_imagen: 97,id_articulo: 47,url: require('../images/articulos/028/9.png') },
+    { id_imagen: 98,id_articulo: 48,url: require('../images/articulos/016_2/1.png') },
+    { id_imagen: 99,id_articulo: 49,url: require('../images/articulos/016_2/2.png') },
+    { id_imagen: 100,id_articulo: 50,url: require('../images/articulos/047/1.png') },
+    { id_imagen: 101,id_articulo: 51,url: require('../images/articulos/048/1.png') },
+    { id_imagen: 102,id_articulo: 52,url: require('../images/articulos/048/2.png') },
+    { id_imagen: 103,id_articulo: 53,url: require('../images/articulos/049/1.png') },
+    { id_imagen: 104,id_articulo: 54,url: require('../images/articulos/049/2.png') },
+    { id_imagen: 105,id_articulo: 55,url: require('../images/articulos/049/3.png') },
+    { id_imagen: 106,id_articulo: 56,url: require('../images/articulos/050/1.png') },
+    { id_imagen: 107,id_articulo: 57,url: require('../images/articulos/028/10.png') },
+    { id_imagen: 108,id_articulo: 57,url: require('../images/articulos/028/11.png') },
+     
 ];
 
 export default imagenesArticulos;
