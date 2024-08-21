@@ -122,7 +122,7 @@ const ArticuloPage = () => {
             </Carousel>
             <div className='articulo-informacion'>
                 <h2 className="articulo-nombre">{articulo.nombre}</h2>
-                <p className="articulo-descripcion">{articulo.descripcion}</p>
+                <p className="p-articulo-descripcion">{articulo.descripcion}</p>
                 <p className="articulo-precio">{formatearPrecio(articulo.precio)}</p>
                 <div className="articulo-controles">
                     <div className="controles-unidades">

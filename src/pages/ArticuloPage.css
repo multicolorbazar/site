@@ -180,7 +180,7 @@
     color: white !important;
 }
 
-.articulo-descripcion {
+.p-articulo-descripcion {
     overflow-wrap: break-word;
     word-break: break-word;
     white-space: normal;
