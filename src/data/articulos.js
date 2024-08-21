@@ -574,7 +574,7 @@ const articulos = [
         nombre: 'Dispensador bolsas mascotas - verde',
         descripcion: 'Dispensador bolsas de desecho de mascotas + 2 rollos de bolsas (40 unidades en total)',
         descripcion_larga: '0',
-        id_categoria: '7',
+        id_categoria: '6',
         id_subcategoria: '27',
         precio: 2000,
         disponible: 'si',
@@ -584,7 +584,7 @@ const articulos = [
         nombre: 'Dispensador bolsas mascotas - rojo',
         descripcion: 'Dispensador bolsas de desecho de mascotas + 2 rollos de bolsas (40 unidades en total)',
         descripcion_larga: '0',
-        id_categoria: '7',
+        id_categoria: '6',
         id_subcategoria: '27',
         precio: 2000,
         disponible: 'si',
@@ -594,12 +594,12 @@ const articulos = [
         nombre: 'Dispensador bolsas mascotas - negro',
         descripcion: 'Dispensador bolsas de desecho de mascotas + 2 rollos de bolsas (40 unidades en total)',
         descripcion_larga: '0',
-        id_categoria: '7',
+        id_categoria: '6',
         id_subcategoria: '27',
         precio: 2000,
         disponible: 'si',
         },
-                                           
+                                                   
 ];
 
 export default articulos;
