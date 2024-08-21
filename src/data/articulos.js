@@ -116,7 +116,7 @@ const articulos = [
         descripcion_larga: '0',
         id_categoria: '2',
         id_subcategoria: '8',
-        precio: 2200,
+        precio: 2500,
         disponible: 'si',
         },
         {
