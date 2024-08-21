@@ -91,6 +91,9 @@ const skuArticulos = [
     { id_sku: '00700250090', id_articulo: '55', variacion: 'tamaño: 50cm' },
     { id_sku: '00200260091', id_articulo: '56', variacion: 'tamaño: 30x40cm' },
     { id_sku: '00700180092', id_articulo: '57', variacion: 'Chile' },
+    { id_sku: '00700270093', id_articulo: '58', variacion: '1 dispensador + 40 bolsas' },
+    { id_sku: '00700270094', id_articulo: '59', variacion: '1 dispensador + 40 bolsas' },
+    { id_sku: '00700270095', id_articulo: '60', variacion: '1 dispensador + 40 bolsas' },
     
 ]
 export default skuArticulos;

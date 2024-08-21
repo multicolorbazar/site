@@ -92,7 +92,7 @@ const imagenesArticulos = [
     { id_imagen: 91,id_articulo: 45,url: require('../images/articulos/045/2.jpg') },
     { id_imagen: 92,id_articulo: 45,url: require('../images/articulos/045/3.jpg') },
     { id_imagen: 93,id_articulo: 45,url: require('../images/articulos/045/4.jpg') },
-    { id_imagen: 94,id_articulo: 12,url: require('../images/articulos/050/1.png') },
+    { id_imagen: 94,id_articulo: 12,url: require('../images/articulos/051/1.png') },
     { id_imagen: 95,id_articulo: 46,url: require('../images/articulos/028/7.png') },
     { id_imagen: 96,id_articulo: 46,url: require('../images/articulos/028/8.png') },
     { id_imagen: 97,id_articulo: 47,url: require('../images/articulos/028/9.png') },
@@ -109,6 +109,9 @@ const imagenesArticulos = [
     { id_imagen: 108,id_articulo: 57,url: require('../images/articulos/028/11.png') },
     { id_imagen: 109,id_articulo: 35,url: require('../images/articulos/028/4.png') },
     { id_imagen: 110,id_articulo: 36,url: require('../images/articulos/028/6.png') },
+    { id_imagen: 111,id_articulo: 58,url: require('../images/articulos/046/1.png') },
+    { id_imagen: 112,id_articulo: 59,url: require('../images/articulos/046/2.png') },
+    { id_imagen: 113,id_articulo: 60,url: require('../images/articulos/046/3.png') },
     
 ];
 
