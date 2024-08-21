@@ -601,15 +601,15 @@ const articulos = [
         },
         {
         id_articulo: 61,
-        nombre: 'Planilla Monitor de Tareas - para profesores',
+        nombre: 'Planilla Monitor de Tareas - para profesores y jefes de área',
         descripcion: '**Este producto incluye 2 licencias de uso, las cuales permiten utilizar la planilla en hasta 2 dispositivos.**',
         descripcion_larga: 'Optimiza la gestión de tareas de tus estudiantes o empleados. Registra entregas, monitorea el progreso y genera informes detallados de manera fácil y organizada. Incluye macros para exportar a PDF e imprimir.  **Diseñado para profesores y jefes de área que supervisan procesos.**',
         id_categoria: '3',
         id_subcategoria: '28',
-        precio: 6000,
+        precio: 8000,
         disponible: 'si',
         },
-                                                   
+                                               
 ];
 
 export default articulos;

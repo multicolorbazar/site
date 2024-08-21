@@ -56,6 +56,11 @@
 }
 
 .ac-articulo-descripcion {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* Número de líneas que deseas mostrar */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
     font-size: 1rem;
     font-weight: 400;
     color: #666;
