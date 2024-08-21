@@ -26,6 +26,7 @@ const subcategoriaArticulos = [
     { id_subcategoria: 25, nombre: 'Decoración Fiestas Patrias', id_categoria: 7},
     { id_subcategoria: 26, nombre: 'Bolsa lavadora', id_categoria: 2},
     { id_subcategoria: 27, nombre: 'Dispensador bolsas de mascotas', id_categoria: 6},
+    { id_subcategoria: 28, nombre: 'Planilla excel', id_categoria: 3},
     
 ];
 

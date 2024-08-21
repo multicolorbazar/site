@@ -112,6 +112,11 @@ const imagenesArticulos = [
     { id_imagen: 111,id_articulo: 58,url: require('../images/articulos/046/1.png') },
     { id_imagen: 112,id_articulo: 59,url: require('../images/articulos/046/2.png') },
     { id_imagen: 113,id_articulo: 60,url: require('../images/articulos/046/3.png') },
+    { id_imagen: 114,id_articulo: 61,url: require('../images/articulos/052/1.png') },
+    { id_imagen: 115,id_articulo: 61,url: require('../images/articulos/052/2.png') },
+    { id_imagen: 116,id_articulo: 61,url: require('../images/articulos/052/3.png') },
+    { id_imagen: 117,id_articulo: 61,url: require('../images/articulos/052/4.png') },
+    { id_imagen: 118,id_articulo: 61,url: require('../images/articulos/052/5.png') },
     
 ];
 
