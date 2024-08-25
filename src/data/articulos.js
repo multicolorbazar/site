@@ -346,7 +346,7 @@ const articulos = [
         descripcion_larga: '0',
         id_categoria: '7',
         id_subcategoria: '18',
-        precio: 3000,
+        precio: 4000,
         disponible: 'si',
         },
         {
@@ -466,7 +466,7 @@ const articulos = [
         descripcion_larga: '0',
         id_categoria: '7',
         id_subcategoria: '18',
-        precio: 3000,
+        precio: 3200,
         disponible: 'si',
         },
         {
