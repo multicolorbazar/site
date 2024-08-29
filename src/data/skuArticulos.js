@@ -95,6 +95,13 @@ const skuArticulos = [
     { id_sku: '00600270094', id_articulo: '59', variacion: '1 dispensador + 40 bolsas' },
     { id_sku: '00600270095', id_articulo: '60', variacion: '1 dispensador + 40 bolsas' },
     { id_sku: '00300280096', id_articulo: '61', variacion: '2 licencias' },
+    { id_sku: '00200290097', id_articulo: '62', variacion: '15 ml' },
+    { id_sku: '00200290098', id_articulo: '63', variacion: '15 ml' },
+    { id_sku: '00200290099', id_articulo: '64', variacion: '15 ml' },
+    { id_sku: '002002900100', id_articulo: '65', variacion: '15 ml' },
+    { id_sku: '002002900101', id_articulo: '66', variacion: '350 ml' },
+    { id_sku: '002002900102', id_articulo: '67', variacion: '350 ml' },
+    { id_sku: '002002900103', id_articulo: '68', variacion: '350 ml' },
     
 ]
 export default skuArticulos;
