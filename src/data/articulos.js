@@ -122,12 +122,12 @@ const articulos = [
         {
         id_articulo: 13,
         nombre: 'Gorro para ducha',
-        descripcion: '0',
+        descripcion: 'Gorro para ducha One Size Blanco con diseño',
         descripcion_larga: '0',
         id_categoria: '2',
         id_subcategoria: '9',
-        precio: 1500,
-        disponible: 'no',
+        precio: 1200,
+        disponible: 'si',
         },
         {
         id_articulo: 14,
@@ -679,6 +679,7 @@ const articulos = [
         precio: 9990,
         disponible: 'si',
         },
+        
                                           
 ];
 

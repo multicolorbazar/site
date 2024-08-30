@@ -124,6 +124,7 @@ const imagenesArticulos = [
     { id_imagen: 123,id_articulo: 66,url: require('../images/articulos/053/7.png') },
     { id_imagen: 124,id_articulo: 67,url: require('../images/articulos/053/5.png') },
     { id_imagen: 125,id_articulo: 68,url: require('../images/articulos/053/4.png') },
+    { id_imagen: 126,id_articulo: 13,url: require('../images/articulos/054/1.jpg') },
     
 ];
 
