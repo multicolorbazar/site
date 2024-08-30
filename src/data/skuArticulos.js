@@ -102,6 +102,9 @@ const skuArticulos = [
     { id_sku: '002002900101', id_articulo: '66', variacion: '350 ml' },
     { id_sku: '002002900102', id_articulo: '67', variacion: '350 ml' },
     { id_sku: '002002900103', id_articulo: '68', variacion: '350 ml' },
+    { id_sku: '007001800104', id_articulo: '69', variacion: 'Mariposa' },
+    { id_sku: '001001400105', id_articulo: '70', variacion: 'Stickers de niña' },
+    { id_sku: '001001400106', id_articulo: '71', variacion: 'Stickers de animalitos' },
     
 ]
 export default skuArticulos;

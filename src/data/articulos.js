@@ -679,8 +679,37 @@ const articulos = [
         precio: 9990,
         disponible: 'si',
         },
-        
-                                          
+        {
+        id_articulo: 69,
+        nombre: 'Cometa de mariposa',
+        descripcion: 'Cometa de mariposa, 78x76cm.',
+        descripcion_larga: '0',
+        id_categoria: '7',
+        id_subcategoria: '18',
+        precio: 1500,
+        disponible: 'si',
+        },
+        {
+        id_articulo: 70,
+        nombre: 'Stickers - Álbum de stickers (Motarro)',
+        descripcion: 'Álbum de stickers (Motarro) motivo de niña',
+        descripcion_larga: '0',
+        id_categoria: '1',
+        id_subcategoria: '14',
+        precio: 2000,
+        disponible: 'si',
+        },
+        {
+        id_articulo: 71,
+        nombre: 'Stickers - Block de stickers (Motarro)',
+        descripcion: 'Stickers - Block de stickers (Motarro) motivo de animalitos',
+        descripcion_larga: '0',
+        id_categoria: '1',
+        id_subcategoria: '14',
+        precio: 2000,
+        disponible: 'si',
+        },
+                                               
 ];
 
 export default articulos;
