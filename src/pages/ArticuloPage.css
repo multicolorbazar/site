@@ -61,6 +61,14 @@
     background-color: var(--tono-warning2);
 }
 
+.botones-navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: fit-content;
+    width: 100%;
+}
+
 .boton-volver {
     display: flex;
     align-self: flex-start;
@@ -74,7 +82,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    margin: 20px 0px 10px 10px;
+    margin: 20px 10px 10px 10px;
     padding: 6px 12px;
     background: hsla(328, 74%, 65%, 1) !important;
     border: none;

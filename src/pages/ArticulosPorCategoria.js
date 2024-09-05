@@ -10,7 +10,6 @@ import './ArticulosPorCategoria.css';
 // Función para obtener la URL de la imagen basada en el id del artículo
 const obtenerImagen = (idArticulo) => {
     const imagen = imagenesArticulos.find(img => img.id_articulo === idArticulo);
-    console.log('Imagen encontrada:', imagen); // Añadir log para depuración
     return imagen ? imagen.url : 'path/to/default-image.jpg'; // Ruta a una imagen predeterminada
 };
 
@@ -30,11 +29,10 @@ const ArticulosPorCategoria = () => {
     const categoriaIdString = categoriaId;
 
     // Filtrar los artículos por id_categoria y disponibilidad
-    const articulosFiltrados = articulos.filter(
-        (articulo) => articulo.id_categoria === categoriaIdString && articulo.disponible === 'si'
-    );
-
-    console.log('Artículos Filtrados:', articulosFiltrados); // Añadir log para depuración
+    const articulosFiltrados = articulos
+        .filter(articulo => articulo.id_categoria === categoriaIdString && articulo.disponible === 'si')
+        // Ordenar alfabéticamente por nombre
+        .sort((a, b) => a.nombre.toLowerCase().localeCompare(b.nombre.toLowerCase()));
 
     // Encontrar el nombre de la categoría usando el id
     const categoria = categorias.find(categoria => categoria.id.toString() === categoriaIdString);
