@@ -89,7 +89,7 @@ const ArticuloPage = () => {
     };
 
     const descripcionLarga = (articulo.descripcion_larga === "" || articulo.descripcion_larga === "0") 
-        ? "En nuestro bazar, cada producto es seleccionado con cuidado..." 
+        ? "En nuestro bazar, cada producto es seleccionado con cuidado para ofrecerte lo mejor en artículos útiles y de calidad. Nos comprometemos a brindarte una experiencia de compra eficiente y cercana, ayudándote a construir un hogar lleno de detalles que hagan la diferencia." 
         : articulo.descripcion_larga;
 
     const categoria = categorias.find(cat => cat.id === articulo.id_categoria);
