@@ -105,6 +105,14 @@ const skuArticulos = [
     { id_sku: '007001800104', id_articulo: '69', variacion: 'Mariposa' },
     { id_sku: '001001400105', id_articulo: '70', variacion: 'Stickers de niña' },
     { id_sku: '001001400106', id_articulo: '71', variacion: 'Stickers de animalitos' },
+    { id_sku: '002002900107', id_articulo: '72', variacion: 'Color blanca - 25 unidades' },
+    { id_sku: '002002900108', id_articulo: '73', variacion: 'Aprox 20 Varas' },
+    { id_sku: '002002900109', id_articulo: '74', variacion: 'Aprox 20 Varas' },
+    { id_sku: '002002900110', id_articulo: '75', variacion: 'Aprox 20 Varas' },
+    { id_sku: '002002900111', id_articulo: '76', variacion: '90 gr - aroma: Ruda' },
+    { id_sku: '002002900112', id_articulo: '77', variacion: 'color: Marrón' },
+    { id_sku: '002002900113', id_articulo: '78', variacion: 'color: Morado oscuro' },
+    { id_sku: '002002900114', id_articulo: '79', variacion: 'Set de 3' },
     
 ]
 export default skuArticulos;
