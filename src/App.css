@@ -28,8 +28,4 @@ body, html {
         width: 600px !important;
         margin: 0px auto !important;
     };
-    .App{
-        min-height: 100% !important;
-        max-height: 100% !important;
-    }
 }
