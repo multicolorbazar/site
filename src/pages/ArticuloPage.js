@@ -9,7 +9,7 @@ import articulos from '../data/articulos';
 import imagenesArticulos from '../data/imagenesArticulos';
 import skuArticulos from '../data/skuArticulos';
 import categorias from '../data/categorias';
-import subcategoriaArticulos from '../data/subcategoriaArticulos'; // Importa subcategoriaArticulos
+import subcategoriaArticulos from '../data/subcategoriaArticulos'; 
 import './ArticuloPage.css';
 import { useCarrito } from '../contexts/CarritoContext'; 
 
@@ -42,6 +42,10 @@ const ArticuloPage = () => {
     const [showDialog, setShowDialog] = useState(false);
     const [confirmMessage, setConfirmMessage] = useState('');
     const { carrito, actualizarCarrito } = useCarrito();
+
+    // Estado para controlar el modal de la imagen ampliada
+    const [showImageDialog, setShowImageDialog] = useState(false);
+    const [selectedImage, setSelectedImage] = useState(null);
 
     const volverBtnRef = useRef(null);
 
@@ -104,6 +108,12 @@ const ArticuloPage = () => {
     const enlaceCategoria = `/categoria/${articulo.id_categoria}`;
     const enlaceSubcategoria = `/subcategoria/${articulo.id_subcategoria}`;
 
+    // Función para abrir el modal con la imagen seleccionada
+    const handleImageClick = (url) => {
+        setSelectedImage(url);
+        setShowImageDialog(true);
+    };
+
     return (
         <div className="articulo-detalle">
             <div className='boton-volver'>
@@ -127,7 +137,12 @@ const ArticuloPage = () => {
                 {imagenes.length > 0 ? (
                     imagenes.map(imagen => (
                         <div key={imagen.id_imagen} className="articulo-carousel-item">
-                            <img src={imagen.url} alt={articulo.nombre} className="articulo-imagen" />
+                            <img 
+                                src={imagen.url} 
+                                alt={articulo.nombre} 
+                                className="articulo-imagen" 
+                                onClick={() => handleImageClick(imagen.url)} // Manejar clic en la imagen
+                            />
                         </div>
                     ))
                 ) : (
@@ -177,6 +192,19 @@ const ArticuloPage = () => {
                 <div className="p-dialog-footer">
                     <Button label="Aceptar" onClick={() => setShowDialog(false)} />
                 </div>
+            </Dialog>
+
+            {/* Modal para mostrar imagen en pantalla completa */}
+            <Dialog 
+                visible={showImageDialog} 
+                onHide={() => setShowImageDialog(false)} 
+                header="Vista previa de la imagen"
+                style={{ width: '80vw', maxWidth: '1000px' }} 
+                modal
+            >
+                {selectedImage && (
+                    <img src={selectedImage} alt="Imagen ampliada" style={{ width: '100%', height: 'auto' }} />
+                )}
             </Dialog>
         </div>
     );

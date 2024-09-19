@@ -112,11 +112,11 @@ const imagenesArticulos = [
     { id_imagen: 111,id_articulo: 58,url: require('../images/articulos/046/1.png') },
     { id_imagen: 112,id_articulo: 59,url: require('../images/articulos/046/2.png') },
     { id_imagen: 113,id_articulo: 60,url: require('../images/articulos/046/3.png') },
-    { id_imagen: 114,id_articulo: 61,url: require('../images/articulos/052/1.png') },
-    { id_imagen: 115,id_articulo: 61,url: require('../images/articulos/052/2.png') },
-    { id_imagen: 116,id_articulo: 61,url: require('../images/articulos/052/3.png') },
-    { id_imagen: 117,id_articulo: 61,url: require('../images/articulos/052/4.png') },
-    { id_imagen: 118,id_articulo: 61,url: require('../images/articulos/052/5.png') },
+    { id_imagen: 114,id_articulo: 61,url: require('../images/articulos/052/1_01.png') },
+    { id_imagen: 115,id_articulo: 61,url: require('../images/articulos/052/1_02.png') },
+    { id_imagen: 116,id_articulo: 61,url: require('../images/articulos/052/1_03.png') },
+    { id_imagen: 117,id_articulo: 61,url: require('../images/articulos/052/1_04.png') },
+    { id_imagen: 118,id_articulo: 61,url: require('../images/articulos/052/1_05.png') },
     { id_imagen: 119,id_articulo: 62,url: require('../images/articulos/053/1.png') },
     { id_imagen: 120,id_articulo: 63,url: require('../images/articulos/053/2.png') },
     { id_imagen: 121,id_articulo: 64,url: require('../images/articulos/053/3.png') },
@@ -146,6 +146,11 @@ const imagenesArticulos = [
     { id_imagen: 145,id_articulo: 80,url: require('../images/articulos/053/8.png') },
     { id_imagen: 146,id_articulo: 81,url: require('../images/articulos/053/9.png') },
     { id_imagen: 147,id_articulo: 82,url: require('../images/articulos/053/10.png') },
+    { id_imagen: 148,id_articulo: 83,url: require('../images/articulos/052/2_01.png') },
+    { id_imagen: 149,id_articulo: 83,url: require('../images/articulos/052/2_02.png') },
+    { id_imagen: 150,id_articulo: 83,url: require('../images/articulos/052/2_03.png') },
+    { id_imagen: 151,id_articulo: 83,url: require('../images/articulos/052/2_04.png') },
+    { id_imagen: 152,id_articulo: 83,url: require('../images/articulos/052/2_05.png') },
     
 ];
 

@@ -819,7 +819,17 @@ const articulos = [
         precio: 3000,
         disponible: 'si',
         },
-                     
+        {
+        id_articulo: 83,
+        nombre: 'App Ajuste de Calificaciones- para Jefe de UTP',
+        descripcion: 'Ajusta y optimiza las calificaciones de tus estudiantes de forma precisa y flexible. Registra puntajes, aplica ajustes personalizados como escalas, puntajes mínimos, media y desviación estándar, y compara visualmente las notas originales con las ajustadas. Ideal para jefes de UTP, coordinadores y profesores, la planilla permite adaptar las calificaciones según el contexto de cada estudiante, incluyendo casos particulares y NEE. Genera reportes detallados para dirección, docentes y estudiantes.',
+        descripcion_larga: '**Esta aplicación esta diseñada exclusivamente para Windows y Microsoft Excel 10 en adelante. Incluye 2 licencias de uso, las cuales permiten utilizar la planilla en hasta 2 dispositivos.**',
+        id_categoria: '3',
+        id_subcategoria: '28',
+        precio: 20000,
+        disponible: 'si',
+        },
+                             
 ];
 
 export default articulos;

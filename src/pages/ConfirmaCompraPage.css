@@ -148,7 +148,7 @@
 @media (max-width: 600px) {
     .confirmar-stock {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: right;
         justify-content: right;
         margin-bottom: 20px;
