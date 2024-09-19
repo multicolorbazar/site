@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React, { useEffect, useRef } from 'react'; 
 import { useParams, Link } from 'react-router-dom';
 import articulos from '../data/articulos';
 import subcategorias from '../data/subcategoriaArticulos'; // Importar subcategorías
@@ -24,6 +24,14 @@ const formatearPrecio = (precio) => {
 
 const ArticulosPorSubcategoria = () => {
     const { subcategoriaId } = useParams();
+    const botonVolverRef = useRef(null); // Crear referencia para el botón
+
+    // Usar useEffect para hacer scroll al botón cuando el componente se monte
+    useEffect(() => {
+        if (botonVolverRef.current) {
+            botonVolverRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }, []);
 
     // Asegurarse de que subcategoriaId está definido
     if (!subcategoriaId) {
@@ -49,7 +57,7 @@ const ArticulosPorSubcategoria = () => {
 
     return (
         <div className="ac-articulos-categoria-container">
-            <div className='boton-volver'>
+            <div className='boton-volver' ref={botonVolverRef}> {/* Referencia aplicada aquí */}
                 <Link to="/home" className='link-boton-volver'>
                     <Button className="p-button-secondary volver-btn">
                         <FaArrowLeft className="volver-icono" /> Bazar
