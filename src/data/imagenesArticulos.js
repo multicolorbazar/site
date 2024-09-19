@@ -143,6 +143,9 @@ const imagenesArticulos = [
     { id_imagen: 142,id_articulo: 77,url: require('../images/articulos/056/11.jpg') },
     { id_imagen: 143,id_articulo: 78,url: require('../images/articulos/056/10.jpg') },
     { id_imagen: 144,id_articulo: 79,url: require('../images/articulos/057/1.jpeg') },
+    { id_imagen: 145,id_articulo: 80,url: require('../images/articulos/053/8.png') },
+    { id_imagen: 146,id_articulo: 81,url: require('../images/articulos/053/9.png') },
+    { id_imagen: 147,id_articulo: 82,url: require('../images/articulos/053/10.png') },
     
 ];
 

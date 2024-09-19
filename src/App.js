@@ -10,7 +10,9 @@ import ArticuloPage from './pages/ArticuloPage';
 import CarritoPage from './pages/CarritoPage';
 import ConfirmaCompraPage from './pages/ConfirmaCompraPage';
 import ArticulosPorCategoria from './pages/ArticulosPorCategoria';
+import ArticulosPorSubcategoria from './pages/ArticulosPorSubcategoria';
 import { CarritoProvider } from './contexts/CarritoContext';
+import Footer from './components/Footer'; // Importa el componente Footer
 import WelcomeModal from './components/WelcomeModal'; // Importa el modal
 
 function App() {
@@ -26,17 +28,9 @@ function App() {
                         <Route path="/carrito" element={<CarritoPage />} />
                         <Route path="/confirmacompra" element={<ConfirmaCompraPage />} />
                         <Route path="/categoria/:categoriaId" element={<ArticulosPorCategoria />} />
+                        <Route path="/subcategoria/:subcategoriaId" element={<ArticulosPorSubcategoria />} />
                     </Routes>
-                    <footer style={{ textAlign: 'center', padding: '10px', fontSize: '14px' }}>
-                        Bazar Multicolor - Contacto: 
-                        <i className="pi pi-phone" style={{ marginLeft: '8px', marginRight: '4px' }}></i>
-                        <a 
-                            href="tel:+56981605147"
-                            style={{ textDecoration: 'none', color: 'inherit' }}
-                        >
-                            +569 816 051 47
-                        </a>
-                    </footer>
+                    <Footer />
                     <WelcomeModal /> {/* Añadir el modal aquí */}
                 </div>
             </Router>

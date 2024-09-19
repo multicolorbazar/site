@@ -102,15 +102,46 @@
     align-items: center;
     justify-content: right;
     margin-bottom: 20px;
+    gap: 10px;
 }
 
-.confirmar-stock button {
+.compra_confirmar {
     display: flex;
     align-items: center;
+    font-size: 14px;
     color: #fff;
     background: rgb(29, 170, 97);
     border: none;
     padding: 10px 12px;
     border-radius: 8px;
     gap: 8px;
+    cursor: pointer;
 }
+
+.compra_pagar {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    background: rgb(98, 0, 238);
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+
+.compra_envio {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    background: rgb(232, 100, 170);
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    gap: 8px;
+    cursor: pointer;
+}
+

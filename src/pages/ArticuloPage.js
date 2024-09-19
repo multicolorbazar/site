@@ -1,14 +1,15 @@
-import React, { useState, useEffect, useRef } from 'react'; // Asegúrate de importar useRef
+import React, { useState, useEffect, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Button } from 'primereact/button';
 import { Dialog } from 'primereact/dialog'; 
-import { FaArrowLeft } from 'react-icons/fa';
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import { Carousel } from 'antd';
 import 'antd/dist/reset.css';
 import articulos from '../data/articulos';
 import imagenesArticulos from '../data/imagenesArticulos';
 import skuArticulos from '../data/skuArticulos';
-import categorias from '../data/categorias'; 
+import categorias from '../data/categorias';
+import subcategoriaArticulos from '../data/subcategoriaArticulos'; // Importa subcategoriaArticulos
 import './ArticuloPage.css';
 import { useCarrito } from '../contexts/CarritoContext'; 
 
@@ -42,7 +43,6 @@ const ArticuloPage = () => {
     const [confirmMessage, setConfirmMessage] = useState('');
     const { carrito, actualizarCarrito } = useCarrito();
 
-    // Crear una referencia para el botón "Volver"
     const volverBtnRef = useRef(null);
 
     useEffect(() => {
@@ -52,7 +52,6 @@ const ArticuloPage = () => {
             localStorage.setItem(visitaKey, visitas + 1);
         }
 
-        // Cuando el componente se carga, hacer scroll al botón "Volver"
         if (volverBtnRef.current) {
             volverBtnRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
@@ -92,23 +91,33 @@ const ArticuloPage = () => {
         ? "En nuestro bazar, cada producto es seleccionado con cuidado para ofrecerte lo mejor en artículos útiles y de calidad. Nos comprometemos a brindarte una experiencia de compra eficiente y cercana, ayudándote a construir un hogar lleno de detalles que hagan la diferencia." 
         : articulo.descripcion_larga;
 
-    const categoria = categorias.find(cat => cat.id === articulo.id_categoria);
+    // Obtener el nombre de la categoría
+    const idCategoria = parseInt(articulo.id_categoria, 10);
+    const categoria = categorias.find(cat => cat.id === idCategoria);
     const nombreCategoria = categoria ? categoria.nombre : 'Categoría Desconocida';
+
+    // Obtener el nombre de la subcategoría
+    const idSubcategoria = parseInt(articulo.id_subcategoria, 10);
+    const subcategoria = subcategoriaArticulos.find(sub => sub.id_subcategoria === idSubcategoria);
+    const nombreSubcategoria = subcategoria ? subcategoria.nombre : 'Subcategoría Desconocida';
+
     const enlaceCategoria = `/categoria/${articulo.id_categoria}`;
+    const enlaceSubcategoria = `/subcategoria/${articulo.id_subcategoria}`;
 
     return (
         <div className="articulo-detalle">
             <div className='boton-volver'>
                 <div className='botones-navegacion'>
-                    <Link to="/home" className='link-boton-volver'>
-                        {/* Usar la referencia en el botón "Volver" */}
+                    {/* Botón "Ver categoría" con la flecha hacia la izquierda */}
+                    <Link to={enlaceCategoria} className='link-boton-volver boton-categoria'>
                         <Button ref={volverBtnRef} className="p-button-secondary volver-btn">
-                            <FaArrowLeft className="volver-icono" /> Volver
+                            <FaArrowLeft className="volver-icono" /> {nombreCategoria}
                         </Button>
                     </Link>
-                    <Link to={enlaceCategoria} className='link-boton-volver'>
+                    {/* Botón "Ver subcategoría" con la flecha hacia la derecha */}
+                    <Link to={enlaceSubcategoria} className='link-boton-volver boton-subcategoria'>
                         <Button className="p-button-secondary volver-btn">
-                            Ver Categoría
+                            {nombreSubcategoria} <FaArrowRight className="volver-icono" />
                         </Button>
                     </Link>
                 </div>

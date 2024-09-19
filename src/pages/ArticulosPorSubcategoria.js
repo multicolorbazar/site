@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'; 
 import { useParams, Link } from 'react-router-dom';
 import articulos from '../data/articulos';
-import categorias from '../data/categorias'; // Importar categorías
+import subcategorias from '../data/subcategoriaArticulos'; // Importar subcategorías
 import { Button } from 'primereact/button';
 import { FaArrowLeft } from 'react-icons/fa';
 import imagenesArticulos from '../data/imagenesArticulos'; 
-import './ArticulosPorCategoria.css';
+import './ArticulosPorSubcategoria.css';
 
 // Función para obtener la URL de la imagen basada en el id del artículo
 const obtenerImagen = (idArticulo) => {
@@ -22,21 +22,30 @@ const formatearPrecio = (precio) => {
     }).format(precio);
 };
 
-const ArticulosPorCategoria = () => {
-    const { categoriaId } = useParams();
-    
-    // Convertir categoriaId a cadena para la comparación
-    const categoriaIdString = categoriaId;
+const ArticulosPorSubcategoria = () => {
+    const { subcategoriaId } = useParams();
 
-    // Filtrar los artículos por id_categoria y disponibilidad
+    // Asegurarse de que subcategoriaId está definido
+    if (!subcategoriaId) {
+        return <p>Error: La subcategoría no es válida.</p>;
+    }
+
+    // Convertir ambos a cadenas para asegurarnos de que la comparación es correcta
+    const subcategoriaIdString = subcategoriaId.toString();
+
+    // Filtrar los artículos por id_subcategoria y disponibilidad
     const articulosFiltrados = articulos
-        .filter(articulo => articulo.id_categoria === categoriaIdString && articulo.disponible === 'si')
+        .filter(articulo => 
+            articulo.id_subcategoria && // Validar que id_subcategoria exista
+            articulo.id_subcategoria.toString() === subcategoriaIdString && 
+            articulo.disponible === 'si'
+        )
         // Ordenar alfabéticamente por nombre
         .sort((a, b) => a.nombre.toLowerCase().localeCompare(b.nombre.toLowerCase()));
 
-    // Encontrar el nombre de la categoría usando el id
-    const categoria = categorias.find(categoria => categoria.id.toString() === categoriaIdString);
-    const nombreCategoria = categoria ? categoria.nombre : 'Categoría Desconocida';
+    // Encontrar el nombre de la subcategoría usando el id_subcategoria
+    const subcategoria = subcategorias?.find(subcategoria => subcategoria?.id_subcategoria.toString() === subcategoriaIdString);
+    const nombreSubcategoria = subcategoria ? subcategoria.nombre : 'Subcategoría Desconocida';
 
     return (
         <div className="ac-articulos-categoria-container">
@@ -47,7 +56,7 @@ const ArticulosPorCategoria = () => {
                     </Button>
                 </Link>
             </div>
-            <h2 className="ac-articulos-categoria-title">{nombreCategoria}</h2>
+            <h2 className="ac-articulos-categoria-title">{nombreSubcategoria}</h2>
             <div className="ac-articulos-categoria-grid">
                 {articulosFiltrados.length > 0 ? (
                     articulosFiltrados.map((articulo) => (
@@ -67,11 +76,11 @@ const ArticulosPorCategoria = () => {
                         </Link>
                     ))
                 ) : (
-                    <p>No hay artículos en esta categoría.</p>
+                    <p>No hay artículos en esta subcategoría.</p>
                 )}
             </div>
         </div>
     );
 };
 
-export default ArticulosPorCategoria;
+export default ArticulosPorSubcategoria;

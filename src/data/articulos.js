@@ -602,8 +602,8 @@ const articulos = [
         {
         id_articulo: 61,
         nombre: 'App Monitor de Tareas - para profesores y jefes de área',
-        descripcion: '**Esta aplicación esta diseñada exclusivamente para Windows y Microsoft Excel 10 en adelante. Incluye 2 licencias de uso, las cuales permiten utilizar la planilla en hasta 2 dispositivos.**',
-        descripcion_larga: 'Optimiza la gestión de tareas de tus estudiantes o empleados. Registra entregas, monitorea el progreso y genera informes detallados de manera fácil y organizada. Incluye macros para exportar a PDF e imprimir.  **Diseñado para profesores y jefes de área que supervisan procesos.**',
+        descripcion: 'Optimiza la gestión de tareas de tus estudiantes o empleados. Registra entregas, monitorea el progreso y genera informes detallados de manera fácil y organizada. Incluye macros para exportar a PDF e imprimir.  **Diseñado para profesores y jefes de área que supervisan procesos.**',
+        descripcion_larga: '**Esta aplicación esta diseñada exclusivamente para Windows y Microsoft Excel 10 en adelante. Incluye 2 licencias de uso, las cuales permiten utilizar la planilla en hasta 2 dispositivos.**',
         id_categoria: '3',
         id_subcategoria: '28',
         precio: 8000,
@@ -789,7 +789,37 @@ const articulos = [
         precio: 4200,
         disponible: 'si',
         },
-                                               
+        {
+        id_articulo: 80,
+        nombre: 'Aceite Aromático Palo Santo Krishna 15 ml',
+        descripcion: 'Fragancia relajante y calmante.',
+        descripcion_larga: 'El Aceite de Aromaterapia Krishna, un producto de alta calidad originario de la India, es ideal para crear un ambiente exquisitamente aromatizado en tu hogar u oficina. Este aceite garantiza una dispersión efectiva y duradera del aroma, y está diseñado para su uso en difusores de cerámica, eléctricos o ultrasónicos.',
+        id_categoria: '2',
+        id_subcategoria: '29',
+        precio: 3000,
+        disponible: 'si',
+        },
+        {
+        id_articulo: 81,
+        nombre: 'Aceite Aromático Palo Canabis 15 ml',
+        descripcion: 'Fragancia relajante y calmante.',
+        descripcion_larga: 'El Aceite de Aromaterapia Krishna, un producto de alta calidad originario de la India, es ideal para crear un ambiente exquisitamente aromatizado en tu hogar u oficina. Este aceite garantiza una dispersión efectiva y duradera del aroma, y está diseñado para su uso en difusores de cerámica, eléctricos o ultrasónicos.',
+        id_categoria: '2',
+        id_subcategoria: '29',
+        precio: 3000,
+        disponible: 'si',
+        },
+        {
+        id_articulo: 82,
+        nombre: 'Aceite Aromático Jazmín Krishna 15 ml',
+        descripcion: 'Fragancia relajante y calmante.',
+        descripcion_larga: 'El Aceite de Aromaterapia Krishna, un producto de alta calidad originario de la India, es ideal para crear un ambiente exquisitamente aromatizado en tu hogar u oficina. Este aceite garantiza una dispersión efectiva y duradera del aroma, y está diseñado para su uso en difusores de cerámica, eléctricos o ultrasónicos.',
+        id_categoria: '2',
+        id_subcategoria: '29',
+        precio: 3000,
+        disponible: 'si',
+        },
+                     
 ];
 
 export default articulos;

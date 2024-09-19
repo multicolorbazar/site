@@ -84,7 +84,7 @@
     align-items: center;
     gap: 5px;
     margin: 20px 10px 10px 10px;
-    padding: 6px 12px;
+    padding: 10px 12px !important;
     background: hsla(328, 74%, 65%, 1) !important;
     border: none;
 }
@@ -203,4 +203,14 @@
     margin-top: 10px;
     text-align: justify;
     font-size: 0.9rem;
+}
+
+
+/* */
+.volver-icono {
+    margin-left: 5px; /* Ajusta el margen para separar el icono del texto */
+}
+
+.boton-subcategoria .volver-icono {
+    margin-left: 10px; /* Ajusta el margen específico para el botón de subcategoría */
 }

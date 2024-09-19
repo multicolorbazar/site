@@ -113,6 +113,9 @@ const skuArticulos = [
     { id_sku: '002002900112', id_articulo: '77', variacion: 'color: Marrón' },
     { id_sku: '002002900113', id_articulo: '78', variacion: 'color: Morado oscuro' },
     { id_sku: '002002900114', id_articulo: '79', variacion: 'Set de 3' },
+    { id_sku: '002002900115', id_articulo: '80', variacion: '15 ml' },
+    { id_sku: '002002900116', id_articulo: '81', variacion: '15 ml' },
+    { id_sku: '002002900117', id_articulo: '82', variacion: '15 ml' },
     
 ]
 export default skuArticulos;

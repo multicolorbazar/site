@@ -58,42 +58,49 @@ const ResumenCompraCard = ({ carritoDetalles, getTotalGeneral }) => (
     </div>
 );
 
-const DatosBancariosCard = () => (
-    <div className="datos-bancarios-card">
-        <div className="datosbanco-header">
-            <PiBankFill className="datosbanco-icon" />
-            <h2>Datos de Transferencia Bancaria</h2>
+const DatosBancariosCard = () => {
+    const imagenBanco = require('../images/secciones/bcimach.png'); // Asegúrate de que la ruta sea correcta
+
+    return (
+        <div id="datos-bancarios" className="datos-bancarios-card">
+            <div className="datosbanco-header">
+                <PiBankFill className="datosbanco-icon" />
+                <h2>Datos de Transferencia Bancaria</h2>
+            </div>
+            <table className="datos-bancarios-table">
+                <tbody>
+                    <tr>
+                        <td>Banco:</td>
+                        <td>
+                            BCI/MACH
+                            <img src={imagenBanco} alt="Logo BCI/MACH" style={{ marginLeft: '10px', maxHeight: '20px' }} />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tipo de cuenta:</td>
+                        <td>Cuenta Corriente</td>
+                    </tr>
+                    <tr>
+                        <td>N° cuenta:</td>
+                        <td>7 770 15 41859 0</td>
+                    </tr>
+                    <tr>
+                        <td>RUT:</td>
+                        <td>15.418.590-9</td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>multicolorbazar@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>A nombre de:</td>
+                        <td>Karin Garabito M</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <table className="datos-bancarios-table">
-            <tbody>
-                <tr>
-                    <td>Banco:</td>
-                    <td>Santander</td>
-                </tr>
-                <tr>
-                    <td>Tipo de cuenta:</td>
-                    <td>Cuenta Corriente</td>
-                </tr>
-                <tr>
-                    <td>N° cuenta:</td>
-                    <td>66898717</td>
-                </tr>
-                <tr>
-                    <td>RUT:</td>
-                    <td>154185909</td>
-                </tr>
-                <tr>
-                    <td>email:</td>
-                    <td>multicolorbazar@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>A nombre de:</td>
-                    <td>Karin Garabito M</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-);
+    );
+};
 
 const OpcionesEnviosCard = () => {
     const [visible, setVisible] = useState(false);
@@ -103,7 +110,7 @@ const OpcionesEnviosCard = () => {
     };
 
     return (
-        <div className="opciones-envios-card">
+        <div id="opciones-envios" className="opciones-envios-card">
             <div className="envios-header">
                 <FaMotorcycle className="datosbanco-icon" />
                 <h2>Opciones de Envíos</h2>
@@ -112,7 +119,7 @@ const OpcionesEnviosCard = () => {
                 <h3>Opción 1: Delivery gratis</h3>
                 <p>Tenemos <span style={{color: 'var(--tono-warning2)'}}>delivery gratis</span> entre Vicuña Mackena, Irarrazaval, Guillermo Man y Marathon, <span style={{color: 'var(--tono-warning2)'}}>por compras superiores a $3.990</span>.</p>
                 <img src={require('../images/secciones/envios.png')} alt="Delivery" onClick={handleImageClick} style={{ cursor: 'pointer', maxWidth: '100%', height: 'auto', marginBottom: '20px' }} />
-                <Dialog header="Opciones de Envíos" visible={visible} style={{ width: '90vw',  }} onHide={() => setVisible(false)}>
+                <Dialog header="Opciones de Envíos" visible={visible} style={{ width: '90vw' }} onHide={() => setVisible(false)}>
                     <img src={require('../images/secciones/envios.png')} alt="Delivery" style={{ width: '100%', height: 'auto' }} />
                 </Dialog>
                 <h3>Opción 2: Envío como encomienda</h3>
@@ -173,7 +180,6 @@ const ConfirmarCompraPage = () => {
     
         setCarritoDetalles(detalles);
     }, []);
-    
 
     const calcularPrecioTotal = (item) => {
         return item.precio * item.unidades;
@@ -195,7 +201,13 @@ const ConfirmarCompraPage = () => {
     
         window.open(whatsappLink, "_blank");
     };
-    
+
+    const scrollToSection = (sectionId) => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    };
 
     return (
         <div className="confirmar-compra-page">
@@ -211,8 +223,14 @@ const ConfirmarCompraPage = () => {
                 <ResumenCompraCard carritoDetalles={carritoDetalles} getTotalGeneral={getTotalGeneral} />
 
                 <div className="confirmar-stock">
-                    <button onClick={enviarMensajeWhatsapp}>
+                    <button className="compra_confirmar" onClick={enviarMensajeWhatsapp}>
                         <FaWhatsapp /> Confirma stock
+                    </button>
+                    <button className="compra_pagar" onClick={() => scrollToSection('datos-bancarios')}>
+                        <PiBankFill /> Pago/Transferencia
+                    </button>
+                    <button className="compra_envio" onClick={() => scrollToSection('opciones-envios')}>
+                        <FaMotorcycle /> Envío o entrega
                     </button>
                 </div>
 

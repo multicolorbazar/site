@@ -1,0 +1,53 @@
+/* components/Footer.css */
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 10px;
+    font-size: 13px;
+    color: #fff;
+    background-color: rgb(253, 175, 223);
+    background-image: radial-gradient(circle at 5% 90%, hsla(328.1818181818182, 74%, 65%, 1) 13%, transparent 65%), radial-gradient(circle at 20% 4%, rgb(255, 141, 211) 22%, transparent 56%);
+    background-blend-mode: normal, normal;
+}
+
+.footer-box {
+    margin-top: 15px;
+    width: 80%;
+}
+
+.footer-title {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.footer-contact, .footer-social {
+    margin: 10px 0;
+}
+
+.footer-icon {
+    margin-left: 8px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.footer-link {
+    transition: 0.2s ease;
+}
+
+.footer-link:hover {
+    color: var(--tono-warning2);
+}
+
+.footer-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-social .footer-icon {
+    font-size: 20px; /* Tamaño del ícono de Instagram */
+}
+
+.footer-contact .footer-icon {
+    font-size: 18px; /* Tamaño del ícono de teléfono */
+}
