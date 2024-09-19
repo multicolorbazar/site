@@ -226,12 +226,6 @@ const ConfirmarCompraPage = () => {
                     <button className="compra_confirmar" onClick={enviarMensajeWhatsapp}>
                         <FaWhatsapp /> Confirma stock
                     </button>
-                    <button className="compra_pagar" onClick={() => scrollToSection('datos-bancarios')}>
-                        <PiBankFill /> Pago/Transferencia
-                    </button>
-                    <button className="compra_envio" onClick={() => scrollToSection('opciones-envios')}>
-                        <FaMotorcycle /> Envío o entrega
-                    </button>
                 </div>
 
                 <DatosBancariosCard />
