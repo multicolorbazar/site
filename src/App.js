@@ -21,15 +21,17 @@ function App() {
             <Router>
                 <div className="App">
                     <Encabezado /> 
-                    <Routes>
-                        <Route path="/" element={<Navigate to="/home" />} />
-                        <Route path="/home" element={<PrincipalPage />} />
-                        <Route path="/articulo/:id_articulo" element={<ArticuloPage />} />
-                        <Route path="/carrito" element={<CarritoPage />} />
-                        <Route path="/confirmacompra" element={<ConfirmaCompraPage />} />
-                        <Route path="/categoria/:categoriaId" element={<ArticulosPorCategoria />} />
-                        <Route path="/subcategoria/:subcategoriaId" element={<ArticulosPorSubcategoria />} />
-                    </Routes>
+                    <div className="content">
+                        <Routes>
+                            <Route path="/" element={<Navigate to="/home" />} />
+                            <Route path="/home" element={<PrincipalPage />} />
+                            <Route path="/articulo/:id_articulo" element={<ArticuloPage />} />
+                            <Route path="/carrito" element={<CarritoPage />} />
+                            <Route path="/confirmacompra" element={<ConfirmaCompraPage />} />
+                            <Route path="/categoria/:categoriaId" element={<ArticulosPorCategoria />} />
+                            <Route path="/subcategoria/:subcategoriaId" element={<ArticulosPorSubcategoria />} />
+                        </Routes>
+                    </div>
                     <Footer />
                     <WelcomeModal /> {/* Añadir el modal aquí */}
                 </div>
@@ -37,5 +39,6 @@ function App() {
         </CarritoProvider>
     );
 }
+
 
 export default App;

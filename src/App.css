@@ -1,26 +1,30 @@
-/* Asegúrate de que no haya márgenes y padding predeterminados que afecten el diseño */
+/* App.css */
 
 
 body, html {
     width: 100%;
-    min-width: 350px;
     height: 100%;
+    margin: 0;
     overflow-x: hidden;
     background: rgb(245, 245, 245);
-}
-
-.content {
-    margin-top: 60px; /* Ajusta según la altura del encabezado */
-    padding: 20px;
 }
 
 .App {
     display: flex;
     flex-direction: column;
+    min-height: 100vh; /* Esto asegura que el contenedor principal ocupe al menos toda la altura de la ventana */
     gap: 20px;
-    min-height: 100% !important;
-    max-height: 100% !important;
 }
+
+.content {
+    flex: 1; /* Esto hace que el contenido se expanda para llenar el espacio disponible */      
+}
+
+footer {
+    background-color: var(--tono-mediano2);
+    color: var(--tono-oscuro);
+}
+
 
 @media (min-width: 600px) {
     .App,
