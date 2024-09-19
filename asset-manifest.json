@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/site/static/css/main.153cdef4.css",
-    "main.js": "/site/static/js/main.844ecdbb.js",
+    "main.js": "/site/static/js/main.9f8098b5.js",
     "static/js/453.fc74302d.chunk.js": "/site/static/js/453.fc74302d.chunk.js",
     "static/media/carrousel3.png": "/site/static/media/carrousel3.1615971adf667a5fb176.png",
     "static/media/1.png": "/site/static/media/1.462b2a06dc5ae7f8b141.png",
@@ -69,17 +69,17 @@
     "static/media/brb4.jpeg": "/site/static/media/brb4.60766fe0dbb39559dc0c.jpeg",
     "static/media/brb3.jpeg": "/site/static/media/brb3.9ef630ca10ff5bd6872f.jpeg",
     "static/media/brb2.jpeg": "/site/static/media/brb2.e862615aec2669f57b5e.jpeg",
-    "static/media/2_04.png": "/site/static/media/2_04.aa27c6dde7f775c1fa20.png",
+    "static/media/2_04.png": "/site/static/media/2_04.908f0fe5e591e57fb27c.png",
     "static/media/2_03.png": "/site/static/media/2_03.3c203715d2f509df8428.png",
     "static/media/logo_bm_6f.svg": "/site/static/media/logo_bm_6f.40e21ec96af52e7d2e263b30cfcacc54.svg",
     "static/media/logo_bm_2f.svg": "/site/static/media/logo_bm_2f.142d08d2428d0e13957eb751db6b9b01.svg",
     "index.html": "/site/index.html",
     "main.153cdef4.css.map": "/site/static/css/main.153cdef4.css.map",
-    "main.844ecdbb.js.map": "/site/static/js/main.844ecdbb.js.map",
+    "main.9f8098b5.js.map": "/site/static/js/main.9f8098b5.js.map",
     "453.fc74302d.chunk.js.map": "/site/static/js/453.fc74302d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.153cdef4.css",
-    "static/js/main.844ecdbb.js"
+    "static/js/main.9f8098b5.js"
   ]
 }
