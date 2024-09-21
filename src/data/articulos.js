@@ -821,7 +821,7 @@ const articulos = [
         },
         {
         id_articulo: 83,
-        nombre: 'App Ajuste de Calificaciones- para Jefe de UTP',
+        nombre: 'App Ajuste de Calificaciones - para Jefe de UTP',
         descripcion: 'Ajusta y optimiza las calificaciones de tus estudiantes de forma precisa y flexible. Registra puntajes, aplica ajustes personalizados como escalas, puntajes mínimos, media y desviación estándar, y compara visualmente las notas originales con las ajustadas. Ideal para jefes de UTP, coordinadores y profesores, la planilla permite adaptar las calificaciones según el contexto de cada estudiante, incluyendo casos particulares y NEE. Genera reportes detallados para dirección, docentes y estudiantes.',
         descripcion_larga: '**Esta aplicación esta diseñada exclusivamente para Windows y Microsoft Excel 10 en adelante. Incluye 2 licencias de uso, las cuales permiten utilizar la planilla en hasta 2 dispositivos.**',
         id_categoria: '3',
@@ -829,7 +829,17 @@ const articulos = [
         precio: 20000,
         disponible: 'si',
         },
-                             
+        {
+        id_articulo: 84,
+        nombre: 'App Informe de Calificaciones(simple) - para profesores',
+        descripcion: 'La planilla de "Informe de Calificaciones" permite registrar y analizar el rendimiento académico de hasta 50 estudiantes, facilitando la entrada de puntajes y el cálculo automático de notas. Incluye funcionalidades para segmentar estudiantes en niveles de logro, generar informes detallados para reuniones con jefes de UTP o padres, y visualizar la distribución de calificaciones a través de gráficos estadísticos. Con opciones para listar a los estudiantes por nombre o RUT ideal para publicar calificaciones. Esta herramienta es ideal para evaluar y presentar el desempeño del curso de manera clara, rápida y efectiva.',
+        descripcion_larga: '**Esta aplicación esta diseñada exclusivamente para Windows y Microsoft Excel 10 en adelante. Incluye 2 licencias de uso, las cuales permiten utilizar la planilla en hasta 2 dispositivos.**',
+        id_categoria: '3',
+        id_subcategoria: '28',
+        precio: 10000,
+        disponible: 'si',
+        },
+                                     
 ];
 
 export default articulos;

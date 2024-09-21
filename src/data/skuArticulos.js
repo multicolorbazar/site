@@ -117,6 +117,7 @@ const skuArticulos = [
     { id_sku: '002002900116', id_articulo: '81', variacion: '15 ml' },
     { id_sku: '002002900117', id_articulo: '82', variacion: '15 ml' },
     { id_sku: '003002800118', id_articulo: '83', variacion: '2 licencias' },
+    { id_sku: '003002800119', id_articulo: '84', variacion: '2 licencias' },
     
 ]
 export default skuArticulos;
