@@ -12,6 +12,7 @@ import categorias from '../data/categorias';
 import subcategoriaArticulos from '../data/subcategoriaArticulos'; 
 import './ArticuloPage.css';
 import { useCarrito } from '../contexts/CarritoContext'; 
+//import SpiderHalloween from '../components/header-decorativo/SpiderHalloween';
 
 const obtenerImagenes = (idArticulo) => imagenesArticulos.filter(img => img.id_articulo === idArticulo);
 const obtenerVariaciones = (idArticulo) => {
@@ -117,6 +118,7 @@ const ArticuloPage = () => {
     return (
         <div className="articulo-detalle">
             <div className='boton-volver'>
+                
                 <div className='botones-navegacion'>
                     {/* Botón "Ver categoría" con la flecha hacia la izquierda */}
                     <Link to={enlaceCategoria} className='link-boton-volver boton-categoria'>
