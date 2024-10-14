@@ -27,9 +27,9 @@ const subcategoriaArticulos = [
     { id_subcategoria: 26, nombre: 'Dispensador bolsas de mascotas', id_categoria: 5},
     { id_subcategoria: 27, nombre: 'Planilla excel', id_categoria: 3},
     { id_subcategoria: 28, nombre: 'Aromaterapia', id_categoria: 2},
-    { id_subcategoria: 29, nombre: 'Disfraz', id_categoria: 6},
+    { id_subcategoria: 29, nombre: 'Disfraz Halloween', id_categoria: 6},
     { id_subcategoria: 30, nombre: 'Decoración Halloween', id_categoria: 6},
-    { id_subcategoria: 31, nombre: 'Maquillaje', id_categoria: 6},
+    { id_subcategoria: 31, nombre: 'Maquillaje Halloween', id_categoria: 6},
     { id_subcategoria: 32, nombre: 'Accesorios Halloween', id_categoria: 6},
     
 ];

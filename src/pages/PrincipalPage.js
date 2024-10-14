@@ -7,11 +7,13 @@ import Informacion from '../components/Informacion';
 import ArticulosRecientes from '../components/ArticulosRecientes';
 import Categorias from '../components/Categorias';
 import Articulos from '../components/Articulos';
+import EspecialHalloween from '../components/especial-halloween/EspecialHalloween';
 
 function PrincipalPage() {
     return (
         <div className="App">
             <Informacion />
+            <EspecialHalloween />
             <ArticulosRecientes />
             <Categorias />
             <Articulos />

@@ -1,0 +1,110 @@
+/* Importar la fuente Halloween de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+.especial-container {
+    width: 100%;
+    font-size: 0.9em;
+    padding: 10px;
+    font-weight: 600;
+    color: #F7F7F7; /* Letra blanca */
+    background: #2c2c2c; /* Fondo oscuro */
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.6), 0px -1px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.especial-title {
+    text-align: center;
+    font-size: 2rem; /* Tamaño de fuente más grande */
+    font-weight: 700;
+    margin: 20px 0px;
+    color: #ff6f00; /* Naranja Halloween */
+    text-shadow: 1px 1px 3px #000; /* Sombra en el texto, menos intensa */
+    font-family: 'Creepster', cursive; /* Fuente Halloween */
+    animation: parpadeoLuz 2s infinite alternate; /* Añadir la animación de parpadeo */
+    position: relative;
+}
+
+.especial-grid {
+    column-count: 2;
+    column-gap: 10px;
+}
+
+.especial-item {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ff6f00; /* Borde naranja Halloween */
+    text-align: center;
+    padding: 10px;
+    background: #3d3d3d; /* Fondo más oscuro */
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ff6f00; /* Naranja Halloween */
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.especial-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(255, 111, 0, 0.8);
+}
+
+.especial-info {
+    text-align: left;
+    color: #F7F7F7;
+}
+
+.especial-imagen {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.especial-nombre {
+    text-align: left;
+    width: 100%;
+    font-weight: 700;
+    margin: 5px 0px;
+}
+
+.especial-descripcion {
+    text-align: justify;
+    width: 100%;
+    font-weight: 400;
+    margin: 5px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.especial-precio {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 5px 0px;
+    color: #ff4500; /* Rojo anaranjado */
+}
+
+/* Estilo específico para pantallas grandes */
+@media (min-width: 601px) {
+    .especial-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px;
+        column-count: initial;
+    }
+}
+
+/* Crear un efecto de luz que parpadea suavemente */
+@keyframes parpadeoLuz {
+    0% {
+        text-shadow: 0 0 2px #ff6f00, 0 0 4px #ff6f00; /* Brillo muy suave */
+    }
+    50% {
+        text-shadow: 0 0 3px #ff4500, 0 0 6px #ff4500; /* Brillo ligeramente más intenso */
+    }
+    100% {
+        text-shadow: none;
+    }
+}
