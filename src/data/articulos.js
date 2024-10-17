@@ -941,13 +941,13 @@ const articulos = [
         },
         {
         id_articulo: 95,
-        nombre: 'Novia Fantasma',
+        nombre: 'Novia Fantasma Decoración Adorno',
         descripcion: 'Novia fantasma decorativa',
         descripcion_larga: 'Figura de novia fantasma para decoración.',
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 9990,
-        disponible: 'no',
+        disponible: 'si',
         },
         {
         id_articulo: 96,
@@ -981,13 +981,13 @@ const articulos = [
         },
         {
         id_articulo: 99,
-        nombre: 'Araña Adorno decorativos Halloween',
+        nombre: 'Araña Adorno decorativos Halloween(24pcs)',
         descripcion: 'Arañas decorativas',
         descripcion_larga: 'Set de 24 arañas decorativas de 2*2 cm.',
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 1800,
-        disponible: 'no',
+        disponible: 'si',
         },
         {
         id_articulo: 100,
@@ -1009,6 +1009,17 @@ const articulos = [
         precio: 3000,
         disponible: 'no',
         },
+        {
+        id_articulo: 102,
+        nombre: 'Colgante Trick or Treat',
+        descripcion: 'Adorno de puerta colgante halloween Trick or Treat',
+        descripcion_larga: '0',
+        id_categoria: '6',
+        id_subcategoria: '30',
+        precio: 3900,
+        disponible: 'si',
+        },
+        
                                              
 ];
 

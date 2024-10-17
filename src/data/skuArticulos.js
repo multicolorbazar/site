@@ -135,6 +135,7 @@ const skuArticulos = [
     { id_sku: '006003000134', id_articulo: '99', variacion: '2*2 cm 24 pcs' },
     { id_sku: '00600135', id_articulo: '100', variacion: '50 pcs 1x2.5 cm' },
     { id_sku: '00600136', id_articulo: '101', variacion: '12x19 cm' },
+    { id_sku: '006003000137', id_articulo: '102', variacion: '40x21 cm' },
     
 ]
 export default skuArticulos;
