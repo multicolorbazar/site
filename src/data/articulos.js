@@ -981,7 +981,7 @@ const articulos = [
         },
         {
         id_articulo: 99,
-        nombre: 'Accesorios de arañas Halloween (blancas)',
+        nombre: 'Accesorios de arañas Halloween (blancas 50pcs)',
         descripcion: 'Accesorios de arañas',
         descripcion_larga: 'Set de 50 accesorios de arañas de 1x2.5 cm.',
         id_categoria: '6',
