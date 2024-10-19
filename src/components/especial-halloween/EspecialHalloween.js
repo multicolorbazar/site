@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import articulos from '../../data/articulos';
 import imagenesArticulos from '../../data/imagenesArticulos';
 import './EspecialHalloween.css';
+import Ghosts from './Ghosts';  
 
 // Función para obtener la URL de la imagen basada en el id del artículo
 const obtenerImagen = (idArticulo) => {
@@ -31,6 +32,7 @@ const EspecialHalloween = () => {
     return (
         <div className="especial-container">
             <h3 className="especial-title">Especial de Halloween</h3>
+            <Ghosts />
             <div className="especial-grid">
                 {articulosDisponibles.map(articulo => (
                     <Link key={articulo.id_articulo} to={`/articulo/${articulo.id_articulo}`} className="especial-item">
