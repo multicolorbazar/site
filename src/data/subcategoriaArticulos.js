@@ -32,6 +32,7 @@ const subcategoriaArticulos = [
     { id_subcategoria: 31, nombre: 'Maquillaje Halloween', id_categoria: 6},
     { id_subcategoria: 32, nombre: 'Accesorios Halloween', id_categoria: 6},
     { id_subcategoria: 33, nombre: 'Baterías', id_categoria: 1},
+    { id_subcategoria: 34, nombre: 'Accesorios de vehículo', id_categoria: 2},
     
 ];
 

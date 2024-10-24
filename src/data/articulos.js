@@ -1079,7 +1079,37 @@ const articulos = [
         precio: 1500,
         disponible: 'si',
         },
-                 
+        {
+        id_articulo: 109,
+        nombre: 'Aromatizante de Auto 6ml - Lavanda',
+        descripcion: 'Fragancias colgantes para automóvil. Diseños exclusivo y atractivo ideal para aromatizar el ambiente de tu automóvil.',
+        descripcion_larga: '0',
+        id_categoria: '2',
+        id_subcategoria: '34',
+        precio: 2500,
+        disponible: 'si',
+        },
+        {
+        id_articulo: 110,
+        nombre: 'Aromatizante de Auto 6ml - Rosa',
+        descripcion: 'Fragancias colgantes para automóvil. Diseños exclusivo y atractivo ideal para aromatizar el ambiente de tu automóvil.',
+        descripcion_larga: '0',
+        id_categoria: '2',
+        id_subcategoria: '34',
+        precio: 2500,
+        disponible: 'si',
+        },
+        {
+        id_articulo: 111,
+        nombre: 'Aromatizante de Auto 6ml - Jasmín',
+        descripcion: 'Fragancias colgantes para automóvil. Diseños exclusivo y atractivo ideal para aromatizar el ambiente de tu automóvil.',
+        descripcion_larga: '0',
+        id_categoria: '2',
+        id_subcategoria: '34',
+        precio: 2500,
+        disponible: 'si',
+        },
+                         
 ];
 
 export default articulos;

@@ -142,6 +142,9 @@ const skuArticulos = [
     { id_sku: '002003300141', id_articulo: '106', variacion: '4 unidades' },
     { id_sku: '006003000142', id_articulo: '107', variacion: '-' },
     { id_sku: '006003200143', id_articulo: '108', variacion: '-' },
+    { id_sku: '002003400144', id_articulo: '109', variacion: 'Lavanda' },
+    { id_sku: '002003400145', id_articulo: '110', variacion: 'Rosa' },
+    { id_sku: '002003400146', id_articulo: '111', variacion: 'Jasmín' },
     
 ]
 export default skuArticulos;
