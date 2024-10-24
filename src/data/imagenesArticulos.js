@@ -191,8 +191,11 @@ const imagenesArticulos = [
     { id_imagen: 190,id_articulo: 95,url: require('../images/articulos/061/25.jpg') },
     { id_imagen: 191,id_articulo: 93,url: require('../images/articulos/061/26.jpg') },
     { id_imagen: 192,id_articulo: 109,url: require('../images/articulos/053/001.jpg') },
-    { id_imagen: 193,id_articulo: 110,url: require('../images/articulos/053/002_2.jpg') },
-    { id_imagen: 194,id_articulo: 111,url: require('../images/articulos/053/003_2.jpg') },
+    { id_imagen: 193,id_articulo: 109,url: require('../images/articulos/053/001_2.jpg') },
+    { id_imagen: 194,id_articulo: 110,url: require('../images/articulos/053/002.jpg') },
+    { id_imagen: 195,id_articulo: 110,url: require('../images/articulos/053/002_2.jpg') },
+    { id_imagen: 196,id_articulo: 111,url: require('../images/articulos/053/003.jpg') },
+    { id_imagen: 197,id_articulo: 111,url: require('../images/articulos/053/003_2.jpg') },
     
 ];
 
