@@ -841,7 +841,7 @@ const articulos = [
         },
         {
         id_articulo: 85,
-        nombre: 'Guirnalda calavera Halloween',
+        nombre: 'Colgante calavera Halloween',
         descripcion: 'Guirnalda con calaveras',
         descripcion_larga: 'Guirnalda decorativa de Halloween de 35x50 cm.',
         id_categoria: '6',
@@ -1109,7 +1109,37 @@ const articulos = [
         precio: 2500,
         disponible: 'si',
         },
-                         
+        {
+        id_articulo: 112,
+        nombre: 'Colgante Bruja Fantasma Halloween',
+        descripcion: 'Adorno colgante de Halloween festivo - Perfecto para decoraciones interiores.',
+        descripcion_larga: '0',
+        id_categoria: '6',
+        id_subcategoria: '30',
+        precio: 3600,
+        disponible: 'si',
+        },
+        {
+        id_articulo: 113,
+        nombre: 'Colgante Bruja Murciélago Halloween',
+        descripcion: 'Adorno colgante de Halloween festivo - Perfecto para decoraciones interiores.',
+        descripcion_larga: '0',
+        id_categoria: '6',
+        id_subcategoria: '30',
+        precio: 3600,
+        disponible: 'si',
+        },
+        {
+        id_articulo: 114,
+        nombre: 'Colgante Bruja Calabaza Halloween',
+        descripcion: 'Adorno colgante de Halloween festivo - Perfecto para decoraciones interiores.',
+        descripcion_larga: '0',
+        id_categoria: '6',
+        id_subcategoria: '30',
+        precio: 3600,
+        disponible: 'si',
+        },
+                                 
 ];
 
 export default articulos;

@@ -145,6 +145,9 @@ const skuArticulos = [
     { id_sku: '002003400144', id_articulo: '109', variacion: 'Lavanda' },
     { id_sku: '002003400145', id_articulo: '110', variacion: 'Rosa' },
     { id_sku: '002003400146', id_articulo: '111', variacion: 'Jasmín' },
-    
+    { id_sku: '006003000147', id_articulo: '112', variacion: 'Bruja-Fantasma' },
+    { id_sku: '006003000148', id_articulo: '113', variacion: 'Bruja-Murciélago' },
+    { id_sku: '006003000149', id_articulo: '114', variacion: 'Bruja-Calabaza' },
+      
 ]
 export default skuArticulos;
