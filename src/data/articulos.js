@@ -17,6 +17,7 @@ const articulos = [
         id_categoria: '4',
         id_subcategoria: '6',
         precio: 1500,
+        video: 'https://youtu.be/6YOT9miy1N8',
         disponible: 'si',
         },
         {

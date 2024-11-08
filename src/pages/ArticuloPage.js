@@ -4,6 +4,7 @@ import { Button } from 'primereact/button';
 import { Dialog } from 'primereact/dialog'; 
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import { Carousel } from 'antd';
+import ReactPlayer from 'react-player'; // Importamos el componente ReactPlayer
 import 'antd/dist/reset.css';
 import articulos from '../data/articulos';
 import imagenesArticulos from '../data/imagenesArticulos';
@@ -12,7 +13,6 @@ import categorias from '../data/categorias';
 import subcategoriaArticulos from '../data/subcategoriaArticulos'; 
 import './ArticuloPage.css';
 import { useCarrito } from '../contexts/CarritoContext'; 
-//import SpiderHalloween from '../components/header-decorativo/SpiderHalloween';
 
 const obtenerImagenes = (idArticulo) => imagenesArticulos.filter(img => img.id_articulo === idArticulo);
 const obtenerVariaciones = (idArticulo) => {
@@ -120,13 +120,11 @@ const ArticuloPage = () => {
             <div className='boton-volver'>
                 
                 <div className='botones-navegacion'>
-                    {/* Botón "Ver categoría" con la flecha hacia la izquierda */}
                     <Link to={enlaceCategoria} className='link-boton-volver boton-categoria'>
                         <Button ref={volverBtnRef} className="p-button-secondary volver-btn">
                             <FaArrowLeft className="volver-icono" /> {nombreCategoria}
                         </Button>
                     </Link>
-                    {/* Botón "Ver subcategoría" con la flecha hacia la derecha */}
                     <Link to={enlaceSubcategoria} className='link-boton-volver boton-subcategoria'>
                         <Button className="p-button-secondary volver-btn">
                             {nombreSubcategoria} <FaArrowRight className="volver-icono" />
@@ -136,6 +134,17 @@ const ArticuloPage = () => {
             </div>
 
             <Carousel dots={true} arrows={true} className="articulo-carousel">
+                {articulo.video && (
+                    <div className="articulo-carousel-item">
+                        <ReactPlayer 
+                            url={articulo.video} 
+                            controls 
+                            width="100%" 
+                            height="100%" 
+                            className="articulo-video" 
+                        />
+                    </div>
+                )}
                 {imagenes.length > 0 ? (
                     imagenes.map(imagen => (
                         <div key={imagen.id_imagen} className="articulo-carousel-item">
@@ -143,7 +152,7 @@ const ArticuloPage = () => {
                                 src={imagen.url} 
                                 alt={articulo.nombre} 
                                 className="articulo-imagen" 
-                                onClick={() => handleImageClick(imagen.url)} // Manejar clic en la imagen
+                                onClick={() => handleImageClick(imagen.url)}
                             />
                         </div>
                     ))
@@ -196,7 +205,6 @@ const ArticuloPage = () => {
                 </div>
             </Dialog>
 
-            {/* Modal para mostrar imagen en pantalla completa */}
             <Dialog 
                 visible={showImageDialog} 
                 onHide={() => setShowImageDialog(false)} 
