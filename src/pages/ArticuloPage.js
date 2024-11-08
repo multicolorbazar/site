@@ -133,9 +133,10 @@ const ArticuloPage = () => {
                 </div>
             </div>
 
+
             <Carousel dots={true} arrows={true} className="articulo-carousel">
                 {articulo.video && (
-                    <div className="articulo-carousel-item">
+                    <div className="articulo-carousel-item video-container">
                         <ReactPlayer 
                             url={articulo.video} 
                             controls 
@@ -162,6 +163,7 @@ const ArticuloPage = () => {
                     </div>
                 )}
             </Carousel>
+
 
             <div className='articulo-informacion'>
                 <h2 className="articulo-nombre">{articulo.nombre}</h2>

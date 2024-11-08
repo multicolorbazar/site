@@ -214,3 +214,27 @@
 .boton-subcategoria .volver-icono {
     margin-left: 10px; /* Ajusta el margen específico para el botón de subcategoría */
 }
+
+
+/* Estilos para el video */
+
+/* Ajustes del carrusel */
+.articulo-carousel {
+    width: 100%;
+    max-width: 100%;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Ajusta según prefieras */
+    width: 100%;
+}
+
+/* Ajustes del video */
+.articulo-video {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Cubre todo el espacio sin distorsión */
+}
