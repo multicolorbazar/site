@@ -1,0 +1,128 @@
+/* Importar la fuente navideña de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.especial-navidad-container {
+    width: 100%;
+    font-size: 0.9em;
+    padding: 10px;
+    font-weight: 600;
+    color: #F7F7F7; /* Letra blanca */
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.6), 0px -1px 5px 0px rgba(0, 0, 0, 0.6);
+    position: relative; /* Necesario para las capas superpuestas */
+    overflow: hidden; /* Para evitar desbordamientos de las capas */
+    background: url('../../images/background/fondonavidad3.png') no-repeat center top;
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+}
+
+/* Degradado que cubre la parte inferior */
+.especial-navidad-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(1, 49, 51, 0) 30%, rgba(1, 49, 51, 1) 0%);
+    z-index: 1;
+}
+
+
+.especial-navidad-title {
+    text-align: center;
+    font-size: 2.5rem; /* Tamaño de fuente más grande */
+    font-weight: 400; /* Peso más ligero para una apariencia más elegante */
+    margin: 20px 0px;
+    color: white; /* Color del texto */
+    text-shadow: 1px 1px 3px #000; /* Sombra en el texto */
+    font-family: 'Great Vibes', cursive; /* Fuente elegante */
+    animation: parpadeoLuz 1.5s infinite alternate; /* Animación de parpadeo */
+    position: relative; /* Para estar sobre el pseudo-elemento */
+    z-index: 2; /* Asegura que el título esté por encima del pseudo-elemento */
+}
+
+.especial-navidad-grid {
+    column-count: 2;
+    column-gap: 10px;
+}
+
+.especial-navidad-item {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid rgb(239, 230, 196); /* Borde blanco navideño */
+    text-align: center;
+    padding: 10px;
+    background: rgb(3, 74, 70); /* Fondo verde más oscuro */
+    border-radius: 8px;
+    text-decoration: none;
+    color: white; /* Texto blanco */
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative; /* Para asegurar que esté por encima del pseudo-elemento */
+    z-index: 2; /* Asegura que los elementos de la lista estén sobre el color de fondo */
+}
+
+.especial-navidad-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgb(2, 125, 106);
+}
+
+.especial-navidad-info {
+    text-align: left;
+    color: #F7F7F7;
+}
+
+.especial-navidad-imagen {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.especial-navidad-nombre {
+    text-align: left;
+    width: 100%;
+    font-weight: 700;
+    margin: 5px 0px;
+}
+
+.especial-navidad-descripcion {
+    text-align: justify;
+    width: 100%;
+    font-weight: 400;
+    margin: 5px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.especial-navidad-precio {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 5px 0px;
+    color: rgb(255, 220, 90); /* Amarillo oro */
+}
+
+/* Crear un efecto de luz que parpadea suavemente en el título */
+@keyframes parpadeoLuz {
+    0% {
+        text-shadow: 0 0 5px white, 0 0 10px white; /* Brillo suave */
+    }
+    50% {
+        text-shadow: 0 0 15px white, 0 0 20px white; /* Brillo intenso */
+    }
+    100% {
+        text-shadow: none;
+    }
+}
+
+/* Estilo específico para pantallas grandes */
+@media (min-width: 601px) {
+    .especial-navidad-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 20px;
+    }
+}
