@@ -135,7 +135,8 @@ const ArticuloPage = () => {
 
 
             <Carousel dots={true} arrows={true} className="articulo-carousel">
-                {articulo.video && (
+                {/* Verifica si el video existe antes de intentar renderizarlo */}
+                {articulo.video && articulo.video.trim() !== '' && (
                     <div className="articulo-carousel-item video-container">
                         <ReactPlayer 
                             url={articulo.video} 

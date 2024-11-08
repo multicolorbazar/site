@@ -7,6 +7,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '1',
         precio: 5990 ,
+        video: '',
         disponible: 'si',
         },
         {
@@ -17,7 +18,7 @@ const articulos = [
         id_categoria: '4',
         id_subcategoria: '6',
         precio: 1500,
-        video: 'https://youtu.be/6YOT9miy1N8',
+        video: ' https://youtu.be/6YOT9miy1N8',
         disponible: 'si',
         },
         {
@@ -28,6 +29,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '3',
         precio: 1800,
+        video: '',
         disponible: 'si',
         },
         {
@@ -38,6 +40,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '4',
         precio: 1350,
+        video: '',
         disponible: 'no',
         },
         {
@@ -48,6 +51,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '4',
         precio: 1000,
+        video: '',
         disponible: 'no',
         },
         {
@@ -58,6 +62,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '4',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -68,6 +73,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '5',
         precio: 200,
+        video: '',
         disponible: 'no',
         },
         {
@@ -78,6 +84,7 @@ const articulos = [
         id_categoria: '4',
         id_subcategoria: '6',
         precio: 10000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -88,6 +95,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '7',
         precio: 4500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -98,6 +106,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '7',
         precio: 4500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -108,6 +117,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '7',
         precio: 4500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -118,6 +128,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '8',
         precio: 2500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -128,6 +139,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '9',
         precio: 1200,
+        video: '',
         disponible: 'si',
         },
         {
@@ -138,6 +150,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '5',
         precio: 2200,
+        video: '',
         disponible: 'si',
         },
         {
@@ -148,6 +161,7 @@ const articulos = [
         id_categoria: '4',
         id_subcategoria: '6',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -158,6 +172,7 @@ const articulos = [
         id_categoria: '4',
         id_subcategoria: '6',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -168,6 +183,7 @@ const articulos = [
         id_categoria: '4',
         id_subcategoria: '6',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -178,6 +194,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '2',
         precio: 2000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -188,6 +205,7 @@ const articulos = [
         id_categoria: '4',
         id_subcategoria: '6',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -198,6 +216,7 @@ const articulos = [
         id_categoria: '4',
         id_subcategoria: '6',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -208,6 +227,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '10',
         precio: 200,
+        video: '',
         disponible: 'no',
         },
         {
@@ -218,6 +238,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '11',
         precio: 2000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -228,6 +249,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '12',
         precio: 2500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -238,6 +260,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '13',
         precio: 2000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -248,6 +271,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '13',
         precio: 2000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -258,6 +282,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '14',
         precio: 3300,
+        video: '',
         disponible: 'si',
         },
         {
@@ -268,6 +293,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '15',
         precio: 3000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -278,6 +304,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '15',
         precio: 3000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -288,6 +315,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '16',
         precio: 1450,
+        video: '',
         disponible: 'si',
         },
         {
@@ -298,6 +326,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '16',
         precio: 1450,
+        video: '',
         disponible: 'si',
         },
         {
@@ -308,6 +337,7 @@ const articulos = [
         id_categoria: '5',
         id_subcategoria: '18',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -318,6 +348,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '17',
         precio: 2000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -328,6 +359,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '17',
         precio: 4000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -338,6 +370,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '17',
         precio: 4990,
+        video: '',
         disponible: 'si',
         },
         {
@@ -348,6 +381,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '19',
         precio: 3000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -358,6 +392,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '20',
         precio: 1000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -368,6 +403,7 @@ const articulos = [
         id_categoria: '4',
         id_subcategoria: '6',
         precio: 10000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -378,6 +414,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '21',
         precio: 8000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -388,6 +425,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '4',
         precio: 1000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -398,6 +436,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '4',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -408,6 +447,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '4',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -418,6 +458,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '4',
         precio: 1300,
+        video: '',
         disponible: 'si',
         },
         {
@@ -428,6 +469,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '4',
         precio: 1000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -438,6 +480,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '17',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -448,6 +491,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '17',
         precio: 3200,
+        video: '',
         disponible: 'si',
         },
         {
@@ -458,6 +502,7 @@ const articulos = [
         id_categoria: '4',
         id_subcategoria: '6',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -468,6 +513,7 @@ const articulos = [
         id_categoria: '4',
         id_subcategoria: '6',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -478,6 +524,7 @@ const articulos = [
         id_categoria: '5',
         id_subcategoria: '22',
         precio: 14990,
+        video: '',
         disponible: 'si',
         },
         {
@@ -488,6 +535,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '23',
         precio: 1650,
+        video: '',
         disponible: 'si',
         },
         {
@@ -498,6 +546,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '23',
         precio: 1650,
+        video: '',
         disponible: 'si',
         },
         {
@@ -508,6 +557,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '24',
         precio: 1000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -518,6 +568,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '24',
         precio: 1300,
+        video: '',
         disponible: 'si',
         },
         {
@@ -528,6 +579,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '24',
         precio: 1600,
+        video: '',
         disponible: 'si',
         },
         {
@@ -538,6 +590,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '25',
         precio: 1000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -548,6 +601,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '17',
         precio: 2000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -558,6 +612,7 @@ const articulos = [
         id_categoria: '5',
         id_subcategoria: '26',
         precio: 2000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -568,6 +623,7 @@ const articulos = [
         id_categoria: '5',
         id_subcategoria: '26',
         precio: 2000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -578,6 +634,7 @@ const articulos = [
         id_categoria: '5',
         id_subcategoria: '26',
         precio: 2000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -588,6 +645,7 @@ const articulos = [
         id_categoria: '3',
         id_subcategoria: '27',
         precio: 8000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -598,6 +656,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 3000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -608,6 +667,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 3000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -618,6 +678,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 3000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -628,6 +689,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 3000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -638,6 +700,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 9990,
+        video: '',
         disponible: 'si',
         },
         {
@@ -648,6 +711,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 9990,
+        video: '',
         disponible: 'si',
         },
         {
@@ -658,6 +722,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 9990,
+        video: '',
         disponible: 'si',
         },
         {
@@ -668,6 +733,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '17',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -678,6 +744,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '13',
         precio: 2000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -688,6 +755,7 @@ const articulos = [
         id_categoria: '1',
         id_subcategoria: '13',
         precio: 2000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -698,6 +766,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 3500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -708,6 +777,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 2000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -718,6 +788,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 2000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -728,6 +799,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 2000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -738,6 +810,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 1800,
+        video: '',
         disponible: 'si',
         },
         {
@@ -748,6 +821,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 3000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -758,6 +832,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 3000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -768,6 +843,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 4200,
+        video: '',
         disponible: 'si',
         },
         {
@@ -778,6 +854,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 3000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -788,6 +865,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 3000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -798,6 +876,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '28',
         precio: 3000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -808,6 +887,7 @@ const articulos = [
         id_categoria: '3',
         id_subcategoria: '27',
         precio: 20000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -818,6 +898,7 @@ const articulos = [
         id_categoria: '3',
         id_subcategoria: '27',
         precio: 10000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -828,6 +909,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 700,
+        video: '',
         disponible: 'si',
         },
         {
@@ -838,6 +920,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 700,
+        video: '',
         disponible: 'si',
         },
         {
@@ -848,6 +931,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 3000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -858,6 +942,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '31',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -868,6 +953,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '31',
         precio: 1800,
+        video: '',
         disponible: 'no',
         },
         {
@@ -878,6 +964,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '31',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -888,6 +975,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '29',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -898,6 +986,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '29',
         precio: 5000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -908,6 +997,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '32',
         precio: 1800,
+        video: '',
         disponible: 'si',
         },
         {
@@ -918,6 +1008,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '32',
         precio: 2700,
+        video: '',
         disponible: 'si',
         },
         {
@@ -928,6 +1019,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 2300,
+        video: '',
         disponible: 'si',
         },
         {
@@ -938,6 +1030,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 9990,
+        video: '',
         disponible: 'si',
         },
         {
@@ -948,6 +1041,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 4000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -958,6 +1052,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 1400,
+        video: '',
         disponible: 'si',
         },
         {
@@ -968,6 +1063,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 1400,
+        video: '',
         disponible: 'si',
         },
         {
@@ -978,6 +1074,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 1800,
+        video: '',
         disponible: 'si',
         },
         {
@@ -988,6 +1085,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '32',
         precio: 1800,
+        video: '',
         disponible: 'si',
         },
         {
@@ -998,6 +1096,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '32',
         precio: 3000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -1008,6 +1107,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 3900,
+        video: '',
         disponible: 'si',
         },
         {
@@ -1018,6 +1118,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '32',
         precio: 2400,
+        video: '',
         disponible: 'si',
         },
         {
@@ -1028,6 +1129,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '32',
         precio: 2400,
+        video: '',
         disponible: 'si',
         },
         {
@@ -1038,6 +1140,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '32',
         precio: 900,
+        video: '',
         disponible: 'si',
         },
         {
@@ -1048,6 +1151,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '33',
         precio: 1000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -1058,6 +1162,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '33',
         precio: 1000,
+        video: '',
         disponible: 'si',
         },
         {
@@ -1068,6 +1173,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 1450,
+        video: '',
         disponible: 'si',
         },
         {
@@ -1078,6 +1184,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '32',
         precio: 1500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -1088,6 +1195,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '34',
         precio: 2500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -1098,6 +1206,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '34',
         precio: 2500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -1108,6 +1217,7 @@ const articulos = [
         id_categoria: '2',
         id_subcategoria: '34',
         precio: 2500,
+        video: '',
         disponible: 'si',
         },
         {
@@ -1118,6 +1228,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 3600,
+        video: '',
         disponible: 'si',
         },
         {
@@ -1128,6 +1239,7 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 3600,
+        video: '',
         disponible: 'si',
         },
         {
@@ -1138,9 +1250,10 @@ const articulos = [
         id_categoria: '6',
         id_subcategoria: '30',
         precio: 3600,
+        video: '',
         disponible: 'si',
         },
-                                 
+          
 ];
 
 export default articulos;
