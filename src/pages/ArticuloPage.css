@@ -228,13 +228,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh; /* Ajusta según prefieras */
+    height: 40vh; /* Ajusta según prefieras */
+    margin: auto 0 !important;
     width: 100%;
+    top: 100px;
 }
 
 /* Ajustes del video */
 .articulo-video {
     max-width: 100%;
     max-height: 100%;
+    margin: auto 0 !important;
     object-fit: cover; /* Cubre todo el espacio sin distorsión */
 }
