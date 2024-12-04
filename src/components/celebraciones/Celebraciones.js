@@ -25,7 +25,7 @@ const SeccionCelebracion = ({ titulo, estilo, articulos }) => (
         <h3 className="celebraciones-titulo">{titulo}</h3>
         <div className="celebraciones-grid">
             {articulos.map(articulo => (
-                <Link key={articulo.id_articulo} to={`/articulo/${articulo.id_articulo}`} className="celebraciones-item">
+                <Link key={articulo.id_articulo} to={`/articulo/${articulo.id_articulo}`} className={`celebraciones-item ${estilo}`}>
                     <img 
                         src={obtenerImagen(articulo.id_articulo)} 
                         alt={articulo.nombre} 

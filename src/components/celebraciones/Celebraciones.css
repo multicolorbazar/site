@@ -42,14 +42,15 @@
 
 /* Estilos de Navidad */
 .celebraciones-seccion.navidad {
-    background: #C8E6C9; /* Verde claro de Navidad */
+    background: rgb(1, 49, 51); /* Verde claro de Navidad */
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    border-top: 15px solid red;
 }
 
 .celebraciones-seccion.navidad .celebraciones-titulo {
-    color: #1B5E20; /* Verde oscuro */
+    color: whitesmoke; /* Verde oscuro */
 }
 
 /* Estilo general para la grilla y los artículos */
@@ -68,6 +69,21 @@
     text-decoration: none;
     color: #333;
 }
+
+.celebraciones-item.fiestas-patrias {
+    border: 1px solid red;
+}
+
+.celebraciones-item.halloween {
+    border: 1px solid #FFA726;
+}
+
+.celebraciones-item.navidad {
+    color: white;
+    background: rgb(3, 74, 70);
+    border: 1px solid whitesmoke;
+}
+
 
 .celebraciones-imagen {
     width: 100%;
