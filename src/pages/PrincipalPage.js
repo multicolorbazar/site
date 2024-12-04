@@ -7,15 +7,19 @@ import Informacion from '../components/Informacion';
 import ArticulosRecientes from '../components/ArticulosRecientes';
 import Categorias from '../components/Categorias';
 import Articulos from '../components/Articulos';
+import Garage from '../components/Garage';
 //import EspecialHalloween from '../components/especial-halloween/EspecialHalloween';
+import EspecialNavidad from '../components/especial-navidad/EspecialNavidad';
 
 function PrincipalPage() {
     return (
         <div className="App">
             <Informacion />
-            {/* <EspecialHalloween /> */}
             <ArticulosRecientes />
             <Categorias />
+            <Garage />
+            {/* <EspecialHalloween /> */}
+            <EspecialNavidad />
             <Articulos />
         </div>
     );

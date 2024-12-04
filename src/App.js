@@ -11,6 +11,7 @@ import CarritoPage from './pages/CarritoPage';
 import ConfirmaCompraPage from './pages/ConfirmaCompraPage';
 import ArticulosPorCategoria from './pages/ArticulosPorCategoria';
 import ArticulosPorSubcategoria from './pages/ArticulosPorSubcategoria';
+import Celebraciones from './components/celebraciones/Celebraciones';
 import { CarritoProvider } from './contexts/CarritoContext';
 import Footer from './components/Footer'; // Importa el componente Footer
 import WelcomeModal from './components/WelcomeModal'; // Importa el modal
@@ -20,7 +21,7 @@ function App() {
         <CarritoProvider>
             <Router>
                 <div className="App">
-                    <Encabezado /> 
+                    <Encabezado />
                     <div className="content">
                         <Routes>
                             <Route path="/" element={<Navigate to="/home" />} />
@@ -28,8 +29,11 @@ function App() {
                             <Route path="/articulo/:id_articulo" element={<ArticuloPage />} />
                             <Route path="/carrito" element={<CarritoPage />} />
                             <Route path="/confirmacompra" element={<ConfirmaCompraPage />} />
+                            {/* Redirige de /categoria/7 a /celebraciones */}
+                            <Route path="/categoria/7" element={<Navigate to="/celebraciones" />} />
                             <Route path="/categoria/:categoriaId" element={<ArticulosPorCategoria />} />
                             <Route path="/subcategoria/:subcategoriaId" element={<ArticulosPorSubcategoria />} />
+                            <Route path="/celebraciones" element={<Celebraciones />} />
                         </Routes>
                     </div>
                     <Footer />
@@ -39,6 +43,5 @@ function App() {
         </CarritoProvider>
     );
 }
-
 
 export default App;

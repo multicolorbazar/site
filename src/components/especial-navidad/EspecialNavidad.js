@@ -22,7 +22,7 @@ const formatearPrecio = (precio) => {
 
 const EspecialNavidad = () => {
     // Definir manualmente los id_subcategoria que quieres mostrar
-    const subcategoriasNavidad = [33, 34, 35, 36]; // Aquí defines los id_subcategoria que desees incluir
+    const subcategoriasNavidad = [37]; // Aquí defines los id_subcategoria que desees incluir
 
     // Filtrar los artículos disponibles que pertenecen a las subcategorías especificadas
     const articulosDisponibles = articulos

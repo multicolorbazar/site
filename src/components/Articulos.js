@@ -20,9 +20,16 @@ const formatearPrecio = (precio) => {
 };
 
 const Articulos = () => {
-    // Filtrar los artículos para mostrar solo aquellos disponibles
+    // Lista de categorías que deben ser excluidas
+    const categoriasExcluidas = [7, 8]; // 7: Celebraciones, 8: Venta de Garage
+
+    // Filtrar los artículos para mostrar solo aquellos disponibles y que no estén en las categorías excluidas
     const articulosDisponibles = articulos
-        .filter(articulo => articulo.disponible === 'si')
+        .filter(articulo => {
+            const isDisponible = articulo.disponible === 'si';
+            const isCategoriaExcluida = categoriasExcluidas.includes(Number(articulo.id_categoria)); // Convertimos id_categoria a número por si acaso
+            return isDisponible && !isCategoriaExcluida;
+        })
         .sort((a, b) => a.nombre.localeCompare(b.nombre)); // Ordenar alfabéticamente por el campo nombre
 
     return (

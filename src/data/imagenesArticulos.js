@@ -205,6 +205,14 @@ const imagenesArticulos = [
     { id_imagen: 204,id_articulo: 112,url: require('../images/articulos/061/27_3.jpg') },
     { id_imagen: 205,id_articulo: 112,url: require('../images/articulos/061/27_4.jpg') },
     { id_imagen: 206,id_articulo: 112,url: require('../images/articulos/061/27_5.jpg') },
+    { id_imagen: 207,id_articulo: 115,url: require('../images/articulos/garage/comic_db.jpg') },
+    { id_imagen: 208,id_articulo: 116,url: require('../images/articulos/garage/piensa_java.jpg') },
+    { id_imagen: 209,id_articulo: 117,url: require('../images/articulos/062/1.jpg') },
+    { id_imagen: 210,id_articulo: 117,url: require('../images/articulos/062/2.jpg') },
+    { id_imagen: 211,id_articulo: 117,url: require('../images/articulos/062/3.jpg') },
+    { id_imagen: 212,id_articulo: 117,url: require('../images/articulos/062/4.jpg') },
+    { id_imagen: 213,id_articulo: 118,url: require('../images/articulos/062/5.jpg') },
+    { id_imagen: 214,id_articulo: 118,url: require('../images/articulos/062/6.jpg') },
     
 ];
 

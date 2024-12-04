@@ -1,0 +1,91 @@
+.garage-container {
+    width: 100%;
+    height: 200px; /* Ajusta la altura según sea necesario */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total del contenedor */
+    overflow: hidden; /* Evita que el contenido se desborde */
+    position: relative; /* Asegura que los elementos se posicionen correctamente dentro del contenedor */
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2), 0px -1px 5px 0px rgba(0,0,0,0.2);
+}
+
+.garage-banner {
+    width: 100%;
+    height: 100%; /* Ocupa todo el espacio del contenedor */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fondogaragex1 {
+    width: 100%;
+    height: 100%; /* Asegura que la imagen ocupe todo el espacio disponible */
+    object-fit: cover; /* Ajusta la imagen para que cubra el área sin deformarse */
+    position: absolute; /* Asegura que la imagen quede detrás de los textos */
+    top: 0;
+    left: 0;
+}
+
+.nuevo-banner {
+    position: absolute;
+    top: 10px; /* Ajusta la posición según tu preferencia */
+    right: 10px;
+    background-color: var(--tono-destacado); /* Color llamativo */
+    color: var(--tono-warning2);
+    font-size: 1.5em; /* Aumenta el tamaño de la fuente para que se vea más grande */
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 100; /* Asegúrate de que tenga un índice alto para que se vea encima de otros elementos */
+    opacity: 1; /* Garantiza que esté visible */
+    animation: fadeIn 1s ease-in-out; /* Animación de entrada */
+}
+
+.garage-message-titulo {
+    text-align: left;
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    width: 100%;
+    transform: translate(-10%, -10%);
+    font-size: 1.2em;
+    font-style: italic;
+    color: var(--tono-destacado);
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 1, 1, 1);
+}
+
+.garage-message {
+    text-align: left;
+    position: absolute;
+    top: 55%;
+    left: 12%;
+    width: 100%;
+    transform: translate(-10%, -10%);
+    font-size: 1em;
+    font-style: italic;
+    color: var(--tono-letra-blanco);
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
