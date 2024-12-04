@@ -16,10 +16,11 @@ function PrincipalPage() {
         <div className="App">
             <Informacion />
             <ArticulosRecientes />
-            <Categorias />
             <Garage />
-            {/* <EspecialHalloween /> */}
+            <Categorias />
+            
             <EspecialNavidad />
+            
             <Articulos />
         </div>
     );

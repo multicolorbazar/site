@@ -1297,7 +1297,51 @@ const articulos = [
         video: '',
         disponible: 'si',
         },
-                 
+        {
+        id_articulo: 119,
+        nombre: 'Aloe Vera Jabón de Baño Kai Essentials - 125 g',
+        descripcion: 'Contiene extracto de aloe vera, la hierba medicinal y curativa más antigua que se conoce. Sus hojas proporcionan un extracto gelatinoso emoliente que se utiliza para tratar todo tipo de problemas de la piel.',
+        descripcion_larga: '0',
+        id_categoria: '7',
+        id_subcategoria: '37',
+        precio: 3000,
+        video: '',
+        disponible: 'si',
+        },
+        {
+        id_articulo: 120,
+        nombre: 'Flor de Jasmín Jabón de Baño Kai Essentials - 125 g',
+        descripcion: 'El jazmín puede ayudar a darle un aspecto juvenil a la piel. Es muy eficaz para igualar el tono de la piel y reducir la aparición de manchas de la edad. Ayuda a tratar la piel seca y proporciona una hidratación natural que no obstruye los poros.',
+        descripcion_larga: '0',
+        id_categoria: '7',
+        id_subcategoria: '37',
+        precio: 3000,
+        video: '',
+        disponible: 'si',
+        },
+        {
+        id_articulo: 121,
+        nombre: 'Árbol de Té y Romero Jabón de Baño Kai Essentials - 125 g',
+        descripcion: 'Es una combinación única que ayuda a reequilibrar la piel grasa con potentes propiedades hidratantes, tonifica y protege la piel. Tiene beneficios calmantes, antifúngicos y antibacterianos para la piel propensa al acné. Ayuda a rejuvenecer, mimar la piel, nutrirla e hidratarla también.',
+        descripcion_larga: '0',
+        id_categoria: '7',
+        id_subcategoria: '37',
+        precio: 3000,
+        video: '',
+        disponible: 'si',
+        },
+        {
+        id_articulo: 122,
+        nombre: 'Aceite de Almendras Jabón de Baño Kai Essentials - 125 g',
+        descripcion: 'El aceite de almendras puro eleva los sentidos, alivia la piel irritada y ayuda a mantener el equilibrio natural de la piel para un brillo saludable. Cargado con vitamina A, E y D para nutrir e hidratar la piel, ayudar a reducir las arrugas y favorecer una piel más suave, saludable y de aspecto más juvenil.',
+        descripcion_larga: '0',
+        id_categoria: '7',
+        id_subcategoria: '37',
+        precio: 3000,
+        video: '',
+        disponible: 'si',
+        },
+                         
 ];
 
 export default articulos;

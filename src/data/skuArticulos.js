@@ -152,6 +152,10 @@ const skuArticulos = [
     { id_sku: '008003800151', id_articulo: '116', variacion: ' 2da Edición, 2002' },
     { id_sku: '007003700152', id_articulo: '117', variacion: 'Estándar' },
     { id_sku: '007003700153', id_articulo: '118', variacion: 'para Botella' },
+    { id_sku: '007003700154', id_articulo: '119', variacion: 'Aloe Vera (125 g)' },
+    { id_sku: '007003700155', id_articulo: '120', variacion: 'Flor de Jasmín (125 g)' },
+    { id_sku: '007003700156', id_articulo: '121', variacion: 'Árbol de Té y Romero (125 g)' },
+    { id_sku: '007003700157', id_articulo: '122', variacion: 'Aceite de Almendras (125 g)' },
     
 ]
 export default skuArticulos;
