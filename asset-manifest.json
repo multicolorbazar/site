@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.ba4a6b1a.css",
-    "main.js": "/site/static/js/main.42f9cc06.js",
+    "main.css": "/site/static/css/main.4f9c387c.css",
+    "main.js": "/site/static/js/main.541f1b5a.js",
     "reactPlayerYouTube.js": "/site/static/js/reactPlayerYouTube.9113b197.chunk.js",
     "reactPlayerSoundCloud.js": "/site/static/js/reactPlayerSoundCloud.27f36a64.chunk.js",
     "reactPlayerVimeo.js": "/site/static/js/reactPlayerVimeo.b1763a4e.chunk.js",
@@ -37,7 +37,10 @@
     "static/media/2_01.png": "/site/static/media/2_01.904ef3f6f29d32caf3fd.png",
     "static/media/primeicons.svg": "/site/static/media/primeicons.6ed59f962963a4a73af2.svg",
     "static/media/categoria010.png": "/site/static/media/categoria010.4da0915e220f1a3865da.png",
+    "static/media/navidad2.jpg": "/site/static/media/navidad2.fd584dcbfbbdb7c8816c.jpg",
+    "static/media/navidad3.jpg": "/site/static/media/navidad3.39d923cd751eba96a93c.jpg",
     "static/media/13.jpg": "/site/static/media/13.b5280fd2d5a37a3bfd28.jpg",
+    "static/media/navidad1.jpg": "/site/static/media/navidad1.4d9d8d655fa03d475627.jpg",
     "static/media/5.jpg": "/site/static/media/5.9b3d622a44b9cfc9a18c.jpg",
     "static/media/11.jpg": "/site/static/media/11.37af551691ff016a25d7.jpg",
     "static/media/12.jpg": "/site/static/media/12.0cf50ce8f67af85c6398.jpg",
@@ -130,8 +133,8 @@
     "static/media/logo_bm_6f.svg": "/site/static/media/logo_bm_6f.40e21ec96af52e7d2e263b30cfcacc54.svg",
     "static/media/logo_bm_2f.svg": "/site/static/media/logo_bm_2f.142d08d2428d0e13957eb751db6b9b01.svg",
     "index.html": "/site/index.html",
-    "main.ba4a6b1a.css.map": "/site/static/css/main.ba4a6b1a.css.map",
-    "main.42f9cc06.js.map": "/site/static/js/main.42f9cc06.js.map",
+    "main.4f9c387c.css.map": "/site/static/css/main.4f9c387c.css.map",
+    "main.541f1b5a.js.map": "/site/static/js/main.541f1b5a.js.map",
     "reactPlayerYouTube.9113b197.chunk.js.map": "/site/static/js/reactPlayerYouTube.9113b197.chunk.js.map",
     "reactPlayerSoundCloud.27f36a64.chunk.js.map": "/site/static/js/reactPlayerSoundCloud.27f36a64.chunk.js.map",
     "reactPlayerVimeo.b1763a4e.chunk.js.map": "/site/static/js/reactPlayerVimeo.b1763a4e.chunk.js.map",
@@ -149,7 +152,7 @@
     "453.fc74302d.chunk.js.map": "/site/static/js/453.fc74302d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba4a6b1a.css",
-    "static/js/main.42f9cc06.js"
+    "static/css/main.4f9c387c.css",
+    "static/js/main.541f1b5a.js"
   ]
 }
