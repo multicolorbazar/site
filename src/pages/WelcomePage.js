@@ -2,24 +2,24 @@ import React, { useState, useEffect } from 'react';
 import { Dialog } from 'primereact/dialog';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import OpcionEnvioDelivery from './OpcionEnvioDelivery';
-import OpcionEnvioEncomienda from './OpcionEnvioEncomienda';
+import PromocionesNavidad from '../components/WelcomePage/PromocionesNavidad';
 
 const WelcomeModal = () => {
-    const [visible, setVisible] = useState(false);
+    const [visible, setVisible] = useState(true); // El modal siempre estará visible
 
     useEffect(() => {
-        const firstVisit = localStorage.getItem('firstVisit');
+        // Comentamos la lógica relacionada con 'firstVisit'
+        // const firstVisit = localStorage.getItem('firstVisit');
 
-        if (!firstVisit) {
-            setVisible(true);
-            localStorage.setItem('firstVisit', 'true');
-        }
+        // if (!firstVisit) {
+        //     setVisible(true);
+        //     localStorage.setItem('firstVisit', 'true');
+        // }
     }, []);
 
     return (
         <Dialog
-            header="Bienvenido"
+            header="¡Bienvenido!"
             visible={visible}
             style={{ width: '50vw' }}
             onHide={() => setVisible(false)}
@@ -27,10 +27,7 @@ const WelcomeModal = () => {
         >
             <Carousel showThumbs={false} autoPlay infiniteLoop>
                 <div>
-                    <OpcionEnvioDelivery />
-                </div>
-                <div>
-                    <OpcionEnvioEncomienda />
+                    <PromocionesNavidad />
                 </div>
             </Carousel>
         </Dialog>

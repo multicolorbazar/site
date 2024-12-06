@@ -1,7 +1,7 @@
 // OpcionesEnviosCard.js
 import React from 'react';
 import { FaMotorcycle } from "react-icons/fa";
-import OpcionEnvioDelivery from './OpcionEnvioDelivery';
+import OpcionEnvioDelivery from '../OpcionEnvioDelivery';
 import OpcionEnvioEncomienda from './OpcionEnvioEncomienda';
 
 const OpcionesEnviosCard = () => (
