@@ -42,6 +42,62 @@ const PromocionesNavidad = () => {
                         style={{ cursor: 'pointer', maxWidth: '100%', height: 'auto' }}
                     />
                 </div>
+                <div>
+                    <img
+                        src={require('../../images/articulos/promociones/navidad4.jpg')}
+                        alt="Navidad 3"
+                        onClick={handleImageClick}
+                        style={{ cursor: 'pointer', maxWidth: '100%', height: 'auto' }}
+                    />
+                </div>
+                <div>
+                    <img
+                        src={require('../../images/articulos/promociones/navidad5.jpg')}
+                        alt="Navidad 3"
+                        onClick={handleImageClick}
+                        style={{ cursor: 'pointer', maxWidth: '100%', height: 'auto' }}
+                    />
+                </div>
+                <div>
+                    <img
+                        src={require('../../images/articulos/promociones/navidad6.jpg')}
+                        alt="Navidad 3"
+                        onClick={handleImageClick}
+                        style={{ cursor: 'pointer', maxWidth: '100%', height: 'auto' }}
+                    />
+                </div>
+                <div>
+                    <img
+                        src={require('../../images/articulos/promociones/navidad7.jpg')}
+                        alt="Navidad 3"
+                        onClick={handleImageClick}
+                        style={{ cursor: 'pointer', maxWidth: '100%', height: 'auto' }}
+                    />
+                </div>
+                <div>
+                    <img
+                        src={require('../../images/articulos/promociones/navidad8.jpg')}
+                        alt="Navidad 3"
+                        onClick={handleImageClick}
+                        style={{ cursor: 'pointer', maxWidth: '100%', height: 'auto' }}
+                    />
+                </div>
+                <div>
+                    <img
+                        src={require('../../images/articulos/promociones/navidad9.jpg')}
+                        alt="Navidad 3"
+                        onClick={handleImageClick}
+                        style={{ cursor: 'pointer', maxWidth: '100%', height: 'auto' }}
+                    />
+                </div>
+                <div>
+                    <img
+                        src={require('../../images/articulos/promociones/navidad10.jpg')}
+                        alt="Navidad 3"
+                        onClick={handleImageClick}
+                        style={{ cursor: 'pointer', maxWidth: '100%', height: 'auto' }}
+                    />
+                </div>
             </Carousel>
 
             <Dialog
