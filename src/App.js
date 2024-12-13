@@ -15,6 +15,7 @@ import Celebraciones from './components/celebraciones/Celebraciones';
 import { CarritoProvider } from './contexts/CarritoContext';
 import Footer from './components/Footer'; // Importa el componente Footer
 import WelcomePage from './pages/WelcomePage'; // Importa el modal
+import ScrollToTopButton from './components/ScrollToTopButton.js';
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
             <Router>
                 <div className="App">
                     <Encabezado />
+                    <ScrollToTopButton />
                     <div className="content">
                         <Routes>
                             <Route path="/" element={<Navigate to="/home" />} />
@@ -36,6 +38,7 @@ function App() {
                             <Route path="/celebraciones" element={<Celebraciones />} />
                         </Routes>
                     </div>
+                    
                     <Footer />
                     <WelcomePage /> 
                 </div>

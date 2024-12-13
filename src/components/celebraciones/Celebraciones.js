@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaArrowLeft } from 'react-icons/fa';
 import articulos from '../../data/articulos'; // Asegúrate de que la ruta del archivo de datos sea correcta
 import imagenesArticulos from '../../data/imagenesArticulos'; // Asegúrate de que la ruta del archivo de datos sea correcta
 import './Celebraciones.css'; // Actualiza la hoja de estilos al nuevo nombre
@@ -50,6 +51,9 @@ const Celebraciones = () => {
 
     return (
         <div className="celebraciones-container">
+            <div className='boton-volver-container'>
+                <Link to="/" className="volver-btn"><FaArrowLeft /> Volver al Inicio</Link>
+            </div>
             <SeccionCelebracion titulo="Fiestas Patrias" estilo="fiestas-patrias" articulos={fiestasPatrias} />
             <SeccionCelebracion titulo="Halloween" estilo="halloween" articulos={halloween} />
             <SeccionCelebracion titulo="Navidad" estilo="navidad" articulos={navidad} />
