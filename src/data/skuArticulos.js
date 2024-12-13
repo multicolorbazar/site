@@ -156,6 +156,10 @@ const skuArticulos = [
     { id_sku: '007003700155', id_articulo: '120', variacion: 'Flor de Jasmín (125 g)' },
     { id_sku: '007003700156', id_articulo: '121', variacion: 'Árbol de Té y Romero (125 g)' },
     { id_sku: '007003700157', id_articulo: '122', variacion: 'Aceite de Almendras (125 g)' },
+    { id_sku: '006003900158', id_articulo: '123', variacion: 'Azul' },
+    { id_sku: '006003900159', id_articulo: '124', variacion: 'Amarillo/Blanco' },
+    { id_sku: '006003900160', id_articulo: '125', variacion: 'Amarillo/Azul' },
+    { id_sku: '006003900161', id_articulo: '126', variacion: 'Rojo/Blanco' },
     
 ]
 export default skuArticulos;

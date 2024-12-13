@@ -37,6 +37,7 @@ const subcategoriaArticulos = [
     { id_subcategoria: 36, nombre: 'Halloween', id_categoria: 7},
     { id_subcategoria: 37, nombre: 'Navidad', id_categoria: 7},
     { id_subcategoria: 38, nombre: 'Comic-Manga-Libro', id_categoria: 8},
+    { id_subcategoria: 39, nombre: 'Piscina', id_categoria: 6},
     
 ];
 

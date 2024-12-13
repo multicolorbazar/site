@@ -1341,7 +1341,51 @@ const articulos = [
         video: '',
         disponible: 'si',
         },
-                         
+        {
+        id_articulo: 123,
+        nombre: 'Lentes de Natación Buceo de Silicona - Azul',
+        descripcion: 'Sport Swim. Gafas de natación buceo de silicona de Color sólido Unisex, gafas de buceo con almohadilla para la nariz, impermeables, ajustables, de fácil uso. 100% Protección U.V. Anti-empañante, 100% silicona.',
+        descripcion_larga: '0',
+        id_categoria: '6',
+        id_subcategoria: '39',
+        precio: 3000,
+        video: '',
+        disponible: 'si',
+        },
+        {
+        id_articulo: 124,
+        nombre: 'Lentes de Natación Buceo de Silicona - Amarillo/Blanco',
+        descripcion: 'Sport Swim. Gafas de natación buceo de silicona de Color sólido Unisex, gafas de buceo con almohadilla para la nariz, impermeables, ajustables, de fácil uso. 100% Protección U.V. Anti-empañante, 100% silicona.',
+        descripcion_larga: '0',
+        id_categoria: '6',
+        id_subcategoria: '39',
+        precio: 3000,
+        video: '',
+        disponible: 'si',
+        },
+        {
+        id_articulo: 125,
+        nombre: 'Lentes de Natación Buceo de Silicona - Amarillo/Azul',
+        descripcion: 'Sport Swim. Gafas de natación buceo de silicona de Color sólido Unisex, gafas de buceo con almohadilla para la nariz, impermeables, ajustables, de fácil uso. 100% Protección U.V. Anti-empañante, 100% silicona.',
+        descripcion_larga: '0',
+        id_categoria: '6',
+        id_subcategoria: '39',
+        precio: 3000,
+        video: '',
+        disponible: 'si',
+        },
+        {
+        id_articulo: 126,
+        nombre: 'Lentes de Natación Buceo de Silicona - Rojo/Blanco',
+        descripcion: 'Sport Swim. Gafas de natación buceo de silicona de Color sólido Unisex, gafas de buceo con almohadilla para la nariz, impermeables, ajustables, de fácil uso. 100% Protección U.V. Anti-empañante, 100% silicona.',
+        descripcion_larga: '0',
+        id_categoria: '6',
+        id_subcategoria: '39',
+        precio: 3000,
+        video: '',
+        disponible: 'si',
+        },
+                                 
 ];
 
 export default articulos;

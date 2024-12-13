@@ -217,6 +217,10 @@ const imagenesArticulos = [
     { id_imagen: 216,id_articulo: 119,url: require('../images/articulos/062/8.jpg') },
     { id_imagen: 217,id_articulo: 121,url: require('../images/articulos/062/9.jpg') },
     { id_imagen: 218,id_articulo: 120,url: require('../images/articulos/062/10.jpg') },
+    { id_imagen: 219,id_articulo: 123,url: require('../images/articulos/062/11.jpg') },
+    { id_imagen: 220,id_articulo: 124,url: require('../images/articulos/062/12.jpg') },
+    { id_imagen: 221,id_articulo: 125,url: require('../images/articulos/062/13.jpg') },
+    { id_imagen: 222,id_articulo: 126,url: require('../images/articulos/062/14.jpg') },
     
 ];
 
