@@ -160,6 +160,16 @@ const skuArticulos = [
     { id_sku: '006003900159', id_articulo: '124', variacion: 'Amarillo/Blanco' },
     { id_sku: '006003900160', id_articulo: '125', variacion: 'Amarillo/Azul' },
     { id_sku: '006003900161', id_articulo: '126', variacion: 'Rojo/Blanco' },
+    { id_sku: '00100400162', id_articulo: '127', variacion: 'Mediana' },
+    { id_sku: '00100400163', id_articulo: '128', variacion: 'Mediana' },
+    { id_sku: '00100400164', id_articulo: '129', variacion: 'Mediana' },
+    { id_sku: '00100400165', id_articulo: '130', variacion: 'Mediana' },
+    { id_sku: '002003300166', id_articulo: '131', variacion: '1 unidad' },
+    { id_sku: '002003300167', id_articulo: '132', variacion: '4 unidades' },
+    { id_sku: '009004000168', id_articulo: '133', variacion: '20 unidades' },
+    { id_sku: '009004100169', id_articulo: '134', variacion: '10 unidades' },
+    { id_sku: '006003900170', id_articulo: '135', variacion: '30 unidades' },
+    { id_sku: '002003300171', id_articulo: '136', variacion: '4 unidades' },
     
 ]
 export default skuArticulos;

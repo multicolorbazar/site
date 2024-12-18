@@ -7,6 +7,7 @@ const categorias = [
     { id: 6, nombre: 'Actividades', imagen: require('../images/categorias/categoria010.png') },
     { id: 7, nombre: 'Celebraciones', imagen: require('../images/categorias/categoria013.jpg') },
     { id: 8, nombre: 'Venta de Garage', imagen: require('../images/categorias/categoria012.jpg') },
+    { id: 9, nombre: 'Autocuidado', imagen: require('../images/categorias/categoria014.png') },
     
 ];
 

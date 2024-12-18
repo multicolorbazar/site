@@ -221,6 +221,16 @@ const imagenesArticulos = [
     { id_imagen: 220,id_articulo: 124,url: require('../images/articulos/062/12.jpg') },
     { id_imagen: 221,id_articulo: 125,url: require('../images/articulos/062/13.jpg') },
     { id_imagen: 222,id_articulo: 126,url: require('../images/articulos/062/14.jpg') },
+    { id_imagen: 223,id_articulo: 127,url: require('../images/articulos/041/9.jpg') },
+    { id_imagen: 224,id_articulo: 128,url: require('../images/articulos/041/10.jpg') },
+    { id_imagen: 225,id_articulo: 129,url: require('../images/articulos/041/11.jpg') },
+    { id_imagen: 226,id_articulo: 130,url: require('../images/articulos/041/12.jpg') },
+    { id_imagen: 227,id_articulo: 131,url: require('../images/articulos/hogar/1.jpg') },
+    { id_imagen: 228,id_articulo: 132,url: require('../images/articulos/hogar/2.jpg') },
+    { id_imagen: 229,id_articulo: 133,url: require('../images/articulos/hogar/3.jpg') },
+    { id_imagen: 230,id_articulo: 134,url: require('../images/articulos/hogar/4.jpg') },
+    { id_imagen: 231,id_articulo: 135,url: require('../images/articulos/hogar/5.jpg') },
+    { id_imagen: 232,id_articulo: 136,url: require('../images/articulos/hogar/6.jpg') },
     
 ];
 
