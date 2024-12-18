@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/site/static/css/main.2030b20c.css",
-    "main.js": "/site/static/js/main.25d68283.js",
+    "main.js": "/site/static/js/main.004fbd90.js",
     "reactPlayerYouTube.js": "/site/static/js/reactPlayerYouTube.9113b197.chunk.js",
     "reactPlayerSoundCloud.js": "/site/static/js/reactPlayerSoundCloud.27f36a64.chunk.js",
     "reactPlayerVimeo.js": "/site/static/js/reactPlayerVimeo.b1763a4e.chunk.js",
@@ -111,6 +111,7 @@
     "static/media/003.jpg": "/site/static/media/003.572922f96ce050863879.jpg",
     "static/media/24_4.jpg": "/site/static/media/24_4.4ac519d3583097e34820.jpg",
     "static/media/2_03.png": "/site/static/media/2_03.fd4e2da1dfde84fc9c26.png",
+    "static/media/categoria014.png": "/site/static/media/categoria014.8938f6a4de8970578278.png",
     "static/media/laberinto1.jpeg": "/site/static/media/laberinto1.b51826fc942808177262.jpeg",
     "static/media/24_3.jpg": "/site/static/media/24_3.345440e822ad90f6382d.jpg",
     "static/media/27_5.jpg": "/site/static/media/27_5.8f46b35e9f27ebd1b4ce.jpg",
@@ -141,7 +142,7 @@
     "static/media/logo_bm_2f.svg": "/site/static/media/logo_bm_2f.142d08d2428d0e13957eb751db6b9b01.svg",
     "index.html": "/site/index.html",
     "main.2030b20c.css.map": "/site/static/css/main.2030b20c.css.map",
-    "main.25d68283.js.map": "/site/static/js/main.25d68283.js.map",
+    "main.004fbd90.js.map": "/site/static/js/main.004fbd90.js.map",
     "reactPlayerYouTube.9113b197.chunk.js.map": "/site/static/js/reactPlayerYouTube.9113b197.chunk.js.map",
     "reactPlayerSoundCloud.27f36a64.chunk.js.map": "/site/static/js/reactPlayerSoundCloud.27f36a64.chunk.js.map",
     "reactPlayerVimeo.b1763a4e.chunk.js.map": "/site/static/js/reactPlayerVimeo.b1763a4e.chunk.js.map",
@@ -160,6 +161,6 @@
   },
   "entrypoints": [
     "static/css/main.2030b20c.css",
-    "static/js/main.25d68283.js"
+    "static/js/main.004fbd90.js"
   ]
 }
