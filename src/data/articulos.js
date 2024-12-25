@@ -1255,8 +1255,8 @@ const articulos = [
         },
         {
         id_articulo: 115,
-        nombre: 'Manga Dragon Ball - Ultimate Edition Tomo 23',
-        descripcion: 'Dragon Ball Manga Ultimate Edition Tomo 23 (Planeta DeAgostini) en buen estado. La edición cuenta con detalles mínimos en la portada, pero el interior está en perfectas condiciones. ¡Ideal para completar tu colección!',
+        nombre: 'Manga Dragon Ball - Ultimate Edition Tomo 23 (USADO)',
+        descripcion: '(USADO) Dragon Ball Manga Ultimate Edition Tomo 23 (Planeta DeAgostini) en buen estado. La edición cuenta con detalles mínimos en la portada, pero el interior está en perfectas condiciones. ¡Ideal para completar tu colección!',
         descripcion_larga: '0',
         id_categoria: '8',
         id_subcategoria: '38',
@@ -1266,8 +1266,8 @@ const articulos = [
         },
         {
         id_articulo: 116,
-        nombre: 'Piensa en Java 2da Edición de Bruce Eckel (Pearson Prentice Hall, 2002)',
-        descripcion: 'Piensa en Java 2da Edición de Bruce Eckel (Pearson Prentice Hall, 2002). Libro de 960 páginas en buen estado general. Presenta desgaste en la portada y algunos detalles leves en los bordes de las hojas, con ligeros signos de amarilleo debido a la antigüedad. No incluye CD-ROM. Ideal para estudiantes de programación o coleccionistas.',
+        nombre: 'Piensa en Java 2da Edición (2002) (USADO)',
+        descripcion: '(USADO) Piensa en Java 2da Edición de Bruce Eckel (Pearson Prentice Hall, 2002). Libro de 960 páginas en buen estado general. Presenta desgaste en la portada y algunos detalles leves en los bordes de las hojas, con ligeros signos de amarilleo debido a la antigüedad. No incluye CD-ROM. Ideal para estudiantes de programación o coleccionistas.',
         descripcion_larga: '0',
         id_categoria: '8',
         id_subcategoria: '38',
@@ -1431,12 +1431,12 @@ const articulos = [
         },
         {
         id_articulo: 131,
-        nombre: 'Pila 23A 12V Kingtianli Alkaline ($1300 c/u)',
+        nombre: 'Pila 23A Kingtianli Alkaline - Para Control Porton Eléctrico',
         descripcion: 'Ideal para una gran variedad de dispositivos que las requieran, como controles remotos, radios, peluches, etc.',
         descripcion_larga: '0',
         id_categoria: '2',
         id_subcategoria: '33',
-        precio: 1000,
+        precio: 1300,
         video: '',
         disponible: 'si',
         },
@@ -1447,7 +1447,7 @@ const articulos = [
         descripcion_larga: '0',
         id_categoria: '2',
         id_subcategoria: '33',
-        precio: 1000,
+        precio: 1500,
         video: '',
         disponible: 'si',
         },
@@ -1495,8 +1495,7 @@ const articulos = [
         video: '',
         disponible: 'si',
         },
-        
-                                         
+                                                 
 ];
 
 export default articulos;
