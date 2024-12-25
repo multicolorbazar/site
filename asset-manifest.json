@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/site/static/css/main.2030b20c.css",
-    "main.js": "/site/static/js/main.004fbd90.js",
+    "main.js": "/site/static/js/main.90d9c7f8.js",
     "reactPlayerYouTube.js": "/site/static/js/reactPlayerYouTube.9113b197.chunk.js",
     "reactPlayerSoundCloud.js": "/site/static/js/reactPlayerSoundCloud.27f36a64.chunk.js",
     "reactPlayerVimeo.js": "/site/static/js/reactPlayerVimeo.b1763a4e.chunk.js",
@@ -41,6 +41,7 @@
     "static/media/navidad3.jpg": "/site/static/media/navidad3.39d923cd751eba96a93c.jpg",
     "static/media/13.jpg": "/site/static/media/13.457b3202aa191add9cae.jpg",
     "static/media/navidad1.jpg": "/site/static/media/navidad1.4d9d8d655fa03d475627.jpg",
+    "static/media/1_2.jpg": "/site/static/media/1_2.0d605a45bd2b0997397c.jpg",
     "static/media/5.jpg": "/site/static/media/5.9b3d622a44b9cfc9a18c.jpg",
     "static/media/11.jpg": "/site/static/media/11.2219f9f4221d729e22c8.jpg",
     "static/media/12.jpg": "/site/static/media/12.9b2446fcf1ed601899a6.jpg",
@@ -68,6 +69,7 @@
     "static/media/19.jpg": "/site/static/media/19.0599e30cedabcda7c71a.jpg",
     "static/media/categoria004.png": "/site/static/media/categoria004.6b2e4e9bd09a2da6ef06.png",
     "static/media/navidad7.jpg": "/site/static/media/navidad7.4549d8c00c1bb2312ce5.jpg",
+    "static/media/1_1.jpg": "/site/static/media/1_1.984c4ce980ecd54400e3.jpg",
     "static/media/navidad8.jpg": "/site/static/media/navidad8.c6f195a9c2c76d313012.jpg",
     "static/media/13.png": "/site/static/media/13.2d033b49f7447b8f8bd2.png",
     "static/media/navidad9.jpg": "/site/static/media/navidad9.e4310302e7c9852327bc.jpg",
@@ -142,7 +144,7 @@
     "static/media/logo_bm_2f.svg": "/site/static/media/logo_bm_2f.142d08d2428d0e13957eb751db6b9b01.svg",
     "index.html": "/site/index.html",
     "main.2030b20c.css.map": "/site/static/css/main.2030b20c.css.map",
-    "main.004fbd90.js.map": "/site/static/js/main.004fbd90.js.map",
+    "main.90d9c7f8.js.map": "/site/static/js/main.90d9c7f8.js.map",
     "reactPlayerYouTube.9113b197.chunk.js.map": "/site/static/js/reactPlayerYouTube.9113b197.chunk.js.map",
     "reactPlayerSoundCloud.27f36a64.chunk.js.map": "/site/static/js/reactPlayerSoundCloud.27f36a64.chunk.js.map",
     "reactPlayerVimeo.b1763a4e.chunk.js.map": "/site/static/js/reactPlayerVimeo.b1763a4e.chunk.js.map",
@@ -161,6 +163,6 @@
   },
   "entrypoints": [
     "static/css/main.2030b20c.css",
-    "static/js/main.004fbd90.js"
+    "static/js/main.90d9c7f8.js"
   ]
 }
