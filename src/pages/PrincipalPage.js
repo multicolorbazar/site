@@ -9,7 +9,7 @@ import Categorias from '../components/Categorias';
 import Articulos from '../components/Articulos';
 import Garage from '../components/Garage';
 //import EspecialHalloween from '../components/especial-halloween/EspecialHalloween';
-import EspecialNavidad from '../components/especial-navidad/EspecialNavidad';
+//import EspecialNavidad from '../components/especial-navidad/EspecialNavidad';
 
 function PrincipalPage() {
     return (
@@ -18,9 +18,6 @@ function PrincipalPage() {
             <ArticulosRecientes />
             <Garage />
             <Categorias />
-            
-            <EspecialNavidad />
-            
             <Articulos />
         </div>
     );

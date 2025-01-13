@@ -14,7 +14,7 @@ import ArticulosPorSubcategoria from './pages/ArticulosPorSubcategoria';
 import Celebraciones from './components/celebraciones/Celebraciones';
 import { CarritoProvider } from './contexts/CarritoContext';
 import Footer from './components/Footer'; // Importa el componente Footer
-import WelcomePage from './pages/WelcomePage'; // Importa el modal
+//import WelcomePage from './pages/WelcomePage'; // Importa el modal
 import ScrollToTopButton from './components/ScrollToTopButton.js';
 
 function App() {
@@ -40,7 +40,7 @@ function App() {
                     </div>
                     
                     <Footer />
-                    <WelcomePage /> 
+                    
                 </div>
             </Router>
         </CarritoProvider>
