@@ -170,6 +170,9 @@ const skuArticulos = [
     { id_sku: '009004100169', id_articulo: '134', variacion: '10 unidades' },
     { id_sku: '006003900170', id_articulo: '135', variacion: '30 unidades' },
     { id_sku: '002003300171', id_articulo: '136', variacion: '4 unidades' },
+    { id_sku: '005004200172', id_articulo: '137', variacion: '80 unidades' },
+    { id_sku: '005004200173', id_articulo: '138', variacion: '1 unidad' },
+    { id_sku: '005004200174', id_articulo: '139', variacion: '1 kit' },
     
 ]
 export default skuArticulos;

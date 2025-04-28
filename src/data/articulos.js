@@ -1495,6 +1495,40 @@ const articulos = [
         video: '',
         disponible: 'si',
         },
+        {
+        id_articulo: 137,
+        nombre: 'Toallas humedas mascotas 80 unidades (Wipes)    ',
+        descripcion: 'Dono Pet Wipes 12x20cm, 80 pcs.',
+        descripcion_larga: '0',
+        id_categoria: '5',
+        id_subcategoria: '42',
+        precio: 3000,
+        video: '',
+        disponible: 'si',
+        },
+        {
+        id_articulo: 138,
+        nombre: 'Mano Guante Quita Pelusa',
+        descripcion: 'El Dandi, Grooming Glove',
+        descripcion_larga: '0',
+        id_categoria: '5',
+        id_subcategoria: '42',
+        precio: 2000,
+        video: '',
+        disponible: 'si',
+        },
+        {
+        id_articulo: 139,
+        nombre: 'Kit de Cuidado Dental Mascotas (Cepillos + Crema sabor carne)',
+        descripcion: 'Crema dental con sabor a carne, un cepillo dental con doble cabeza para ajustarse al tamaño de su ocico, y además un dedal para la limpieza de encías y lengua.',
+        descripcion_larga: '0',
+        id_categoria: '5',
+        id_subcategoria: '42',
+        precio: 3500,
+        video: '',
+        disponible: 'si',
+        },
+        
                                                  
 ];
 

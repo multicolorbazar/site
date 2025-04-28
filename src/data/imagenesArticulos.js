@@ -232,6 +232,9 @@ const imagenesArticulos = [
     { id_imagen: 231,id_articulo: 136,url: require('../images/articulos/hogar/6.jpg') },
     { id_imagen: 232,id_articulo: 131,url: require('../images/articulos/hogar/1_1.jpg') },
     { id_imagen: 233,id_articulo: 131,url: require('../images/articulos/hogar/1_2.jpg') },
+    { id_imagen: 234,id_articulo: 137,url: require('../images/articulos/047/2.jpg') },
+    { id_imagen: 235,id_articulo: 138,url: require('../images/articulos/047/3.jpg') },
+    { id_imagen: 236,id_articulo: 139,url: require('../images/articulos/047/4.jpg') },
     
 ];
 
